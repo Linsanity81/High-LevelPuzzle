@@ -1398,7 +1398,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle/PuzConfig.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle/PuzCreator_Iter.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle/Puzzle.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle/PuzzleCreator.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle/Puzzle_smooth.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle/Volume.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle_debug/Piece_debug.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle_debug/Puzzle_debug.h

@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle
+CMAKE_SOURCE_DIR = /Users/linsanity/Documents/Github/High-LevelPuzzle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug
 
 # Utility rule file for ContinuousConfigure.
 
@@ -74,7 +74,7 @@ CMAKE_BINARY_DIR = /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCod
 include ext/pugixml/CMakeFiles/ContinuousConfigure.dir/progress.make
 
 ext/pugixml/CMakeFiles/ContinuousConfigure:
-	cd /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/pugixml && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest -D ContinuousConfigure
+	cd /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/pugixml && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest -D ContinuousConfigure
 
 ContinuousConfigure: ext/pugixml/CMakeFiles/ContinuousConfigure
 ContinuousConfigure: ext/pugixml/CMakeFiles/ContinuousConfigure.dir/build.make
@@ -87,10 +87,10 @@ ext/pugixml/CMakeFiles/ContinuousConfigure.dir/build: ContinuousConfigure
 .PHONY : ext/pugixml/CMakeFiles/ContinuousConfigure.dir/build
 
 ext/pugixml/CMakeFiles/ContinuousConfigure.dir/clean:
-	cd /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousConfigure.dir/cmake_clean.cmake
+	cd /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousConfigure.dir/cmake_clean.cmake
 .PHONY : ext/pugixml/CMakeFiles/ContinuousConfigure.dir/clean
 
 ext/pugixml/CMakeFiles/ContinuousConfigure.dir/depend:
-	cd /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/pugixml /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/pugixml/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linsanity/Documents/Github/High-LevelPuzzle /Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/pugixml /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/pugixml/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext/pugixml/CMakeFiles/ContinuousConfigure.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/libigl/external/imguizmo/ImGuizmo.cpp" "/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/CMakeFiles/imguizmo.dir/libigl/external/imguizmo/ImGuizmo.cpp.o"
+  "/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/libigl/external/imguizmo/ImGuizmo.cpp" "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/CMakeFiles/imguizmo.dir/libigl/external/imguizmo/ImGuizmo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -27,7 +27,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

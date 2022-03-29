@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacO
 
 CXX_DEFINES = -Dpugixml_shared_EXPORTS
 
-CXX_INCLUDES = -I/usr/local/include -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml/src 
+CXX_INCLUDES = -I/usr/local/include -I/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src 
 

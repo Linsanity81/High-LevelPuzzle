@@ -19,7 +19,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o"
   "CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o"
   "CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o"
-  "CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle_smooth.cpp.o"
   "CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o"
   "CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.o"
   "CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.o"

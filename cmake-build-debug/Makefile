@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle
+CMAKE_SOURCE_DIR = /Users/linsanity/Documents/Github/High-LevelPuzzle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -146,9 +146,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/CMakeFiles /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,17 +177,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Multi-LevelPuzzle_bin
+# Target rules for targets named High-LevelPuzzle_bin
 
 # Build rule for target.
-Multi-LevelPuzzle_bin: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Multi-LevelPuzzle_bin
-.PHONY : Multi-LevelPuzzle_bin
+High-LevelPuzzle_bin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 High-LevelPuzzle_bin
+.PHONY : High-LevelPuzzle_bin
 
 # fast build rule for target.
-Multi-LevelPuzzle_bin/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi-LevelPuzzle_bin.dir/build.make CMakeFiles/Multi-LevelPuzzle_bin.dir/build
-.PHONY : Multi-LevelPuzzle_bin/fast
+High-LevelPuzzle_bin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/High-LevelPuzzle_bin.dir/build.make CMakeFiles/High-LevelPuzzle_bin.dir/build
+.PHONY : High-LevelPuzzle_bin/fast
 
 #=============================================================================
 # Target rules for targets named 3DRenderlib
@@ -1184,33 +1184,6 @@ src/Puzzle/PuzzleCreator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DCorelib.dir/build.make CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.s
 .PHONY : src/Puzzle/PuzzleCreator.cpp.s
 
-src/Puzzle/Puzzle_smooth.o: src/Puzzle/Puzzle_smooth.cpp.o
-
-.PHONY : src/Puzzle/Puzzle_smooth.o
-
-# target to build an object file
-src/Puzzle/Puzzle_smooth.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DCorelib.dir/build.make CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle_smooth.cpp.o
-.PHONY : src/Puzzle/Puzzle_smooth.cpp.o
-
-src/Puzzle/Puzzle_smooth.i: src/Puzzle/Puzzle_smooth.cpp.i
-
-.PHONY : src/Puzzle/Puzzle_smooth.i
-
-# target to preprocess a source file
-src/Puzzle/Puzzle_smooth.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DCorelib.dir/build.make CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle_smooth.cpp.i
-.PHONY : src/Puzzle/Puzzle_smooth.cpp.i
-
-src/Puzzle/Puzzle_smooth.s: src/Puzzle/Puzzle_smooth.cpp.s
-
-.PHONY : src/Puzzle/Puzzle_smooth.s
-
-# target to generate assembly for a file
-src/Puzzle/Puzzle_smooth.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DCorelib.dir/build.make CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle_smooth.cpp.s
-.PHONY : src/Puzzle/Puzzle_smooth.cpp.s
-
 src/Puzzle/Volume.o: src/Puzzle/Volume.cpp.o
 
 .PHONY : src/Puzzle/Volume.o
@@ -1433,7 +1406,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi-LevelPuzzle_bin.dir/build.make CMakeFiles/Multi-LevelPuzzle_bin.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/High-LevelPuzzle_bin.dir/build.make CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -1442,7 +1415,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi-LevelPuzzle_bin.dir/build.make CMakeFiles/Multi-LevelPuzzle_bin.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/High-LevelPuzzle_bin.dir/build.make CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -1451,7 +1424,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi-LevelPuzzle_bin.dir/build.make CMakeFiles/Multi-LevelPuzzle_bin.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/High-LevelPuzzle_bin.dir/build.make CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -1496,7 +1469,7 @@ help:
 	@echo "... NightlyUpdate"
 	@echo "... 3DCorelib"
 	@echo "... 3DRenderlib"
-	@echo "... Multi-LevelPuzzle_bin"
+	@echo "... High-LevelPuzzle_bin"
 	@echo "... glad"
 	@echo "... glfw"
 	@echo "... imgui"
@@ -1562,9 +1535,6 @@ help:
 	@echo "... src/Puzzle/PuzzleCreator.o"
 	@echo "... src/Puzzle/PuzzleCreator.i"
 	@echo "... src/Puzzle/PuzzleCreator.s"
-	@echo "... src/Puzzle/Puzzle_smooth.o"
-	@echo "... src/Puzzle/Puzzle_smooth.i"
-	@echo "... src/Puzzle/Puzzle_smooth.s"
 	@echo "... src/Puzzle/Volume.o"
 	@echo "... src/Puzzle/Volume.i"
 	@echo "... src/Puzzle/Volume.s"

@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/linsanity/Documents/Github/High-LevelPuzzle
 -- Found Boost: /usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake (found version "1.75.0") found components: system filesystem thread 
 -- Found libtool - /usr/bin/libtool
 -- Creating target: igl::core (igl)
@@ -21,4 +21,4 @@ BOOST_ROOT:
 -- Creating target: igl::opengl_glfw_imgui (igl_opengl_glfw_imgui)
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug
+-- Build files have been written to: /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug

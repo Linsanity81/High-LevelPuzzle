@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml/src/pugiconfig.hpp
+/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src/pugiconfig.hpp
 
-/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml/src/pugixml.cpp
+/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src/pugixml.cpp
 pugixml.hpp
-/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml/src/pugixml.hpp
+/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src/pugixml.hpp
 stdlib.h
 -
 stdio.h
@@ -38,9 +38,9 @@ new
 stdint.h
 -
 
-/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml/src/pugixml.hpp
+/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src/pugixml.hpp
 pugiconfig.hpp
-/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml/src/pugiconfig.hpp
+/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src/pugiconfig.hpp
 stddef.h
 -
 exception

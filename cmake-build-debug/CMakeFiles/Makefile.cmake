@@ -141,7 +141,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Multi-LevelPuzzle_bin.dir/DependInfo.cmake"
+  "CMakeFiles/High-LevelPuzzle_bin.dir/DependInfo.cmake"
   "CMakeFiles/3DRenderlib.dir/DependInfo.cmake"
   "CMakeFiles/3DCorelib.dir/DependInfo.cmake"
   "ext/CMakeFiles/imguizmo.dir/DependInfo.cmake"

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/libigl/external/glfw/src
+# Install script for directory: /Users/linsanity/Documents/Github/High-LevelPuzzle/ext/libigl/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

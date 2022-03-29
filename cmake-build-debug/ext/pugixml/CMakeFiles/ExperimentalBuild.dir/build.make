@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle
+CMAKE_SOURCE_DIR = /Users/linsanity/Documents/Github/High-LevelPuzzle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug
 
 # Utility rule file for ExperimentalBuild.
 
@@ -74,7 +74,7 @@ CMAKE_BINARY_DIR = /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCod
 include ext/pugixml/CMakeFiles/ExperimentalBuild.dir/progress.make
 
 ext/pugixml/CMakeFiles/ExperimentalBuild:
-	cd /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/pugixml && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest -D ExperimentalBuild
+	cd /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/pugixml && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest -D ExperimentalBuild
 
 ExperimentalBuild: ext/pugixml/CMakeFiles/ExperimentalBuild
 ExperimentalBuild: ext/pugixml/CMakeFiles/ExperimentalBuild.dir/build.make
@@ -87,10 +87,10 @@ ext/pugixml/CMakeFiles/ExperimentalBuild.dir/build: ExperimentalBuild
 .PHONY : ext/pugixml/CMakeFiles/ExperimentalBuild.dir/build
 
 ext/pugixml/CMakeFiles/ExperimentalBuild.dir/clean:
-	cd /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalBuild.dir/cmake_clean.cmake
+	cd /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalBuild.dir/cmake_clean.cmake
 .PHONY : ext/pugixml/CMakeFiles/ExperimentalBuild.dir/clean
 
 ext/pugixml/CMakeFiles/ExperimentalBuild.dir/depend:
-	cd /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/pugixml /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/pugixml/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linsanity/Documents/Github/High-LevelPuzzle /Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/pugixml /Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/pugixml/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext/pugixml/CMakeFiles/ExperimentalBuild.dir/depend
 

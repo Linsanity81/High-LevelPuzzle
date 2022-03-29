@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/libigl/external/glad/src/glad.c" "/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/glad/CMakeFiles/glad.dir/src/glad.c.o"
+  "/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/libigl/external/glad/src/glad.c" "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/glad/CMakeFiles/glad.dir/src/glad.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

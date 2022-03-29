@@ -6,5 +6,5 @@ CXX_FLAGS =  -fPIC -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SD
 
 CXX_DEFINES = -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DLIBIGL_FOUND=1 -Dimguizmo_EXPORTS
 
-CXX_INCLUDES = -I/usr/local/include -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml/src -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/libigl/external/libigl-imgui/../imgui -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/libigl/external/libigl-imgui/. -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/libigl/external/libigl-imgui/.. -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/libigl/external/libigl-imgui/../imgui/backends 
+CXX_INCLUDES = -I/usr/local/include -I/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src -I/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/libigl/external/libigl-imgui/../imgui -I/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/libigl/external/libigl-imgui/. -I/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/libigl/external/libigl-imgui/.. -I/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/libigl/external/libigl-imgui/../imgui/backends 
 

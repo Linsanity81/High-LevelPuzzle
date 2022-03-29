@@ -37,17 +37,7 @@ bool showAxes;
 bool showGround;
 bool showPuzzle;
 bool showPuzSkel;
-
-bool showContaVoxels = false;
-bool showSeedVoxels = false;
-bool showSeedKeptVoxels = false;
-bool showSeedPathVoxels = false;
-bool showBlockVoxels = false;
-bool showBlockKeptVoxels = false;
-bool showBlockPathVoxels = false;
-bool showExtdVoxels = false;
-bool showDisconnectedEdges = false;
-bool showSmoothPuzzle = true;
+bool showSmoothPuzzle;
 
 float camPosX = 10;
 float camPosY = 10;
@@ -79,6 +69,7 @@ void InitSetting()
     showGround        =  false;
     showPuzzle        =  true;
     showPuzSkel       =  true;
+    showSmoothPuzzle  =  true;
 }
 
 void InitViewer()
@@ -132,7 +123,7 @@ int main(int argc, char *argv[])
 
     InitSetting();
 
-    myRender.RenderScene( viewer);//, myViewerData );
+    myRender.RenderScene( viewer);
 
     viewer.callback_pre_draw =
             [&](igl::opengl::glfw::Viewer &)
@@ -141,31 +132,20 @@ int main(int argc, char *argv[])
                 myRender.ShowAxes(viewer, showAxes );
                 myRender.ShowPuzzle(viewer, showPuzzle);
                 myRender.ShowPuzzleSkeleton(viewer, showPuzSkel);
-                myRender.ShowDisconnectedEdges(viewer, showDisconnectedEdges);
                 myRender.ShowSmoothPuzzle(viewer, showSmoothPuzzle);
-
-                myRender.ShowContaVoxels(viewer, showContaVoxels);
-                myRender.ShowSeedVoxels(viewer, showSeedVoxels);
-                myRender.ShowSeedKeptVoxels(viewer, showSeedKeptVoxels);
-                myRender.ShowSeedPathVoxels(viewer, showSeedPathVoxels);
-                myRender.ShowBlockVoxels(viewer, showBlockVoxels);
-                myRender.ShowBlockKeptVoxels(viewer, showBlockKeptVoxels);
-                myRender.ShowBlockPathVoxels(viewer, showBlockPathVoxels);
-                myRender.ShowExtdVoxels(viewer, showExtdVoxels);
 
                 if(isFirstCall)
                 {
                     myRender.SetCamera( viewer, 0.1, Vector3f (10, 10, 10) );
                     isFirstCall = false;
                 }
-//                myRender.SetCamera( viewer, 0.1, Vector3f (camPosX, camPosY, camPosZ) );
 
                 return 0;
             };
 
     viewer.callback_key_down = &key_down;
 
-    viewer.launch(true,false,"Multi-LevelPuzzle", winWidth, winHeight);
+    viewer.launch(true,false,"High-LevelPuzzle", winWidth, winHeight);
 
     return 1;
 }

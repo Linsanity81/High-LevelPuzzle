@@ -6,5 +6,5 @@ C_FLAGS =  -fPIC -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs
 
 C_DEFINES = -D_GLFW_BUILD_DLL -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/usr/local/include -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml/src -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/libigl/external/glfw/include -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/libigl/external/glfw/src -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/glfw/src 
+C_INCLUDES = -I/usr/local/include -I/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src -I/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/libigl/external/glfw/include -I/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/libigl/external/glfw/src -I/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/glfw/src 
 

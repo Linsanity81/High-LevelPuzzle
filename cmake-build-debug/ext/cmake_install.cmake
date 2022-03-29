@@ -1,4 +1,4 @@
-# Install script for directory: /Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext
+# Install script for directory: /Users/linsanity/Documents/Github/High-LevelPuzzle/ext
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/pugixml/cmake_install.cmake")
-  include("/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/glad/cmake_install.cmake")
-  include("/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/glfw/cmake_install.cmake")
-  include("/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/imgui/cmake_install.cmake")
+  include("/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/pugixml/cmake_install.cmake")
+  include("/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/glad/cmake_install.cmake")
+  include("/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/glfw/cmake_install.cmake")
+  include("/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/imgui/cmake_install.cmake")
 
 endif()
 

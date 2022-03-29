@@ -6,5 +6,5 @@ C_FLAGS =  -fPIC -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs
 
 C_DEFINES = -Dglad_EXPORTS
 
-C_INCLUDES = -I/usr/local/include -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml/src -I/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/libigl/external/glad/include 
+C_INCLUDES = -I/usr/local/include -I/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src -I/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/libigl/external/glad/include 
 

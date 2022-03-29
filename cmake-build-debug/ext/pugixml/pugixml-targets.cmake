@@ -56,13 +56,13 @@ set_target_properties(pugixml::pugixml PROPERTIES
 add_library(pugixml::shared SHARED IMPORTED)
 
 set_target_properties(pugixml::shared PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/ext/pugixml/src"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src"
 )
 
 # Import target "pugixml::shared" for configuration "Release"
 set_property(TARGET pugixml::shared APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(pugixml::shared PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/linsanity/Documents/Github/DisassemblyPuzzle/SourceCode/Multi-LevelPuzzle/cmake-build-debug/ext/pugixml/libpugixml.1.11.dylib"
+  IMPORTED_LOCATION_RELEASE "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/pugixml/libpugixml.1.11.dylib"
   IMPORTED_SONAME_RELEASE "@rpath/libpugixml.1.dylib"
   )
 
