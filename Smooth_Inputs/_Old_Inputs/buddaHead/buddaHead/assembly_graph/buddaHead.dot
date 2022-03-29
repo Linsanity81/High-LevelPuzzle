@@ -1,6 +1,0 @@
-digraph G {
-color = "black"
-0[label = "Index: 0 
-P0: 0 0 0 
-", style="filled", fillcolor = "green"]
-}
