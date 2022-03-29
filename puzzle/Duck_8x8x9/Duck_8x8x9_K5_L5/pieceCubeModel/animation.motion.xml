@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Root start_id="1" Objects_num="5">
+	<piece_name>
+		<piece id="1" />
+		<piece id="2" />
+		<piece id="3" />
+		<piece id="4" />
+		<piece id="5" />
+	</piece_name>
+	<action_all>
+		<action is_move="true" frameNum="23" x="0" y="0.230000004" z="0">
+			<piece id="1" />
+		</action>
+		<action is_move="true" frameNum="23" x="0" y="0" z="-0.230000004">
+			<piece id="2" />
+			<piece id="3" />
+		</action>
+		<action is_move="true" frameNum="23" x="0" y="0.230000004" z="0">
+			<piece id="1" />
+			<piece id="4" />
+		</action>
+		<action is_move="true" frameNum="23" x="0" y="0" z="-0.230000004">
+			<piece id="2" />
+		</action>
+		<action is_move="true" frameNum="77" x="2.57599998" y="0" z="0">
+			<piece id="2" />
+		</action>
+		<action is_move="true" frameNum="86" x="0" y="0" z="-2.898">
+			<piece id="3" />
+		</action>
+		<action is_move="true" frameNum="77" x="-2.57599998" y="0" z="0">
+			<piece id="1" />
+		</action>
+		<action is_move="true" frameNum="77" x="0" y="2.57599998" z="0">
+			<piece id="4" />
+		</action>
+	</action_all>
+</Root>

@@ -1,0 +1,105 @@
+digraph G {
+color = "black"
+0[label = "Index: 0 
+P0: 0 0 0 
+P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+", color = "green"]
+1[label = "Index: 1 
+P0: 1 0 0 
+P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+", color = "orange"]
+2[label = "Index: 2 
+P0: 1 0 0 
+P1: 0 0 -1 
+P2: 0 0 0 
+P3: 0 0 0 
+", color = "orange"]
+3[label = "Index: 3 
+P0: 1 0 0 
+P1: 0 0 -1 
+P2: 1 0 0 
+P3: 0 0 0 
+"]
+4[label = "Index: 4 
+P0: 2 0 0 
+P1: 0 0 -1 
+P2: 1 0 0 
+P3: 0 0 0 
+", color = "orange"]
+5[label = "Index: 5 
+P0: 2 0 0 
+P1: 0 0 -2 
+P2: 1 0 0 
+P3: 0 0 0 
+", color = "red"]
+6[label = "Index: 6 
+P0: 2 0 0 
+P1: -1 0 -2 
+P2: 1 0 0 
+P3: 0 0 0 
+"]
+7[label = "Index: 7 
+P0: 2 0 0 
+P1: -2 0 -2 
+P2: 1 0 0 
+P3: 0 0 0 
+"]
+8[label = "Index: 8 
+P0: 1 0 0 
+P1: -1 0 -2 
+P2: 1 0 0 
+P3: 0 0 0 
+"]
+9[label = "Index: 9 
+P0: 2 0 0 
+P1: 0 0 -2 
+P2: 2 0 0 
+P3: 0 0 0 
+"]
+10[label = "Index: 10 
+P1: 0 0 -2 
+P3: 0 0 0 
+", color = "red"]
+11[label = "Index: 11 
+P3: 0 0 0 
+", color = "blue"]
+0 -> 1
+
+1 -> 0
+1 -> 2
+
+2 -> 1
+2 -> 3
+2 -> 4
+
+3 -> 2
+3 -> 4
+
+4 -> 2
+4 -> 3
+4 -> 5
+
+5 -> 4
+5 -> 6
+5 -> 7
+5 -> 8
+5 -> 9
+5 -> 10[style=bold label=" Remove P0 P2 "];
+
+
+6 -> 5
+
+7 -> 5
+
+8 -> 5
+
+9 -> 5
+
+10 -> 11[style=bold label=" Remove P1 "];
+
+
+}

@@ -1,0 +1,276 @@
+digraph G {
+color = "black"
+0[label = "Index: 0 
+P0: 0 0 0 
+P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+", color = "green"]
+1[label = "Index: 1 
+P0: 0 0 -1 
+P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+", color = "orange"]
+2[label = "Index: 2 
+P0: 0 0 -1 
+P1: 1 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+", color = "orange"]
+3[label = "Index: 3 
+P0: 0 0 -1 
+P1: 1 0 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+", color = "orange"]
+4[label = "Index: 4 
+P0: 0 0 -1 
+P1: 1 0 0 
+P2: 0 0 -1 
+P3: 0 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+"]
+5[label = "Index: 5 
+P0: 0 0 -1 
+P1: 1 0 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 1 0 0 
+P5: 0 0 0 
+"]
+6[label = "Index: 6 
+P0: 0 0 -1 
+P1: 2 0 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 1 0 0 
+P5: 0 0 0 
+", color = "red"]
+7[label = "Index: 7 
+P0: 0 0 -1 
+P1: 3 0 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 2 0 0 
+P5: 0 0 0 
+", color = "purple"]
+8[label = "Index: 8 
+P0: 0 0 -1 
+P1: 1 0 0 
+P2: 0 0 -1 
+P3: 0 0 -1 
+P4: 1 0 0 
+P5: 0 0 0 
+"]
+9[label = "Index: 9 
+P0: 0 0 -1 
+P1: 2 0 0 
+P2: 0 0 -1 
+P3: 0 0 -1 
+P4: 1 0 0 
+P5: 0 0 0 
+", color = "purple"]
+10[label = "Index: 10 
+P0: 0 0 -1 
+P1: 3 0 0 
+P2: 0 0 -1 
+P3: 0 0 -1 
+P4: 2 0 0 
+P5: 0 0 0 
+", color = "purple"]
+11[label = "Index: 11 
+P0: 0 0 -1 
+P1: 2 0 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 2 0 0 
+P5: 0 0 0 
+", color = "purple"]
+12[label = "Index: 12 
+P0: 0 0 -1 
+P1: 3 0 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 3 0 0 
+P5: 0 0 0 
+", color = "purple"]
+13[label = "Index: 13 
+P0: 0 0 -1 
+P1: 2 0 0 
+P2: 0 0 -1 
+P3: 0 0 -1 
+P4: 2 0 0 
+P5: 0 0 0 
+", color = "purple"]
+14[label = "Index: 14 
+P0: 0 0 -1 
+P1: 3 0 0 
+P2: 0 0 -1 
+P3: 0 0 -1 
+P4: 3 0 0 
+P5: 0 0 0 
+", color = "purple"]
+15[label = "Index: 15 
+P0: 0 0 -1 
+", color = "fuchsia"]
+16[label = "Index: 16 
+P1: 2 0 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 1 0 0 
+P5: 0 0 0 
+", color = "red"]
+17[label = "Index: 17 
+P1: 1 0 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 1 0 0 
+P5: 0 0 0 
+"]
+18[label = "Index: 18 
+P1: 2 0 0 
+P2: 0 0 -1 
+P3: 0 0 -1 
+P4: 1 0 0 
+P5: 0 0 0 
+"]
+19[label = "Index: 19 
+P1: 2 0 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 2 0 0 
+P5: 0 0 0 
+"]
+20[label = "Index: 20 
+P2: 0 0 -1 
+P3: 0 0 0 
+P5: 0 0 0 
+"]
+21[label = "Index: 21 
+P2: 0 0 0 
+P3: 0 0 0 
+P5: 0 0 0 
+", color = "red"]
+22[label = "Index: 22 
+P2: 0 0 -1 
+P3: 0 0 -1 
+P5: 0 0 0 
+"]
+23[label = "Index: 23 
+P5: 0 0 0 
+", color = "fuchsia"]
+24[label = "Index: 24 
+P1: 2 0 0 
+P4: 1 0 0 
+", color = "red"]
+25[label = "Index: 25 
+P4: 1 0 0 
+", color = "fuchsia"]
+26[label = "Index: 26 
+P1: 2 0 0 
+", color = "fuchsia"]
+27[label = "Index: 27 
+P2: 0 0 0 
+P3: 0 0 0 
+", color = "red"]
+28[label = "Index: 28 
+P3: 0 0 0 
+", color = "blue"]
+29[label = "Index: 29 
+P2: 0 0 0 
+", color = "fuchsia"]
+0 -> 1
+
+1 -> 0
+1 -> 2
+
+2 -> 1
+2 -> 3
+2 -> 4
+
+3 -> 2
+3 -> 4
+3 -> 5
+3 -> 6
+3 -> 7
+
+4 -> 2
+4 -> 3
+4 -> 8
+4 -> 9
+4 -> 10
+
+5 -> 3
+5 -> 6
+5 -> 8
+5 -> 11
+5 -> 12
+
+6 -> 3
+6 -> 5
+6 -> 16[style=bold label=" Remove P0 "];
+
+6 -> 15
+
+7 -> 3
+
+8 -> 4
+8 -> 5
+8 -> 9
+8 -> 13
+8 -> 14
+
+9 -> 4
+9 -> 8
+
+10 -> 4
+
+11 -> 5
+
+12 -> 5
+
+13 -> 8
+
+14 -> 8
+
+16 -> 17
+16 -> 18
+16 -> 19
+16 -> 20
+16 -> 24[style=bold label=" Remove P2 P3 P5 "];
+
+
+17 -> 16
+
+18 -> 16
+
+19 -> 16
+
+20 -> 21
+20 -> 22
+
+21 -> 20
+21 -> 23
+21 -> 27[style=bold label=" Remove P5 "];
+
+
+22 -> 20
+
+24 -> 25
+24 -> 26
+
+27 -> 28[style=bold label=" Remove P2 "];
+
+27 -> 29
+
+}

@@ -1,0 +1,43 @@
+digraph G {
+color = "black"
+0[label = "Index: 0 
+P0: 0 0 0 
+P1: 0 0 0 
+P2: 0 0 0 
+", style="filled", fillcolor = "green"]
+1[label = "Index: 1 
+P0: 0 -1 0 
+P1: 0 0 0 
+P2: 0 0 0 
+", color = "orange"]
+2[label = "Index: 2 
+P0: 1 -1 0 
+P1: 1 0 0 
+P2: 0 0 0 
+", style="filled", fillcolor = "red"]
+3[label = "Index: 3 
+P0: 1 -1 0 
+", color = "fuchsia"]
+4[label = "Index: 4 
+P1: 1 0 0 
+P2: 0 0 0 
+", color = "red"]
+5[label = "Index: 5 
+P1: 1 0 0 
+", style="filled", fillcolor = "blue"]
+6[label = "Index: 6 
+P2: 0 0 0 
+", color = "fuchsia"]
+0 -> 1
+
+1 -> 0
+1 -> 2
+
+2 -> 1
+2 -> 4
+2 -> 3
+
+4 -> 6
+4 -> 5
+
+}

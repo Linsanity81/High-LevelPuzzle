@@ -1,0 +1,1214 @@
+graph G {
+color = "black"
+0 [label = "P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#96FF96"];
+1 [label = "P1: 0 -1 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+2 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+3 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+4 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 1 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+5 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 2 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+6 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 3 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+7 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+8 [label = "P1: 0 -1 0 
+P2: 1 0 -1 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+9 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+10 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+11 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 1 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+12 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 3 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+13 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+14 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+15 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+16 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+"];
+17 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+18 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+"];
+19 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 -1 
+"];
+20 [label = "P1: 0 -2 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 -1 
+"];
+21 [label = "P1: 0 -1 1 
+P2: 1 0 -1 
+P3: 2 0 0 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+22 [label = "P1: 0 -2 1 
+P2: 1 0 -1 
+P3: 3 0 0 
+P4: 0 -2 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+23 [label = "P1: -1 -2 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 -1 
+"];
+2323 [label = "P1: -1 +∞ 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 -1 
+",  style="filled", fillcolor = "#FF9696"];
+24 [label = "P1: 0 -2 1 
+P2: 1 0 -2 
+P3: 3 0 0 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+2424 [label = "P1: 0 +∞ 1 
+P2: 1 0 -2 
+P3: 3 0 0 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+25 [label = "P1: -1 -2 1 
+P2: 0 0 -1 
+P3: 3 0 0 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+26 [label = "P1: 0 -2 1 
+P2: 1 0 -1 
+P3: 2 0 0 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+27 [label = "P1: 0 -2 1 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+2727 [label = "P1: 0 +∞ 1 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+28 [label = "P1: -1 -2 1 
+P2: 0 0 -1 
+P3: 2 0 0 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+29 [label = "P1: 0 -2 2 
+P2: 1 0 -1 
+P3: 3 0 0 
+P4: 0 -1 2 
+P5: 0 -1 2 
+P6: 0 0 0 
+"];
+2929 [label = "P1: 0 +∞ 2 
+P2: 1 0 -1 
+P3: 3 0 0 
+P4: 0 -1 2 
+P5: 0 -1 2 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+30 [label = "P1: 0 -2 1 
+P2: 1 0 -1 
+P3: 2 0 0 
+P4: 0 -2 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+31 [label = "P1: 0 -2 1 
+P2: 1 0 -2 
+P3: 3 0 0 
+P4: 0 -2 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+3131 [label = "P1: 0 +∞ 1 
+P2: 1 0 -2 
+P3: 3 0 0 
+P4: 0 -2 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+32 [label = "P1: 0 -2 1 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -2 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+3232 [label = "P1: 0 +∞ 1 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -2 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+33 [label = "P1: 0 -2 2 
+P2: 1 0 -1 
+P3: 3 0 0 
+P4: 0 -2 2 
+P5: 0 -1 2 
+P6: 0 0 0 
+"];
+3333 [label = "P1: 0 +∞ 2 
+P2: 1 0 -1 
+P3: 3 0 0 
+P4: 0 -2 2 
+P5: 0 -1 2 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+34 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+"];
+35 [label = "P1: -1 -2 1 
+P2: 1 0 -1 
+P3: 2 0 0 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+3535 [label = "P1: -1 +∞ 1 
+P2: 1 0 -1 
+P3: 2 0 0 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+36 [label = "P1: 0 -2 1 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+3636 [label = "P1: 0 +∞ 1 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+37 [label = "P1: 0 -2 2 
+P2: 1 0 -1 
+P3: 2 0 0 
+P4: 0 -1 2 
+P5: 0 -1 2 
+P6: 0 0 0 
+"];
+3737 [label = "P1: 0 +∞ 2 
+P2: 1 0 -1 
+P3: 2 0 0 
+P4: 0 -1 2 
+P5: 0 -1 2 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+38 [label = "P1: 0 -2 1 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 -2 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+3838 [label = "P1: 0 +∞ 1 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 -2 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+39 [label = "P1: 0 -2 2 
+P2: 1 0 -1 
+P3: 2 0 0 
+P4: 0 -2 2 
+P5: 0 -1 2 
+P6: 0 0 0 
+"];
+3939 [label = "P1: 0 +∞ 2 
+P2: 1 0 -1 
+P3: 2 0 0 
+P4: 0 -2 2 
+P5: 0 -1 2 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+40 [label = "P1: -1 -2 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+"];
+4040 [label = "P1: -1 +∞ 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+41 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+"];
+42 [label = "P1: -1 -2 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+"];
+4242 [label = "P1: -1 +∞ 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+43 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+44 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 3 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+45 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 4 0 -2 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+"];
+4545 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: -∞ 0 -2 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+46 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+47 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 4 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+48 [label = "P1: -1 -2 1 
+P2: 0 0 -1 
+P3: 4 0 -1 
+P4: 0 -1 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+"];
+49 [label = "P1: -1 -2 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+4949 [label = "P1: -1 +∞ 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+50 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+5050 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+51 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 3 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+52 [label = "P1: -1 -2 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+5252 [label = "P1: -1 +∞ 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+53 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 3 0 -2 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+5353 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 3 0 -2 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+54 [label = "P1: -1 -2 0 
+P2: 0 0 -1 
+P3: 3 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+5454 [label = "P1: -1 +∞ 0 
+P2: 0 0 -1 
+P3: 3 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+55 [label = "P1: -1 -2 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+5555 [label = "P1: -1 +∞ 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+56 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 3 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+5656 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 3 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+57 [label = "P1: -1 -2 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+5757 [label = "P1: -1 +∞ 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+58 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 3 0 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+5858 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 3 0 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+59 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+5959 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+60 [label = "P1: -1 -2 0 
+P2: 0 0 -1 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+6060 [label = "P1: -1 +∞ 0 
+P2: 0 0 -1 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+61 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 4 0 -2 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+6161 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: -∞ 0 -2 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+62 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 4 0 -2 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+6262 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 4 0 -2 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+63 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 4 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+6363 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 4 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+64 [label = "P1: -1 -2 0 
+P2: 0 0 -1 
+P3: 4 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+6464 [label = "P1: -1 +∞ 0 
+P2: 0 0 -1 
+P3: 4 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+65 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 4 0 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+6565 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: -∞ 0 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+66 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 4 0 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+6666 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 4 0 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+67 [label = "P1: -1 -2 0 
+P2: 1 0 -2 
+P3: 3 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+6767 [label = "P1: -1 +∞ 0 
+P2: 1 0 -2 
+P3: 3 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+68 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 3 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+6868 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 3 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+69 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 2 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+70 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 1 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+71 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 0 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+72 [label = "P1: -1 -2 0 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+7272 [label = "P1: -1 +∞ 0 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+73 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 2 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+7373 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 2 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+74 [label = "P1: -1 -2 0 
+P2: 0 0 -1 
+P3: 2 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+7474 [label = "P1: -1 +∞ 0 
+P2: 0 0 -1 
+P3: 2 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+75 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+76 [label = "P1: -1 -2 0 
+P2: 1 0 -2 
+P3: 1 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+7676 [label = "P1: -1 +∞ 0 
+P2: 1 0 -2 
+P3: 1 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+77 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 1 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+7777 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 1 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+78 [label = "P1: -1 -2 0 
+P2: 0 0 -1 
+P3: 1 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+7878 [label = "P1: -1 +∞ 0 
+P2: 0 0 -1 
+P3: 1 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+79 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 0 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+7979 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 0 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+80 [label = "P1: -1 -2 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+8080 [label = "P1: -1 +∞ 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+81 [label = "P1: -1 -2 0 
+P2: 0 0 -2 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+82 [label = "P1: -1 -2 0 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+8282 [label = "P1: -1 +∞ 0 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+83 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+8383 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+84 [label = "P1: -1 -2 0 
+P2: 0 0 -1 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+8484 [label = "P1: -1 +∞ 0 
+P2: 0 0 -1 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+85 [label = "P1: -1 -2 0 
+P2: 0 0 -3 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+8585 [label = "P1: -1 +∞ 0 
+P2: 0 0 -3 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+86 [label = "P1: -1 -2 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+8686 [label = "P1: -1 +∞ 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+87 [label = "P1: -1 -2 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+8787 [label = "P1: -1 +∞ 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+edge [style=bold];
+0 -- 1 [color="#1E96FF", penwidth=4.0];
+
+1 -- 2 [color="#1E96FF", penwidth=4.0];
+
+2 -- 3 [color="#1E96FF", penwidth=4.0];
+
+3 -- 4 [color=black];
+3 -- 5 [color="#1E96FF", penwidth=4.0];
+3 -- 6 [color=black];
+
+4 -- 5 [color=black];
+4 -- 6 [color=black];
+
+5 -- 6 [color=black];
+5 -- 7 [color="#1E96FF", penwidth=4.0];
+
+
+7 -- 8 [color="#1E96FF", penwidth=4.0];
+
+8 -- 9 [color="#1E96FF", penwidth=4.0];
+
+9 -- 10 [color="#1E96FF", penwidth=4.0];
+
+10 -- 11 [color=black];
+10 -- 12 [color="#1E96FF", penwidth=4.0];
+
+11 -- 12 [color=black];
+
+12 -- 13 [color="#1E96FF", penwidth=4.0];
+
+13 -- 14 [color=black];
+13 -- 15 [color=black];
+13 -- 16 [color="#1E96FF", penwidth=4.0];
+
+14 -- 17 [color=black];
+14 -- 18 [color=black];
+
+15 -- 17 [color=black];
+15 -- 16 [color=black];
+
+16 -- 18 [color=black];
+16 -- 19 [color="#1E96FF", penwidth=4.0];
+
+17 -- 18 [color=black];
+
+
+19 -- 20 [color="#1E96FF", penwidth=4.0];
+19 -- 21 [color=black];
+19 -- 22 [color=black];
+
+20 -- 23 [color="#1E96FF", penwidth=4.0];
+20 -- 24 [color=black];
+20 -- 25 [color=black];
+20 -- 26 [color=black];
+20 -- 27 [color=black];
+20 -- 28 [color=black];
+20 -- 22 [color=black];
+20 -- 29 [color=black];
+
+21 -- 26 [color=black];
+21 -- 30 [color=black];
+
+22 -- 31 [color=black];
+22 -- 30 [color=black];
+22 -- 32 [color=black];
+22 -- 33 [color=black];
+
+23 -- 25 [color=black];
+23 -- 28 [color=black];
+
+23 -- 2323 [color="#1E96FF", penwidth=4.0];
+
+24 -- 2424 [color=black];
+25 -- 28 [color=black];
+25 -- 34 [color=black];
+
+26 -- 35 [color=black];
+26 -- 36 [color=black];
+26 -- 28 [color=black];
+26 -- 30 [color=black];
+26 -- 37 [color=black];
+
+
+27 -- 2727 [color=black];
+28 -- 35 [color=black];
+
+
+29 -- 2929 [color=black];
+30 -- 38 [color=black];
+30 -- 39 [color=black];
+
+
+31 -- 3131 [color=black];
+
+32 -- 3232 [color=black];
+
+33 -- 3333 [color=black];
+34 -- 40 [color=black];
+34 -- 41 [color=black];
+34 -- 42 [color=black];
+34 -- 43 [color=black];
+34 -- 44 [color=black];
+
+
+35 -- 3535 [color=black];
+
+36 -- 3636 [color=black];
+
+37 -- 3737 [color=black];
+
+38 -- 3838 [color=black];
+
+39 -- 3939 [color=black];
+
+40 -- 4040 [color=black];
+41 -- 42 [color=black];
+41 -- 45 [color=black];
+41 -- 46 [color=black];
+41 -- 47 [color=black];
+41 -- 48 [color=black];
+
+
+42 -- 4242 [color=black];
+43 -- 49 [color=black];
+43 -- 50 [color=black];
+43 -- 46 [color=black];
+43 -- 51 [color=black];
+43 -- 52 [color=black];
+43 -- 53 [color=black];
+43 -- 54 [color=black];
+43 -- 44 [color=black];
+
+44 -- 55 [color=black];
+44 -- 56 [color=black];
+44 -- 47 [color=black];
+44 -- 57 [color=black];
+44 -- 58 [color=black];
+
+45 -- 48 [color=black];
+
+45 -- 4545 [color=black];
+46 -- 52 [color=black];
+46 -- 59 [color=black];
+46 -- 60 [color=black];
+46 -- 61 [color=black];
+46 -- 62 [color=black];
+46 -- 47 [color=black];
+
+47 -- 57 [color=black];
+47 -- 63 [color=black];
+47 -- 64 [color=black];
+47 -- 65 [color=black];
+47 -- 66 [color=black];
+
+
+
+49 -- 4949 [color=black];
+50 -- 51 [color=black];
+
+50 -- 5050 [color=black];
+51 -- 67 [color=black];
+51 -- 68 [color=black];
+51 -- 54 [color=black];
+51 -- 69 [color=black];
+51 -- 70 [color=black];
+51 -- 71 [color=black];
+
+
+52 -- 5252 [color=black];
+
+53 -- 5353 [color=black];
+
+54 -- 5454 [color=black];
+
+55 -- 5555 [color=black];
+
+56 -- 5656 [color=black];
+
+57 -- 5757 [color=black];
+
+58 -- 5858 [color=black];
+
+59 -- 5959 [color=black];
+
+60 -- 6060 [color=black];
+61 -- 62 [color=black];
+
+61 -- 6161 [color=black];
+
+62 -- 6262 [color=black];
+
+63 -- 6363 [color=black];
+
+64 -- 6464 [color=black];
+65 -- 66 [color=black];
+
+65 -- 6565 [color=black];
+
+66 -- 6666 [color=black];
+67 -- 69 [color=black];
+
+67 -- 6767 [color=black];
+
+68 -- 6868 [color=black];
+69 -- 72 [color=black];
+69 -- 73 [color=black];
+69 -- 74 [color=black];
+69 -- 70 [color=black];
+69 -- 71 [color=black];
+69 -- 75 [color=black];
+
+70 -- 76 [color=black];
+70 -- 77 [color=black];
+70 -- 78 [color=black];
+70 -- 71 [color=black];
+70 -- 72 [color=black];
+
+71 -- 79 [color=black];
+71 -- 80 [color=black];
+71 -- 76 [color=black];
+71 -- 81 [color=black];
+
+
+72 -- 7272 [color=black];
+
+73 -- 7373 [color=black];
+
+74 -- 7474 [color=black];
+75 -- 82 [color=black];
+75 -- 83 [color=black];
+75 -- 84 [color=black];
+
+
+76 -- 7676 [color=black];
+
+77 -- 7777 [color=black];
+
+78 -- 7878 [color=black];
+
+79 -- 7979 [color=black];
+
+80 -- 8080 [color=black];
+81 -- 85 [color=black];
+81 -- 86 [color=black];
+81 -- 87 [color=black];
+
+
+82 -- 8282 [color=black];
+
+83 -- 8383 [color=black];
+
+84 -- 8484 [color=black];
+
+85 -- 8585 [color=black];
+
+86 -- 8686 [color=black];
+
+87 -- 8787 [color=black];
+}

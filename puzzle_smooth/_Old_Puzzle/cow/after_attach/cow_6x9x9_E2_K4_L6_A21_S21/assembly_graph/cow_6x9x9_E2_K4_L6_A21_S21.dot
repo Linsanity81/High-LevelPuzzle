@@ -1,0 +1,265 @@
+digraph G {
+color = "black"
+0[label = "Index: 0 
+P0: 0 0 0 
+P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+", style="filled", fillcolor = "green"]
+1[label = "Index: 1 
+P0: 1 0 0 
+P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+"]
+2[label = "Index: 2 
+P0: 2 0 0 
+P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+", color = "orange"]
+3[label = "Index: 3 
+P0: 1 0 0 
+P1: 0 -1 0 
+P2: 0 0 0 
+P3: 0 0 0 
+"]
+4[label = "Index: 4 
+P0: 2 0 0 
+P1: 0 -1 0 
+P2: 0 0 0 
+P3: 0 0 0 
+", color = "orange"]
+5[label = "Index: 5 
+P0: 2 0 0 
+P1: 0 -1 0 
+P2: 0 0 1 
+P3: 0 0 0 
+", color = "orange"]
+6[label = "Index: 6 
+P0: 2 0 0 
+P1: 0 -2 0 
+P2: 0 0 1 
+P3: 0 0 0 
+", color = "orange"]
+7[label = "Index: 7 
+P0: 2 0 0 
+P1: 0 -2 -1 
+P2: 0 0 1 
+P3: 0 0 0 
+", style="filled", fillcolor = "red"]
+8[label = "Index: 8 
+P0: 2 0 0 
+P1: 0 -2 0 
+P2: 0 0 2 
+P3: 0 0 0 
+"]
+9[label = "Index: 9 
+P0: 2 0 0 
+P1: 0 -2 -1 
+P2: 0 0 0 
+P3: 0 0 0 
+", color = "purple"]
+10[label = "Index: 10 
+P0: 2 0 0 
+P1: 0 -2 -2 
+P2: 0 0 0 
+P3: 0 0 0 
+", color = "purple"]
+11[label = "Index: 11 
+P0: 1 0 0 
+P1: 0 -2 -1 
+P2: 0 0 0 
+P3: 0 0 0 
+"]
+12[label = "Index: 12 
+P0: 1 0 0 
+P1: 0 -2 -2 
+P2: 0 0 0 
+P3: 0 0 0 
+"]
+13[label = "Index: 13 
+P1: 0 -2 -1 
+", color = "fuchsia"]
+14[label = "Index: 14 
+P0: 2 0 0 
+P2: 0 0 1 
+P3: 0 0 0 
+", color = "orange"]
+15[label = "Index: 15 
+P0: 2 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+"]
+16[label = "Index: 16 
+P0: 2 0 0 
+P2: 0 0 2 
+P3: 0 0 0 
+", color = "orange"]
+17[label = "Index: 17 
+P0: 1 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+"]
+18[label = "Index: 18 
+P0: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+"]
+19[label = "Index: 19 
+P0: 2 0 0 
+P2: -1 0 2 
+P3: 0 0 0 
+", color = "red"]
+20[label = "Index: 20 
+P0: 2 0 0 
+P2: -2 0 2 
+P3: 0 0 0 
+"]
+21[label = "Index: 21 
+P0: 1 0 0 
+P2: -1 0 2 
+P3: 0 0 0 
+"]
+22[label = "Index: 22 
+P0: 0 0 0 
+P2: -2 0 2 
+P3: 0 0 0 
+"]
+23[label = "Index: 23 
+P0: 2 0 0 
+", color = "fuchsia"]
+24[label = "Index: 24 
+P2: -1 0 2 
+P3: 0 0 0 
+", color = "orange"]
+25[label = "Index: 25 
+P2: -2 0 2 
+P3: 0 0 0 
+", color = "orange"]
+26[label = "Index: 26 
+P2: 0 0 2 
+P3: 0 0 0 
+"]
+27[label = "Index: 27 
+P2: -2 1 2 
+P3: 0 0 0 
+", color = "red"]
+28[label = "Index: 28 
+P2: -2 2 2 
+P3: 0 0 0 
+"]
+29[label = "Index: 29 
+P2: 0 0 1 
+P3: 0 0 0 
+"]
+30[label = "Index: 30 
+P2: 0 0 0 
+P3: 0 0 0 
+"]
+31[label = "Index: 31 
+P2: -2 1 2 
+", style="filled", fillcolor = "blue"]
+32[label = "Index: 32 
+P3: 0 0 0 
+", color = "fuchsia"]
+0 -> 1
+0 -> 2
+
+1 -> 0
+1 -> 2
+1 -> 3
+
+2 -> 0
+2 -> 1
+2 -> 4
+
+3 -> 1
+3 -> 4
+
+4 -> 2
+4 -> 3
+4 -> 5
+
+5 -> 4
+5 -> 6
+
+6 -> 5
+6 -> 7
+6 -> 8
+6 -> 9
+
+7 -> 6
+7 -> 8
+7 -> 14
+7 -> 13
+
+8 -> 6
+8 -> 7
+8 -> 10
+
+9 -> 6
+9 -> 11
+
+10 -> 8
+10 -> 12
+
+11 -> 9
+
+12 -> 10
+
+14 -> 15
+14 -> 16
+
+15 -> 14
+15 -> 17
+15 -> 18
+15 -> 16
+
+16 -> 14
+16 -> 15
+16 -> 19
+16 -> 20
+16 -> 21
+16 -> 22
+
+17 -> 15
+17 -> 18
+
+18 -> 15
+18 -> 17
+
+19 -> 16
+19 -> 24
+19 -> 23
+
+20 -> 16
+
+21 -> 16
+
+22 -> 16
+
+24 -> 25
+24 -> 26
+
+25 -> 24
+25 -> 26
+25 -> 27
+25 -> 28
+
+26 -> 24
+26 -> 25
+26 -> 29
+26 -> 30
+
+27 -> 25
+27 -> 32
+27 -> 31
+
+28 -> 25
+
+29 -> 26
+
+30 -> 26
+
+}

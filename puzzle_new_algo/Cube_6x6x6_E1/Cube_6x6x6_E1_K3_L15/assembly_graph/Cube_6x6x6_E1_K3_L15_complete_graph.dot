@@ -1,0 +1,321 @@
+graph G {
+color = "black"
+0 [label = "P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#96FF96"];
+1 [label = "P1: 0 0 1 
+P2: 0 0 0 
+P3: 0 0 0 
+"];
+2 [label = "P1: 0 0 1 
+P2: -1 0 0 
+P3: 0 0 0 
+"];
+3 [label = "P1: 0 0 2 
+P2: -1 0 0 
+P3: 0 0 0 
+"];
+4 [label = "P1: 0 0 2 
+P2: -1 0 0 
+P3: 1 0 0 
+"];
+5 [label = "P1: 0 0 3 
+P2: -1 0 0 
+P3: 1 0 0 
+"];
+6 [label = "P1: -2 0 3 
+P2: -2 0 0 
+P3: 0 0 0 
+"];
+7 [label = "P1: 0 0 3 
+P2: -2 0 0 
+P3: 1 0 0 
+"];
+8 [label = "P1: -1 0 3 
+P2: -1 0 0 
+P3: 0 0 0 
+"];
+9 [label = "P1: -2 0 3 
+P2: -3 0 0 
+P3: 0 0 0 
+"];
+10 [label = "P1: -1 0 3 
+P2: -3 0 -1 
+P3: 0 0 0 
+"];
+11 [label = "P1: 0 0 3 
+P2: -2 0 0 
+P3: 1 0 1 
+"];
+12 [label = "P1: -2 0 3 
+P2: -3 0 -1 
+P3: 0 0 0 
+"];
+13 [label = "P1: 1 0 3 
+P2: -2 0 0 
+P3: 1 0 1 
+"];
+14 [label = "P1: 0 0 1 
+P2: -3 0 -1 
+P3: 0 0 0 
+"];
+15 [label = "P1: 1 0 3 
+P2: -2 0 1 
+P3: 1 0 1 
+"];
+16 [label = "P1: 1 0 3 
+P2: -2 1 1 
+P3: 1 0 1 
+"];
+17 [label = "P1: 1 0 3 
+P2: -2 1 1 
+P3: 2 0 1 
+"];
+18 [label = "P1: 1 0 4 
+P2: -2 1 1 
+P3: 2 0 1 
+"];
+19 [label = "P1: 1 0 4 
+P2: -2 1 1 
+P3: 3 0 1 
+"];
+20 [label = "P1: 1 -1 4 
+P2: -2 1 1 
+P3: 3 0 1 
+",  style="filled", fillcolor = "#FF9696"];
+21 [label = "P1: -2 -2 3 
+P2: -5 1 0 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+22 [label = "P1: -2 0 3 
+P2: -5 0 0 
+P3: 0 0 0 
+"];
+23 [label = "P1: -2 0 3 
+P2: -5 1 1 
+P3: 0 0 0 
+"];
+24 [label = "P1: -2 -1 3 
+P2: -5 0 0 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+25 [label = "P1: -2 -2 3 
+P2: -5 -1 0 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+26 [label = "P1: -2 -2 3 
+P2: -5 0 0 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+27 [label = "P1: -2 -3 3 
+P2: -5 0 0 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+28 [label = "P1: -2 0 3 
+P2: -5 0 -1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+29 [label = "P1: -2 0 3 
+P2: -5 0 -2 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+30 [label = "P1: -2 0 3 
+P2: -5 0 -3 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+31 [label = "P1: -2 0 3 
+P2: -5 0 -4 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+32 [label = "P1: -2 0 3 
+P2: -5 0 1 
+P3: 0 0 0 
+"];
+33 [label = "P1: -2 -1 3 
+P2: -5 -1 0 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+34 [label = "P1: -2 -1 3 
+P2: -5 1 1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+35 [label = "P1: -2 -2 3 
+P2: -5 1 1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+36 [label = "P1: -2 0 3 
+P2: -5 2 1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+37 [label = "P1: -2 0 3 
+P2: -5 3 1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+38 [label = "P1: -2 -1 3 
+P2: -5 0 1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+39 [label = "P1: -2 -2 3 
+P2: -5 -1 1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+40 [label = "P1: -2 -3 3 
+P2: -5 -2 1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+41 [label = "P1: -2 -2 3 
+P2: -5 0 1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+42 [label = "P1: -2 -3 3 
+P2: -5 0 1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+43 [label = "P1: -2 -1 3 
+P2: -5 -1 1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+44 [label = "P1: -2 -2 3 
+P2: -5 -2 1 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+45 [label = "P1: -1 0 3 
+P2: -5 2 1 
+P3: 0 0 0 
+"];
+46 [label = "P1: -2 -1 3 
+P2: -5 2 1 
+P3: 0 0 0 
+"];
+47 [label = "P1: -1 0 3 
+P2: -5 3 1 
+P3: 0 0 0 
+"];
+48 [label = "P1: -2 -1 3 
+",  style="filled", fillcolor = "#FF96FF"];
+49 [label = "P2: -2 1 1 
+P3: 3 0 1 
+"];
+50 [label = "P2: -2 1 1 
+", style="filled", fillcolor = "#9696FF"];
+51 [label = "P3: 0 0 0 
+",  style="filled", fillcolor = "#FF96FF"];
+edge [style=bold];
+0 -- 1 [color="#1E96FF", penwidth=4.0];
+
+1 -- 2 [color="#1E96FF", penwidth=4.0];
+
+2 -- 3 [color="#1E96FF", penwidth=4.0];
+
+3 -- 4 [color="#1E96FF", penwidth=4.0];
+
+4 -- 5 [color="#1E96FF", penwidth=4.0];
+
+5 -- 6 [color=black];
+5 -- 7 [color="#1E96FF", penwidth=4.0];
+5 -- 8 [color=black];
+5 -- 9 [color=black];
+
+6 -- 9 [color=black];
+6 -- 8 [color=black];
+
+7 -- 9 [color=black];
+7 -- 8 [color=black];
+7 -- 10 [color=black];
+7 -- 11 [color="#1E96FF", penwidth=4.0];
+
+
+9 -- 12 [color=black];
+
+10 -- 12 [color=black];
+10 -- 11 [color=black];
+
+11 -- 13 [color="#1E96FF", penwidth=4.0];
+
+
+13 -- 14 [color=black];
+13 -- 15 [color="#1E96FF", penwidth=4.0];
+
+14 -- 15 [color=black];
+
+15 -- 16 [color="#1E96FF", penwidth=4.0];
+
+16 -- 17 [color="#1E96FF", penwidth=4.0];
+
+17 -- 18 [color="#1E96FF", penwidth=4.0];
+
+18 -- 19 [color="#1E96FF", penwidth=4.0];
+
+19 -- 20 [color="#1E96FF", penwidth=4.0];
+19 -- 21 [color=black];
+19 -- 22 [color=black];
+19 -- 23 [color=black];
+19 -- 24 [color=black];
+19 -- 25 [color=black];
+
+20 -- 49 [color="#1E96FF", penwidth=4.0];
+20 -- 48 [color=black];
+
+
+22 -- 24 [color=black];
+22 -- 26 [color=black];
+22 -- 27 [color=black];
+22 -- 28 [color=black];
+22 -- 29 [color=black];
+22 -- 30 [color=black];
+22 -- 31 [color=black];
+22 -- 32 [color=black];
+22 -- 33 [color=black];
+
+23 -- 34 [color=black];
+23 -- 35 [color=black];
+23 -- 32 [color=black];
+23 -- 36 [color=black];
+23 -- 37 [color=black];
+23 -- 38 [color=black];
+23 -- 39 [color=black];
+23 -- 40 [color=black];
+
+
+
+
+
+28 -- 32 [color=black];
+
+29 -- 32 [color=black];
+
+30 -- 32 [color=black];
+
+31 -- 32 [color=black];
+
+32 -- 38 [color=black];
+32 -- 41 [color=black];
+32 -- 42 [color=black];
+32 -- 36 [color=black];
+32 -- 37 [color=black];
+32 -- 43 [color=black];
+32 -- 44 [color=black];
+
+
+
+
+36 -- 45 [color=black];
+36 -- 46 [color=black];
+
+37 -- 47 [color=black];
+
+
+
+
+
+
+
+
+
+
+
+49 -- 51 [color=black];
+49 -- 50 [color="#1E96FF", penwidth=4.0];
+
+}

@@ -1,0 +1,169 @@
+digraph G {
+color = "black"
+0[label = "Index: 0 
+P0: 0 0 0 
+P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+", color = "green"]
+1[label = "Index: 1 
+P0: 0 1 0 
+P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+", color = "orange"]
+2[label = "Index: 2 
+P0: 0 1 0 
+P1: 0 0 -1 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+"]
+3[label = "Index: 3 
+P0: 0 1 0 
+P1: 0 0 -1 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 0 0 0 
+", color = "orange"]
+4[label = "Index: 4 
+P0: 0 1 0 
+P1: 0 0 -1 
+P2: 0 0 -1 
+P3: 0 1 0 
+P4: 0 0 0 
+"]
+5[label = "Index: 5 
+P0: 0 2 0 
+P1: 0 0 -1 
+P2: 0 0 -1 
+P3: 0 1 0 
+P4: 0 0 0 
+", color = "orange"]
+6[label = "Index: 6 
+P0: 0 2 0 
+P1: 0 0 -2 
+P2: 0 0 -1 
+P3: 0 1 0 
+P4: 0 0 0 
+", color = "red"]
+7[label = "Index: 7 
+P0: 0 2 0 
+P1: 0 0 -2 
+P2: 0 0 -2 
+P3: 0 1 0 
+P4: 0 0 0 
+"]
+8[label = "Index: 8 
+P0: 0 2 0 
+P1: 0 0 -3 
+P2: 0 0 -3 
+P3: 0 1 0 
+P4: 0 0 0 
+"]
+9[label = "Index: 9 
+P0: 0 2 0 
+P1: 0 0 -3 
+P2: 0 0 -2 
+P3: 0 1 0 
+P4: 0 0 0 
+", color = "purple"]
+10[label = "Index: 10 
+P0: -1 2 0 
+P1: 0 0 -3 
+P2: 0 0 -3 
+P3: 0 1 0 
+P4: 0 0 0 
+", color = "purple"]
+11[label = "Index: 11 
+P0: -1 2 0 
+P1: 0 0 -4 
+P2: 0 0 -3 
+P3: 0 1 0 
+P4: 0 0 0 
+"]
+12[label = "Index: 12 
+P0: 0 2 0 
+P2: 0 0 -1 
+P3: 0 1 0 
+P4: 0 0 0 
+", color = "red"]
+13[label = "Index: 13 
+P0: 0 1 0 
+P2: 0 0 -1 
+P3: 0 1 0 
+P4: 0 0 0 
+"]
+14[label = "Index: 14 
+P0: 0 2 0 
+P3: 0 1 0 
+P4: 0 0 0 
+", color = "red"]
+15[label = "Index: 15 
+P3: 0 1 0 
+P4: 0 0 0 
+", color = "red"]
+16[label = "Index: 16 
+P4: 0 0 0 
+", color = "blue"]
+0 -> 1
+
+1 -> 0
+1 -> 2
+1 -> 3
+
+2 -> 1
+2 -> 3
+
+3 -> 1
+3 -> 2
+3 -> 4
+3 -> 5
+
+4 -> 3
+4 -> 5
+
+5 -> 3
+5 -> 4
+5 -> 6
+5 -> 7
+5 -> 8
+
+6 -> 5
+6 -> 7
+6 -> 12[style=bold label=" Remove P1 "];
+
+
+7 -> 5
+7 -> 9
+7 -> 6
+7 -> 8
+
+8 -> 5
+8 -> 7
+8 -> 10
+8 -> 9
+
+9 -> 7
+9 -> 8
+
+10 -> 8
+10 -> 11
+
+11 -> 10
+
+12 -> 13
+12 -> 14[style=bold label=" Remove P2 "];
+
+
+13 -> 12
+
+14 -> 15[style=bold label=" Remove P0 "];
+
+
+15 -> 16[style=bold label=" Remove P3 "];
+
+
+}

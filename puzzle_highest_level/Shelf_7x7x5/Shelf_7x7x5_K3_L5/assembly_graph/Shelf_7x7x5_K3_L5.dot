@@ -1,0 +1,199 @@
+digraph G {
+color = "black"
+0[label = "Index: 0 
+P0: 0 0 0 
+P1: 0 0 0 
+P2: 0 0 0 
+", style="filled", fillcolor = "green"]
+1[label = "Index: 1 
+P0: 0 -1 0 
+P1: 0 0 0 
+P2: 0 0 0 
+"]
+2[label = "Index: 2 
+P0: 0 -2 0 
+P1: 0 0 0 
+P2: 0 0 0 
+", color = "orange"]
+3[label = "Index: 3 
+P0: 0 -1 0 
+P1: 1 0 0 
+P2: 0 0 0 
+"]
+4[label = "Index: 4 
+P0: 0 -2 0 
+P1: 1 0 0 
+P2: 0 0 0 
+", color = "orange"]
+5[label = "Index: 5 
+P0: 0 -2 0 
+P1: 2 0 0 
+P2: 0 0 0 
+"]
+6[label = "Index: 6 
+P0: 0 -2 0 
+P1: 1 0 1 
+P2: 0 0 0 
+", color = "orange"]
+7[label = "Index: 7 
+P0: 0 -2 0 
+P1: 2 0 1 
+P2: 0 0 0 
+"]
+8[label = "Index: 8 
+P0: 0 -2 0 
+P1: 1 1 1 
+P2: 0 0 0 
+", style="filled", fillcolor = "red"]
+9[label = "Index: 9 
+P0: 0 -1 0 
+P1: 1 1 1 
+P2: 0 0 0 
+", color = "purple"]
+10[label = "Index: 10 
+P0: 0 0 0 
+P1: 1 2 1 
+P2: 0 0 0 
+", color = "purple"]
+11[label = "Index: 11 
+P0: 0 -1 0 
+P1: 2 0 1 
+P2: 0 0 0 
+"]
+12[label = "Index: 12 
+P0: 0 -2 0 
+P1: 2 -1 1 
+P2: 0 0 0 
+"]
+13[label = "Index: 13 
+P0: 0 -2 0 
+P1: 2 1 1 
+P2: 0 0 0 
+", color = "purple"]
+14[label = "Index: 14 
+P0: 0 -1 0 
+P1: 2 1 1 
+P2: 0 0 0 
+", color = "purple"]
+15[label = "Index: 15 
+P0: 0 -1 0 
+P1: 2 2 1 
+P2: 0 0 0 
+", color = "purple"]
+16[label = "Index: 16 
+P0: 0 0 0 
+P1: 2 1 1 
+P2: 0 0 0 
+", color = "purple"]
+17[label = "Index: 17 
+P0: 0 -1 -1 
+P1: 2 0 0 
+P2: 0 0 0 
+"]
+18[label = "Index: 18 
+P1: 1 1 1 
+", color = "fuchsia"]
+19[label = "Index: 19 
+P0: 0 -2 0 
+P2: 0 0 0 
+", color = "orange"]
+20[label = "Index: 20 
+P0: 0 -1 0 
+P2: 0 0 0 
+", color = "red"]
+21[label = "Index: 21 
+P0: 0 0 0 
+P2: 0 0 0 
+"]
+22[label = "Index: 22 
+P0: 0 -1 0 
+", style="filled", fillcolor = "blue"]
+23[label = "Index: 23 
+P2: 0 0 0 
+", color = "fuchsia"]
+0 -> 1
+0 -> 2
+
+1 -> 0
+1 -> 2
+1 -> 3
+
+2 -> 0
+2 -> 1
+2 -> 4
+2 -> 5
+
+3 -> 1
+3 -> 4
+
+4 -> 2
+4 -> 3
+4 -> 5
+4 -> 6
+
+5 -> 2
+5 -> 4
+5 -> 7
+
+6 -> 4
+6 -> 7
+6 -> 8
+6 -> 9
+6 -> 10
+
+7 -> 5
+7 -> 6
+7 -> 11
+7 -> 12
+7 -> 13
+
+8 -> 6
+8 -> 9
+8 -> 19
+8 -> 18
+
+9 -> 6
+9 -> 8
+
+10 -> 6
+
+11 -> 7
+11 -> 14
+11 -> 15
+11 -> 12
+11 -> 16
+11 -> 17
+
+12 -> 7
+12 -> 11
+12 -> 13
+12 -> 16
+
+13 -> 7
+13 -> 12
+13 -> 14
+13 -> 16
+
+14 -> 11
+14 -> 13
+14 -> 16
+
+15 -> 11
+
+16 -> 11
+16 -> 12
+16 -> 13
+16 -> 14
+
+17 -> 11
+
+19 -> 20
+19 -> 21
+
+20 -> 19
+20 -> 23
+20 -> 22
+
+21 -> 19
+
+}

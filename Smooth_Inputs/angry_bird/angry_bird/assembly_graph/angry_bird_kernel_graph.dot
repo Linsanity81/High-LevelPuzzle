@@ -1,0 +1,6 @@
+graph G {
+color = "black"
+0 [label = "P1: 0 0 0 
+",  style="filled", fillcolor = "#96FF96"];
+edge [style=bold];
+}
