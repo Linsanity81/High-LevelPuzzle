@@ -1,4 +1,4 @@
-# Computational Design of High-level Interlocking Puzzles
+# High-level Interlocking Puzzle
 
 <p align="center">
   <a href="" rel="noopener">
