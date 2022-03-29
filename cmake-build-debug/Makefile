@@ -1211,60 +1211,6 @@ src/Puzzle/Volume.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DCorelib.dir/build.make CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.s
 .PHONY : src/Puzzle/Volume.cpp.s
 
-src/Puzzle_debug/Piece_debug.o: src/Puzzle_debug/Piece_debug.cpp.o
-
-.PHONY : src/Puzzle_debug/Piece_debug.o
-
-# target to build an object file
-src/Puzzle_debug/Piece_debug.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DCorelib.dir/build.make CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.o
-.PHONY : src/Puzzle_debug/Piece_debug.cpp.o
-
-src/Puzzle_debug/Piece_debug.i: src/Puzzle_debug/Piece_debug.cpp.i
-
-.PHONY : src/Puzzle_debug/Piece_debug.i
-
-# target to preprocess a source file
-src/Puzzle_debug/Piece_debug.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DCorelib.dir/build.make CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.i
-.PHONY : src/Puzzle_debug/Piece_debug.cpp.i
-
-src/Puzzle_debug/Piece_debug.s: src/Puzzle_debug/Piece_debug.cpp.s
-
-.PHONY : src/Puzzle_debug/Piece_debug.s
-
-# target to generate assembly for a file
-src/Puzzle_debug/Piece_debug.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DCorelib.dir/build.make CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.s
-.PHONY : src/Puzzle_debug/Piece_debug.cpp.s
-
-src/Puzzle_debug/Puzzle_debug.o: src/Puzzle_debug/Puzzle_debug.cpp.o
-
-.PHONY : src/Puzzle_debug/Puzzle_debug.o
-
-# target to build an object file
-src/Puzzle_debug/Puzzle_debug.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DCorelib.dir/build.make CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.o
-.PHONY : src/Puzzle_debug/Puzzle_debug.cpp.o
-
-src/Puzzle_debug/Puzzle_debug.i: src/Puzzle_debug/Puzzle_debug.cpp.i
-
-.PHONY : src/Puzzle_debug/Puzzle_debug.i
-
-# target to preprocess a source file
-src/Puzzle_debug/Puzzle_debug.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DCorelib.dir/build.make CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.i
-.PHONY : src/Puzzle_debug/Puzzle_debug.cpp.i
-
-src/Puzzle_debug/Puzzle_debug.s: src/Puzzle_debug/Puzzle_debug.cpp.s
-
-.PHONY : src/Puzzle_debug/Puzzle_debug.s
-
-# target to generate assembly for a file
-src/Puzzle_debug/Puzzle_debug.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DCorelib.dir/build.make CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.s
-.PHONY : src/Puzzle_debug/Puzzle_debug.cpp.s
-
 src/Render/libigl_Render.o: src/Render/libigl_Render.cpp.o
 
 .PHONY : src/Render/libigl_Render.o
@@ -1538,12 +1484,6 @@ help:
 	@echo "... src/Puzzle/Volume.o"
 	@echo "... src/Puzzle/Volume.i"
 	@echo "... src/Puzzle/Volume.s"
-	@echo "... src/Puzzle_debug/Piece_debug.o"
-	@echo "... src/Puzzle_debug/Piece_debug.i"
-	@echo "... src/Puzzle_debug/Piece_debug.s"
-	@echo "... src/Puzzle_debug/Puzzle_debug.o"
-	@echo "... src/Puzzle_debug/Puzzle_debug.i"
-	@echo "... src/Puzzle_debug/Puzzle_debug.s"
 	@echo "... src/Render/libigl_Render.o"
 	@echo "... src/Render/libigl_Render.i"
 	@echo "... src/Render/libigl_Render.s"

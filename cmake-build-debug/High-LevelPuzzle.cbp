@@ -1644,18 +1644,6 @@
 		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Volume.h">
 			<Option target="3DCorelib"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Piece_debug.cpp">
-			<Option target="3DCorelib"/>
-		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Piece_debug.h">
-			<Option target="3DCorelib"/>
-		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Puzzle_debug.cpp">
-			<Option target="3DCorelib"/>
-		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Puzzle_debug.h">
-			<Option target="3DCorelib"/>
-		</Unit>
 		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/libigl_Render.cpp">
 			<Option target="3DRenderlib"/>
 		</Unit>

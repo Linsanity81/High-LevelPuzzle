@@ -25,8 +25,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Puzzle.cpp" "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o"
   "/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PuzzleCreator.cpp" "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o"
   "/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Volume.cpp" "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o"
-  "/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Piece_debug.cpp" "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.o"
-  "/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Puzzle_debug.cpp" "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.o"
   "/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Utility/HelpFunc.cpp" "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o"
   "/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Utility/HelpPuz.cpp" "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o"
   "/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Utility/HelpStruct.cpp" "/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o"

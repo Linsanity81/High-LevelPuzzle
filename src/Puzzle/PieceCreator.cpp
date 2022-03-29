@@ -174,7 +174,7 @@ bool PieceCreator::IsRemainPieceConnected(int lastPieceID, vector<Vector3i> main
 /// Compute MainPath for the key piece
 ///----------------------------------------------------------------------
 
-bool PieceCreator::ComputeMainPath(int remvVoxelNum, MainPath &mainPath, Piece_debug & piece_debug)
+bool PieceCreator::ComputeMainPath(int remvVoxelNum, MainPath &mainPath)
 {
     ////////////////////////////////////////////////////////////////
     /// 1. Build contacting graph for the initial volume/puzzle
@@ -262,25 +262,6 @@ bool PieceCreator::ComputeMainPath(int remvVoxelNum, MainPath &mainPath, Piece_d
 
     if ( mainPath.pathVoxels.size() != remvVoxelNum )
         return false;
-
-
-    ////////////////////////////////////////////////////////////////
-    /// 6. Draw voxels for debug
-
-    piece_debug._ContaVoxels = emptyVoxels;
-
-    piece_debug._SeedVoxels = seedPath.seedVoxels;
-    piece_debug._SeedKeptVoxels = seedPath.keptVoxels;
-    piece_debug._SeedPathVoxels = seedPath.pathVoxels;
-
-    piece_debug._BlockVoxel.clear();
-    piece_debug._BlockVoxel.push_back( blockPath.blockVoxel );
-    piece_debug._BlockKeptVoxels = blockPath.keptVoxels;
-    piece_debug._BlockPathVoxels = blockPath.pathVoxels;
-
-    piece_debug._ExtdVoxels = mainPath.pathVoxels;
-
-    piece_debug.pieceAxisID = mainPath.pieceAxisID;
 
     mainPath.isValid  = true;
     return true;
@@ -924,7 +905,7 @@ int PieceCreator::SelectExtendVoxel(MainPath mainPath, vector<Voxel*> extdExpCan
 /// Compute MainPath for a normal piece
 ///----------------------------------------------------------------------
 
-MainPath PieceCreator::ComputeMainPath(vector<PuzConfig*> tracedPuzConfigs, int tagtIndex, int lastPieceID, int remvVoxelNum, Piece_debug & piece_debug)
+MainPath PieceCreator::ComputeMainPath(vector<PuzConfig*> tracedPuzConfigs, int tagtIndex, int lastPieceID, int remvVoxelNum)
 {
     MainPath mainPath;
     mainPath.isValid = false;
@@ -1059,37 +1040,6 @@ MainPath PieceCreator::ComputeMainPath(vector<PuzConfig*> tracedPuzConfigs, int 
 #endif
         return mainPath;
     }
-
-    ////////////////////////////////////////////////////////////////
-    /// 5. Draw voxels for debug
-
-    piece_debug._ContaVoxels    = seedPath.contaVoxels;
-
-    piece_debug._SeedVoxels     = seedPath.seedVoxels;
-    piece_debug._SeedKeptVoxels = seedPath.keptVoxels;
-    piece_debug._SeedPathVoxels = seedPath.pathVoxels;
-
-    piece_debug._BlockVoxel.clear();
-    piece_debug._BlockVoxel.push_back( blockPath.blockVoxel );
-    piece_debug._BlockKeptVoxels = blockPath.keptVoxels;
-    piece_debug._BlockPathVoxels = blockPath.pathVoxels;
-
-    piece_debug._ExtdVoxels.clear();
-    for (int i=0; i<mainPath.pathVoxels.size(); i++)
-    {
-        Vector3i expVoxelPos = mainPath.pathVoxels[i];
-
-        if(	std::find(seedPath.pathVoxels.begin(),  seedPath.pathVoxels.end(),  expVoxelPos) == seedPath.pathVoxels.end() &&
-            std::find(blockPath.pathVoxels.begin(), blockPath.pathVoxels.end(), expVoxelPos) == blockPath.pathVoxels.end() )
-            //std::find(levelPath.pathVoxels.begin(), levelPath.pathVoxels.end(), expVoxelPos) == levelPath.pathVoxels.end() )
-        {
-            piece_debug._ExtdVoxels.push_back( expVoxelPos );
-        }
-    }
-
-    piece_debug.pieceAxisID = mainPath.pieceAxisID;
-
-    //_ExtdVoxels = mainPath.pathExpVoxels;
 
     mainPath.isValid  = true;
     mainPath.pathOrgVoxels = expVolume->Exp2OrgVoxels( mainPath.pathVoxels );

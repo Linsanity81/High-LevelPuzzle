@@ -350,35 +350,9 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Volume.cpp -o CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.s
 
-CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.o: CMakeFiles/3DCorelib.dir/flags.make
-CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.o: ../src/Puzzle_debug/Piece_debug.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.o -c /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Piece_debug.cpp
-
-CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Piece_debug.cpp > CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.i
-
-CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Piece_debug.cpp -o CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.s
-
-CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.o: CMakeFiles/3DCorelib.dir/flags.make
-CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.o: ../src/Puzzle_debug/Puzzle_debug.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.o -c /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Puzzle_debug.cpp
-
-CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Puzzle_debug.cpp > CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.i
-
-CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle_debug/Puzzle_debug.cpp -o CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.s
-
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: CMakeFiles/3DCorelib.dir/flags.make
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: ../src/Utility/HelpFunc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o -c /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Utility/HelpFunc.cpp
 
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.i: cmake_force
@@ -391,7 +365,7 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.s: cmake_force
 
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: CMakeFiles/3DCorelib.dir/flags.make
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: ../src/Utility/HelpPuz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o -c /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Utility/HelpPuz.cpp
 
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.i: cmake_force
@@ -404,7 +378,7 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.s: cmake_force
 
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: CMakeFiles/3DCorelib.dir/flags.make
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: ../src/Utility/HelpStruct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o -c /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Utility/HelpStruct.cpp
 
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.i: cmake_force
@@ -438,8 +412,6 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.s: cmake_force
 "CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o" \
 "CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o" \
 "CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o" \
-"CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.o" \
-"CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.o" \
 "CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o" \
 "CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o" \
 "CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o"
@@ -468,14 +440,12 @@ lib3DCorelib.a: CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o
 lib3DCorelib.a: CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o
 lib3DCorelib.a: CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o
 lib3DCorelib.a: CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o
-lib3DCorelib.a: CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.o
-lib3DCorelib.a: CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.o
 lib3DCorelib.a: CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o
 lib3DCorelib.a: CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o
 lib3DCorelib.a: CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o
 lib3DCorelib.a: CMakeFiles/3DCorelib.dir/build.make
 lib3DCorelib.a: CMakeFiles/3DCorelib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX static library lib3DCorelib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library lib3DCorelib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/3DCorelib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3DCorelib.dir/link.txt --verbose=$(VERBOSE)
 

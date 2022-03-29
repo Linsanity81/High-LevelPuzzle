@@ -21,7 +21,6 @@
 #include "Utility/HelpPuz.h"
 #include "Mesh/Mesh.h"
 #include "Puzzle/PieceCreator.h"
-#include "Puzzle_debug/Piece_debug.h"
 
 using namespace std;
 using namespace Eigen;
@@ -80,8 +79,6 @@ public:
                     float ballRadius,
                     float cylinRadius);
 
-    void RenderPuzzle_debug(iglViewer &viewer, Puzzle_debug &myPuzzle_debug, int pieceID_debug, Puzzle &myPuzzle);
-
     void DrawSmoothPuzzle(iglViewer &viewer, vector<Eigen::MatrixXd> smoothPieceVerticeList,
                           vector<Eigen::MatrixXi> smoothPieceFaceList, int pieceNum, vector<Eigen::MatrixXf> posVectors);
 
@@ -99,35 +96,6 @@ public:
 
     /// Set Camera
     void SetCamera(iglViewer &viewer, float zoom, Vector3f eyePos);
-
-    ////////////////////////////////////////////////////////////////////
-    // Note: These functions are for debug
-
-    /// Render the Construction Path Info for Debug
-    void DrawConstrucInfo(iglViewer &viewer,
-                          MainPath mainPath,
-                          Vector3f voxelSize,
-                          Vector3i volumeSize,
-                          float ballRadius);
-
-    void DrawConstrucInfo(iglViewer &viewer,
-                          Piece_debug piece_debug,
-                          Vector3f voxelSize,
-                          Vector3i volumeSize,
-                          float ballRadius);
-
-    /// Show/hide Objects for Construction Framework Debug
-    void ShowContaVoxels(iglViewer &viewer, bool isVisible);
-    void ShowSeedVoxels(iglViewer &viewer, bool isVisible);
-    void ShowSeedKeptVoxels(iglViewer &viewer, bool isVisible);
-    void ShowSeedPathVoxels(iglViewer &viewer, bool isVisible);
-    void ShowBlockVoxels(iglViewer &viewer, bool isVisible);
-    void ShowBlockKeptVoxels(iglViewer &viewer, bool isVisible);
-    void ShowBlockPathVoxels(iglViewer &viewer, bool isVisible);
-    void ShowExtdVoxels(iglViewer &viewer, bool isVisible);
-    void ShowDisconnectedEdges(iglViewer &viewer, bool isVisible);
-
-    ////////////////////////////////////////////////////////////////////
 };
 
 #endif //_LIBIGL_RENDER_H

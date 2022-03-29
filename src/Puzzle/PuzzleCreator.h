@@ -16,7 +16,6 @@
 
 #include "PieceCreator.h"
 #include "PuzConfig.h"
-#include "Puzzle_debug/Puzzle_debug.h"
 #include "PuzCreator_Iter.h"
 
 
@@ -35,14 +34,14 @@ public:
     void InitPuzzleCreator(Volume *_volume);
 
 	/// Create Interlocking, Buildable and High-level Puzzle
-    Puzzle* CreateBuildablePuzzle(int pieceNum, int keyLevel, Puzzle_debug &puzzle_debug, bool isFixLastPiece, float variance);
+    Puzzle* CreateBuildablePuzzle(int pieceNum, int keyLevel, bool isFixLastPiece, float variance);
     vector< vector<int> > CreateBuildablePuzzle_creator(int pieceNum, int keyLevel, bool isFixLastPiece, float variance, float timeLimit, int k, bool & isNeedModification);
-    void PartitionVolume_Subdiv(Puzzle *puzzle, int pieceNum, int keyLevel, Puzzle_debug &puzzle_debug, float variance);
-    bool ConstructPiece(Puzzle *puzzle, int pieceNum, int keyLevel, int maxSubdivTimes, vector<int> pieceVoxelNums, Puzzle_debug &puzzle_debug);
+    void PartitionVolume_Subdiv(Puzzle *puzzle, int pieceNum, int keyLevel, float variance);
+    bool ConstructPiece(Puzzle *puzzle, int pieceNum, int keyLevel, int maxSubdivTimes, vector<int> pieceVoxelNums);
 
     /// Construct Puzzle Pieces by Subdivision
-    bool SubdivideKey(Puzzle *puzzle, Piece *origPiece, Piece *remvPiece, Piece *restPiece, int remvAvgVoxelNum, Piece_debug &piece_debug);
-    bool SubdividePiece(Puzzle *puzzle, Piece *origPiece, Piece *remvPiece, Piece *restPiece, int remvAvgVoxelNum, Piece_debug &piece_debug);
+    bool SubdivideKey(Puzzle *puzzle, Piece *origPiece, Piece *remvPiece, Piece *restPiece, int remvAvgVoxelNum);
+    bool SubdividePiece(Puzzle *puzzle, Piece *origPiece, Piece *remvPiece, Piece *restPiece, int remvAvgVoxelNum);
 	bool CheckPieceSubdivision(Puzzle *puzzle, int pieceNum, int keyLevel);
 	void ComputePieceReachability(Puzzle *puzzle, int pieceID);
 	void BuildRemovePiece(Puzzle *puzzle, Piece *origPiece, Piece *remvPiece, Piece *restPiece, vector<Vector3i> remvVoxels);

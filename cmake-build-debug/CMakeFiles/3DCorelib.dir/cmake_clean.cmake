@@ -20,8 +20,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o"
   "CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o"
   "CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o"
-  "CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Piece_debug.cpp.o"
-  "CMakeFiles/3DCorelib.dir/src/Puzzle_debug/Puzzle_debug.cpp.o"
   "CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o"
   "CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o"
   "CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o"

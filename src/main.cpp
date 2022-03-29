@@ -102,8 +102,6 @@ bool key_down(iglViewer &Viewer, unsigned char key, int modifier)
         camPosY += sensitivity;
         camPosZ += sensitivity;
     }
-
-
     return false;
 }
 

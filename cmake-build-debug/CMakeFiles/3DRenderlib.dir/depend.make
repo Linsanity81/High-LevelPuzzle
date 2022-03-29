@@ -198,11 +198,8 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Mesh/Mesh.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Mesh/MeshObject.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Puzzle/PieceCreator.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Puzzle/PuzAction.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Puzzle/PuzConfig.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Puzzle/Puzzle.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Puzzle/Volume.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Puzzle_debug/Piece_debug.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Puzzle_debug/Puzzle_debug.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Utility/HelpDefine.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Utility/HelpPuz.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: ../src/Utility/HelpTypedef.h
@@ -1399,8 +1396,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle/PuzCreator_
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle/Puzzle.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle/PuzzleCreator.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle/Volume.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle_debug/Piece_debug.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Puzzle_debug/Puzzle_debug.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Utility/HelpDefine.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Utility/HelpPuz.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: ../src/Utility/HelpTypedef.h

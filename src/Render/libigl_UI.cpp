@@ -19,16 +19,11 @@
 #include "Puzzle/Volume.h"
 #include "Puzzle/Puzzle.h"
 #include "Puzzle/PuzzleCreator.h"
-#include "Puzzle/PieceCreator.h"
 #include "Puzzle/PuzAction.h"
 #include "libigl_UI.h"
 #include "libigl_Render.h"
 #include "Puzzle/Piece.h"
-#include "Puzzle_debug/Puzzle_debug.h"
 #include "Puzzle/PuzCreator_Iter.h"
-#include "Mesh/MeshObject.h"
-#include "Mesh/MeshBoolean.h"
-#include "Mesh/MeshCreator.h"
 #include "Mesh/Mesh.h"
 
 
@@ -62,7 +57,6 @@ bool isFixLastPiece = false;
 
 // For Consturction Framework Debug
 int pieceID_debug = 0;
-Puzzle_debug myPuzzle_debug;
 
 // Smooth Shape Input
 Eigen::MatrixXd V_smooth;
@@ -231,7 +225,7 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
 
                 PuzzleCreator myPuzzleCreator;
                 myPuzzleCreator.InitPuzzleCreator( myPuzzle.volume );
-                myPuzzle = *myPuzzleCreator.CreateBuildablePuzzle(pieceNum, firstLevel, myPuzzle_debug, isFixLastPiece, variance);
+                myPuzzle = *myPuzzleCreator.CreateBuildablePuzzle(pieceNum, firstLevel, isFixLastPiece, variance);
                 printf("myPuzzle generationTime: %.3f\n", myPuzzle.generationTime);
                 myPuzzle.CheckPuzzleState(true, isFixLastPiece);
 
@@ -361,10 +355,8 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
         if (ImGui::CollapsingHeader("Render Control", ImGuiTreeNodeFlags_DefaultOpen))
         {
             ImGui::Dummy(ImVec2(0.0f, 2.0f));
-            float head_scale = 1.3f;
             float gap_between_renderGroups = 4.0f;
             float half_width = (w - p) / 2.f;
-            float transparency;
 
             ImGui::Dummy(ImVec2(0.0f, gap_between_renderGroups));
             ImGui::SetWindowFontScale(1);

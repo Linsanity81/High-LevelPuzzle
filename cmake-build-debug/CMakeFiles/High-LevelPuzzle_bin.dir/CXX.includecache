@@ -2087,28 +2087,6 @@ Utility/HelpPuz.h
 ../src/Puzzle/Utility/HelpPuz.h
 math.h
 -
-Puzzle_debug/Piece_debug.h
-../src/Puzzle/Puzzle_debug/Piece_debug.h
-
-../src/Puzzle/PuzConfig.h
-Utility/HelpPuz.h
-../src/Puzzle/Utility/HelpPuz.h
-
-../src/Puzzle/Puzzle.h
-string
--
-PieceCreator.h
-../src/Puzzle/PieceCreator.h
-Utility/HelpPuz.h
-../src/Puzzle/Utility/HelpPuz.h
-
-../src/Puzzle_debug/Piece_debug.h
-Puzzle/PieceCreator.h
-../src/Puzzle_debug/Puzzle/PieceCreator.h
-Puzzle/PuzConfig.h
-../src/Puzzle_debug/Puzzle/PuzConfig.h
-Puzzle/Puzzle.h
-../src/Puzzle_debug/Puzzle/Puzzle.h
 
 ../src/Utility/HelpDefine.h
 cmath
@@ -2141,8 +2119,6 @@ Mesh/Mesh.h
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Mesh/Mesh.h
 Puzzle/PieceCreator.h
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Puzzle/PieceCreator.h
-Puzzle_debug/Piece_debug.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Puzzle_debug/Piece_debug.h
 
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/libigl_UI.h
 

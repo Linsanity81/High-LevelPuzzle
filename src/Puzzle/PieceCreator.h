@@ -15,7 +15,6 @@
 
 #include "Utility/HelpPuz.h"
 #include <math.h>
-#include "Puzzle_debug/Piece_debug.h"
 
 
 class Voxel;
@@ -115,7 +114,7 @@ public:
 	////////////////////////////////////////////////////
 
 	/// Compute MainPath for the Key Piece
-    bool ComputeMainPath(int remvVoxelNum, MainPath &mainPath, Piece_debug & piece_debug);
+    bool ComputeMainPath(int remvVoxelNum, MainPath &mainPath);
 
 	/// Seed Path
 	SeedPath CreateSeedPath(int remvVoxelNum, vector<Vector3i> emptyVoxels);
@@ -138,7 +137,7 @@ public:
 	///////////////////////////////////////////////////
 
 	/// Compute MainPath for a Normal Piece
-    MainPath ComputeMainPath(vector<PuzConfig*> tracedPuzConfigs, int tagtIndex, int lastPieceID, int remvVoxelNum, Piece_debug & piece_debug);
+    MainPath ComputeMainPath(vector<PuzConfig*> tracedPuzConfigs, int tagtIndex, int lastPieceID, int remvVoxelNum);
 	vector<vector<Vector3i>> ComputeContactVoxelsCandis(vector<PuzConfig*> tracedPuzConfigs, int tagtIndex, int lastPieceID);
 	void GetEmptyVoxelExpPos(PuzConfig *tagtPuzConfig, int pieceID, vector<Vector3i> &emptyVoxelPosList);
 	void GetSolidVoxelExpPos(PuzConfig *prevPuzConfig, vector<Vector3i> emptyVoxelPosList, vector<Vector3i> &solidVoxelPosList);

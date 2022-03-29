@@ -10201,8 +10201,6 @@ Utility/HelpPuz.h
 ../src/Puzzle/Utility/HelpPuz.h
 math.h
 -
-Puzzle_debug/Piece_debug.h
-../src/Puzzle/Puzzle_debug/Piece_debug.h
 
 ../src/Puzzle/PuzAction.h
 Utility/HelpPuz.h
@@ -10233,24 +10231,10 @@ PieceCreator.h
 ../src/Puzzle/PieceCreator.h
 PuzConfig.h
 ../src/Puzzle/PuzConfig.h
-Puzzle_debug/Puzzle_debug.h
-../src/Puzzle/Puzzle_debug/Puzzle_debug.h
 PuzCreator_Iter.h
 ../src/Puzzle/PuzCreator_Iter.h
 
 ../src/Puzzle/Volume.h
-
-../src/Puzzle_debug/Piece_debug.h
-Puzzle/PieceCreator.h
-../src/Puzzle_debug/Puzzle/PieceCreator.h
-Puzzle/PuzConfig.h
-../src/Puzzle_debug/Puzzle/PuzConfig.h
-Puzzle/Puzzle.h
-../src/Puzzle_debug/Puzzle/Puzzle.h
-
-../src/Puzzle_debug/Puzzle_debug.h
-Piece_debug.h
-../src/Puzzle_debug/Piece_debug.h
 
 ../src/Utility/HelpDefine.h
 cmath
@@ -10283,8 +10267,6 @@ Mesh/Mesh.h
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Mesh/Mesh.h
 Puzzle/PieceCreator.h
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Puzzle/PieceCreator.h
-Puzzle_debug/Piece_debug.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Puzzle_debug/Piece_debug.h
 
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/libigl_UI.cpp
 igl/opengl/glfw/imgui/ImGuiMenu.h
@@ -10311,8 +10293,6 @@ libigl_Render.h
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/libigl_Render.h
 Puzzle/Piece.h
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Puzzle/Piece.h
-Puzzle_debug/Puzzle_debug.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Puzzle_debug/Puzzle_debug.h
 Puzzle/PuzCreator_Iter.h
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Puzzle/PuzCreator_Iter.h
 Mesh/MeshObject.h

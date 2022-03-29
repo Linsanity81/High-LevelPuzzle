@@ -58,36 +58,13 @@ void PuzzleCreator::InitPuzzleCreator(Volume *_volume)
 ///               Create Interlocking, Buildable and Multi-Steps Puzzle
 ///=========================================================================================///
 
-Puzzle* PuzzleCreator::CreateBuildablePuzzle(int pieceNum, int keyLevel, Puzzle_debug &puzzle_debug, bool isFixLastPiece, float variance)
+Puzzle* PuzzleCreator::CreateBuildablePuzzle(int pieceNum, int keyLevel, bool isFixLastPiece, float variance)
 {
-#ifdef DEBUG_PUZZLE
-    // Initialize the count number of each failure case
-    failCaseNums.clear();
-    const int maxCaseNum = 9;
-    for (int i=0; i<maxCaseNum; i++)
-        failCaseNums.push_back( 0 );
-
-    failDisconnCaseNums.clear();
-    for (int i = 0; i < pieceNum; ++i)
-    {
-        failDisconnCaseNums.push_back(0);
-    }
-
-    const int maxGroupNum = 5;
-    disconnGroupNums.clear();
-    for (int i = 0; i <= maxGroupNum; ++i)
-    {
-        disconnGroupNums.push_back(0);
-    }
-#endif
-    Puzzle_debug tempPuzzle_debug;
-
     Puzzle *puzzle = NULL;
     int trialNum = 0;
     int highestLevel = 0;
     int levelPuzCount[100] = {0};
     float timePuzCount[100]  = {0};
-//    int blockVoxelCount[100] = {0};
     int graphConfigNumCount[100] = {0};
     int successPuzNum = 0;
     int num = 0;
@@ -112,13 +89,7 @@ Puzzle* PuzzleCreator::CreateBuildablePuzzle(int pieceNum, int keyLevel, Puzzle_
         puzzle = new Puzzle();
         puzzle->SetVolume( volume );
 
-//        printf("After SetVolume: %d %d %d %d %d %d\n", puzzle->volume->voxelGrid[0]->neiborVoxel[0], puzzle->volume->voxelGrid[0]->neiborVoxel[1], puzzle->volume->voxelGrid[0]->neiborVoxel[2],
-//               puzzle->volume->voxelGrid[0]->neiborVoxel[3], puzzle->volume->voxelGrid[0]->neiborVoxel[4], puzzle->volume->voxelGrid[0]->neiborVoxel[5]);
-
-        puzzle_debug.ClearPuzzle_debug();
-
-        PartitionVolume_Subdiv(puzzle, pieceNum, keyLevel, puzzle_debug, variance);
-        //printf("PieceNum: %ld \n", puzzle->pieceList.size());
+        PartitionVolume_Subdiv(puzzle, pieceNum, keyLevel, variance);
 
         if ( puzzle->pieceList.size() != pieceNum )
             continue;
@@ -146,7 +117,6 @@ Puzzle* PuzzleCreator::CreateBuildablePuzzle(int pieceNum, int keyLevel, Puzzle_
 
             if (puzzle->puzLevel >= keyLevel)
             {
-                puzzle_debug.origPuzzle = *puzzle;
                 highestLevel = puzzle->puzLevel;
 
 #ifdef ANTO_SAVE
@@ -242,7 +212,7 @@ Puzzle* PuzzleCreator::CreateBuildablePuzzle(int pieceNum, int keyLevel, Puzzle_
     return puzzle;
 }
 
-void PuzzleCreator::PartitionVolume_Subdiv(Puzzle *puzzle, int pieceNum, int keyLevel, Puzzle_debug & puzzle_debug, float variance)
+void PuzzleCreator::PartitionVolume_Subdiv(Puzzle *puzzle, int pieceNum, int keyLevel, float variance)
 {
     int maxSubdivTimes = 0.6*puzzle->volume->GetVolumeVoxelNum(); // Maximum subdivision times
     vector<int> pieceVoxelNums = GetPieceVoxelNum(pieceNum, puzzle->volume->GetVolumeVoxelNum(), 0, variance); // Number of voxels of each piece
@@ -256,7 +226,7 @@ void PuzzleCreator::PartitionVolume_Subdiv(Puzzle *puzzle, int pieceNum, int key
 
     while ( true )
     {
-        bool isSuceess = ConstructPiece(puzzle, pieceNum, keyLevel, maxSubdivTimes, pieceVoxelNums, puzzle_debug);
+        bool isSuceess = ConstructPiece(puzzle, pieceNum, keyLevel, maxSubdivTimes, pieceVoxelNums);
 
         //puzzle->volume->PrintVolume();
 
@@ -267,8 +237,6 @@ void PuzzleCreator::PartitionVolume_Subdiv(Puzzle *puzzle, int pieceNum, int key
 
 vector< vector<int> > PuzzleCreator::CreateBuildablePuzzle_creator(int pieceNum, int keyLevel, bool isFixLastPiece, float variance, float timeLimit, int k, bool & isNeedModification)
 {
-    Puzzle_debug tempPuzzle_debug;
-
     Puzzle *puzzle = NULL;
 
     int trialNum = 0;
@@ -277,8 +245,6 @@ vector< vector<int> > PuzzleCreator::CreateBuildablePuzzle_creator(int pieceNum,
     float timePuzCount[100]  = {0};
     int graphConfigNumCount[100] = {0};
     int successPuzNum = 0;
-
-//    int k_HighestLevel = 0;
 
     vector< vector<int> > puzzleCandidates;
     vector<int> puzzleCandidatesLevel;
@@ -309,9 +275,7 @@ vector< vector<int> > PuzzleCreator::CreateBuildablePuzzle_creator(int pieceNum,
         puzzle = new Puzzle();
         puzzle->SetVolume( volume );
 
-        tempPuzzle_debug.ClearPuzzle_debug();
-
-        PartitionVolume_Subdiv(puzzle, pieceNum, keyLevel, tempPuzzle_debug, variance);
+        PartitionVolume_Subdiv(puzzle, pieceNum, keyLevel, variance);
 
         if ( puzzle->pieceList.size() != pieceNum )
             continue;
@@ -340,19 +304,6 @@ vector< vector<int> > PuzzleCreator::CreateBuildablePuzzle_creator(int pieceNum,
             }
 
             printf("currlevel: %d \n", puzzle->puzLevel);
-
-            // Update the top k highest level
-//            int tempCount = 0;
-//            for (int i = highestLevel; i >= 0; --i)
-//            {
-//                tempCount += levelPuzCount[i];
-//                if (tempCount >= k)
-//                {
-//                    k_HighestLevel = i;
-//                }
-//            }
-
-//            printf("curr k_highest Level: %d\n", k_HighestLevel);
 
             // Update the puzzle candidates list
             for (int i = 0; i < k; ++i)
@@ -409,8 +360,6 @@ vector< vector<int> > PuzzleCreator::CreateBuildablePuzzle_creator(int pieceNum,
             break;
     }
 
-    tempPuzzle_debug.ClearPuzzle_debug();
-
     if( puzzle != NULL )
     {
         delete puzzle;
@@ -447,7 +396,7 @@ vector< vector<int> > PuzzleCreator::CreateBuildablePuzzle_creator(int pieceNum,
     return puzzleCandidates;
 }
 
-bool PuzzleCreator::ConstructPiece(Puzzle *puzzle, int pieceNum, int keyLevel, int maxSubdivTimes, vector<int> pieceVoxelNums, Puzzle_debug &puzzle_debug)
+bool PuzzleCreator::ConstructPiece(Puzzle *puzzle, int pieceNum, int keyLevel, int maxSubdivTimes, vector<int> pieceVoxelNums)
 {
     int lastPieceID = puzzle->pieceList.size()-1;
     Piece *lastPiece = puzzle->pieceList[lastPieceID];
@@ -483,16 +432,13 @@ bool PuzzleCreator::ConstructPiece(Puzzle *puzzle, int pieceNum, int keyLevel, i
         remvPiece = new Piece;
         restPiece = new Piece;
 
-        /// For saving debug information
-        Piece_debug piece_debug;
-
         if ( lastPieceID == 0 )
         {
-            SubdivideKey(puzzle, lastPiece, remvPiece, restPiece, remvPieceVoxelNum, piece_debug);
+            SubdivideKey(puzzle, lastPiece, remvPiece, restPiece, remvPieceVoxelNum);
         }
         else
         {
-            SubdividePiece(puzzle, lastPiece, remvPiece, restPiece, remvPieceVoxelNum, piece_debug);
+            SubdividePiece(puzzle, lastPiece, remvPiece, restPiece, remvPieceVoxelNum);
         }
 
         puzzle->pieceList.erase(puzzle->pieceList.begin()+lastPieceID);
@@ -504,9 +450,6 @@ bool PuzzleCreator::ConstructPiece(Puzzle *puzzle, int pieceNum, int keyLevel, i
 
         if ( isSubdivisionValid )
         {
-            /// Push back the piece debug info to the puzzle_debug
-            puzzle_debug.piece_debug_List.push_back(piece_debug);
-
             delete lastPiece;
 
             return true;
@@ -523,17 +466,14 @@ bool PuzzleCreator::ConstructPiece(Puzzle *puzzle, int pieceNum, int keyLevel, i
 ///                         Construct Puzzle Pieces by Subdivision
 ///=========================================================================================///
 
-bool PuzzleCreator::SubdivideKey(Puzzle *puzzle, Piece *origPiece, Piece *remvPiece, Piece *restPiece, int remvAvgVoxelNum, Piece_debug & piece_debug)
+bool PuzzleCreator::SubdivideKey(Puzzle *puzzle, Piece *origPiece, Piece *remvPiece, Piece *restPiece, int remvAvgVoxelNum)
 {
     /// 1. Construct geometry of the key piece
     PieceCreator pieceCreator;
     pieceCreator.InitPieceCreator(puzzle->pieceList, puzzle->volume->GetVolumeSize(), true);
 
-//    printf("%d %d %d %d %d %d\n", puzzle->volume->voxelGrid[0]->neiborVoxel[0], puzzle->volume->voxelGrid[0]->neiborVoxel[1], puzzle->volume->voxelGrid[0]->neiborVoxel[2],
-//           puzzle->volume->voxelGrid[0]->neiborVoxel[3], puzzle->volume->voxelGrid[0]->neiborVoxel[4], puzzle->volume->voxelGrid[0]->neiborVoxel[5]);
-
     MainPath mainPath;
-    bool isSucess = pieceCreator.ComputeMainPath(remvAvgVoxelNum, mainPath, piece_debug);
+    bool isSucess = pieceCreator.ComputeMainPath(remvAvgVoxelNum, mainPath);
 
     //if ( !mainPath.isValid )
     if( isSucess == false )
@@ -549,12 +489,10 @@ bool PuzzleCreator::SubdivideKey(Puzzle *puzzle, Piece *origPiece, Piece *remvPi
     PuzConfig tempPuzConfig = PuzConfig();
     tempPuzConfig.InitiConfig(puzPieceIDs);
 
-    piece_debug.furthestPuzConfig = tempPuzConfig;
-
     return true;
 }
 
-bool PuzzleCreator::SubdividePiece(Puzzle *puzzle, Piece *origPiece, Piece *remvPiece, Piece *restPiece, int remvAvgVoxelNum, Piece_debug & piece_debug)
+bool PuzzleCreator::SubdividePiece(Puzzle *puzzle, Piece *origPiece, Piece *remvPiece, Piece *restPiece, int remvAvgVoxelNum)
 {
     Vector3i volumeSize = puzzle->volume->GetVolumeSize();
 
@@ -603,9 +541,7 @@ bool PuzzleCreator::SubdividePiece(Puzzle *puzzle, Piece *origPiece, Piece *remv
         if ( graphPuzConfigs[i]->distToRoot < maxDist)
             continue;
 
-        MainPath mainPath = pieceCreator.ComputeMainPath(graphPuzConfigs, i, lastPieceID, remvAvgVoxelNum, piece_debug);
-
-//        printf("Compute Main Path Done.\n");
+        MainPath mainPath = pieceCreator.ComputeMainPath(graphPuzConfigs, i, lastPieceID, remvAvgVoxelNum);
 
         if ( !mainPath.isValid )
         {
@@ -613,9 +549,6 @@ bool PuzzleCreator::SubdividePiece(Puzzle *puzzle, Piece *origPiece, Piece *remv
         }
 
         BuildRemovePiece( puzzle, origPiece, remvPiece, restPiece,  mainPath.pathOrgVoxels);
-
-        /// For debugging the piece construction
-        piece_debug.furthestPuzConfig = *graphPuzConfigs[i];
 
         for (int j=0; j<graphPuzConfigs.size(); j++)
             delete graphPuzConfigs[j];

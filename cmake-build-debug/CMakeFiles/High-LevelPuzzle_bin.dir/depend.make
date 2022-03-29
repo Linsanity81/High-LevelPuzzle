@@ -204,9 +204,6 @@ CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o: ../ext/libigl/include/igl/wr
 CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o: ../ext/libigl/include/igl/writeOFF.cpp
 CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o: ../ext/libigl/include/igl/writeOFF.h
 CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o: ../src/Puzzle/PieceCreator.h
-CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o: ../src/Puzzle/PuzConfig.h
-CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o: ../src/Puzzle/Puzzle.h
-CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o: ../src/Puzzle_debug/Piece_debug.h
 CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o: ../src/Utility/HelpDefine.h
 CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o: ../src/Utility/HelpPuz.h
 CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o: ../src/Mesh/Mesh.h

@@ -205,9 +205,6 @@ CMakeFiles/High-LevelPuzzle_bin.dir/src/main.cpp.o
  ../ext/libigl/include/igl/writeOFF.cpp
  ../ext/libigl/include/igl/writeOFF.h
  ../src/Puzzle/PieceCreator.h
- ../src/Puzzle/PuzConfig.h
- ../src/Puzzle/Puzzle.h
- ../src/Puzzle_debug/Piece_debug.h
  ../src/Utility/HelpDefine.h
  ../src/Utility/HelpPuz.h
  /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Mesh/Mesh.h
