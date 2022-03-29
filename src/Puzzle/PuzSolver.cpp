@@ -161,33 +161,6 @@ int PuzSolver::DisassemblyPuzzzle_Graph(int disassMode, vector<PuzConfig*> &grap
     return PUZZLE_NORMAL_BUILDABLE;
 }
 
-/*int PuzSolver::GetPuzBuildState_new(int remvGroupState, int puzzlePieceNum, int remainPieceNum)
-{
-    //printf("remainPieceNum: %d \n", remainPieceNum);
-
-    if ( remvGroupState == PUZZLE_NO_REMOVE_GROUP ||
-         remvGroupState == PUZZLE_NOT_BUILDABLE )
-    {
-        return PUZZLE_NOT_BUILD_GROUP;
-    }
-
-    if ( remainPieceNum == 1 || remainPieceNum == 0 )
-    {
-        //printf("The puzzle is buildable! \n\n");
-        return PUZZLE_NORMAL_BUILDABLE;
-    }
-    else if( remainPieceNum == puzzlePieceNum )
-    {
-        return PUZZLE_NO_REMOVE_GROUP;
-    }
-    else
-    {
-        //printf("The puzzle is not buildable. Remain %d pieces! \n\n", remainPieceNum);
-        return PUZZLE_NOT_BUILDABLE;
-    }
-}*/
-
-
 void PuzSolver::ComputeDisassemblyPlan(vector<PuzConfig*> pathConfigs, vector<PuzAction> &puzActionList, bool isFixLastPiece)
 {
     if( pathConfigs.size() < 2 )
@@ -333,10 +306,6 @@ void PuzSolver::ChangeDisassemblyReference(vector<PuzConfig *> &pathConfigs)
         if (currConfig->pieceIDList.size() != prevConfig->pieceIDList.size())
             continue;
 
-//        if (isFixLastPiece and std::find(currConfig->pieceIDList.begin(), currConfig->pieceIDList.end(), lastPieceID) !=
-//                               currConfig->pieceIDList.end())
-//            continue;
-
         int samePosNum = 0;
         int diffPosNum = 0;
 
@@ -391,11 +360,8 @@ void PuzSolver::ComputeDisassemblyPath(vector<PuzConfig *> graphConfigs, vector<
 
     for (int i = 0; i < graphConfigs.size(); ++i)
     {
-//        printf("Index: %d Distance: %d\n", i, graphConfigs[i]->distToRoot);
-//        graphConfigs[i]->PrintPuzConfig(true);
         if (graphConfigs[i]->distToRoot > graphConfigs[currFurthestNodeID]->distToRoot and graphConfigs[i]->configType == PUZ_CONFIG_PIECE_ONLY)
             currFurthestNodeID = i;
-
     }
     graphConfigs[currFurthestNodeID]->configType = PUZ_CONFIG_END_NODE;
 
@@ -442,11 +408,6 @@ void PuzSolver::ComputeDisassemblyPath(vector<PuzConfig *> graphConfigs, vector<
 
                     reverse(subPathConfigs.begin(), subPathConfigs.end());
 
-//                    for (int k = 0; k < subPathConfigs.size(); ++k)
-//                    {
-//                        pathConfigs.push_back(subPathConfigs[k]);
-//                    }
-
                     // Find the config index in the path configs
                     int index = 0;
                     for (int k = 0; k < pathConfigs.size(); ++k)
@@ -463,8 +424,6 @@ void PuzSolver::ComputeDisassemblyPath(vector<PuzConfig *> graphConfigs, vector<
                     {
                         pathConfigs.insert(pathConfigs.begin() + index + 1, subPathConfigs[k]);
                     }
-
-//                    printf("Inserting sub-path finished.\n");
                 }
             }
         }
@@ -541,15 +500,6 @@ int PuzSolver::BuildPuzConfigGraph_Full(int disassMode, PuzConfig* rootPuzConfig
             {
                 targetConfigs.push_back(currPuzConfig);
             }
-
-//            printf("remove pieces: ");
-//            for (int i = 0; i < remvPieceIDs.size(); ++i)
-//            {
-//                printf("  %d  ", remvPieceIDs[i]);
-//            }
-//            printf("\n");
-
-//            break;
         }
         else
         {
@@ -1198,15 +1148,6 @@ void PuzSolver::ComputePuzzleLevel(vector<PuzConfig*> targetConfigs, int &puzzle
 
     vector<PuzConfig*> pathConfigs;
     ComputeShortestPathConfigs(minDistTargetConfig, pathConfigs);
-
-    //printf("Path config num: %d \n", pathConfigs.size() );
-
-//    for (int i = 1; i < pathConfigs.size()-1; i++)
-//    {
-//        pathConfigs[i]->configType = PUZ_CONFIG_SHORTEST_PATH;
-//    }
-
-//    reverse(pathConfigs.begin(),pathConfigs.end());
 
     puzzleLevel = pathConfigs.size();
 

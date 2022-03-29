@@ -37,7 +37,6 @@ int pieceNum = 4;
 int firstLevel = 4;
 int seedNum = 50;
 int firstLevel_Iter = 12;
-int k_Value = 1;
 float timeCreator = 0.5;
 float timeIter = 0.5;
 float convergenceTime = 0.5;
@@ -50,20 +49,11 @@ float variance = 0;
 
 // Input volume or puzzle file name (.vol or .puz)
 string inputFileName;
-//string inputFileName_Iter;
 
 // Piece Remove Mode
 bool isFixLastPiece = false;
 
-// For Consturction Framework Debug
-int pieceID_debug = 0;
-
-// Smooth Shape Input
-Eigen::MatrixXd V_smooth;
-Eigen::MatrixXi F_smooth;
-
 Puzzle myPuzzle;
-Puzzle tempPuzzle_debug;
 Puzzle myPuzzle_Iter;
 
 extern iglViewer viewer;

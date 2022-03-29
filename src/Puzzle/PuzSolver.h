@@ -39,11 +39,9 @@ public:
 	/// Compute a Complete Disassembly Plan
     int DisassemblyPuzzzle(int disassMode);
     int DisassemblyPuzzzle_Graph(int disassMode, vector<PuzConfig*> &graphConfigs, vector<PuzConfig*> &pathConfigs, int &puzzleLevel);
-//    void DisassemblyPuzzle_KernelGraph(int disassMode, vector<PuzConfig*> &graphConfigs);
     void ComputeDisassemblyPlan(vector<PuzConfig*> pathConfigs, vector<PuzAction> &puzActionList, bool isFixLastPiece);
     void GetPuzActionFromConfigs(const PuzConfig *currConfig, const PuzConfig *prevConfig, PuzAction &currPuzAction, bool isFixLastPiece);
     void ChangeDisassemblyReference(vector<PuzConfig*> &pathConfigs);
-    //int GetPuzBuildState_new(int remvGroupState, int puzzlePieceNum, int remainPieceNum);
 
     /// Build PuzConfig Graph for Disassembly
     void ComputeDisassemblyPath(vector<PuzConfig*> graphConfigs, vector<PuzConfig*> &pathConfigs);

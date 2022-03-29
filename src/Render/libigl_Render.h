@@ -36,7 +36,6 @@ public:
     int axesMeshNum;                // Number of mesh models for rendering the world
     int puzCubeNum;                 // Number of mesh models for rendering puzzle voxels (i.e., cubes)
     int puzSkelNum ;
-    int puzzleDisconnectedEdgeMeshNum;
     int puzzleMeshNum;              // Number of mesh models for rendering puzzle and its skeleton
 
     int puzzleContaVoxelMeshNum;
@@ -73,11 +72,6 @@ public:
                     float ballRadius,
                     float cylinRadius,
                     int pieceNum);
-    void DrawDisconnectedEdge(iglViewer &viewer,
-                    Eigen::MatrixXf cylinTopPts,
-                    Eigen::MatrixXf cylinBotPts,
-                    float ballRadius,
-                    float cylinRadius);
 
     void DrawSmoothPuzzle(iglViewer &viewer, vector<Eigen::MatrixXd> smoothPieceVerticeList,
                           vector<Eigen::MatrixXi> smoothPieceFaceList, int pieceNum, vector<Eigen::MatrixXf> posVectors);

@@ -45,8 +45,6 @@ libigl_Render::libigl_Render()
     puzzleExtdMeshNum = 0;
     puzzleMeshNum_debug = 0;
 
-    puzzleDisconnectedEdgeMeshNum = 0;
-
     puzzleSmoothMeshNum = 0;
     puzzleSmoothInputMeshNum = 0;
 }
@@ -127,7 +125,6 @@ void libigl_Render::RenderPuzzle(iglViewer &viewer, Puzzle &myPuzzle, int disass
 
         myPuzzle.CreatePuzzleConnectivityGeo(cylinBotPts, cylinTopPts);
 
-        DrawDisconnectedEdge(viewer, cylinBotPts, cylinTopPts, ballRadius, cyliRadius * 2);
     }
 
     vector<Eigen::MatrixXf> posVectors = myPuzzle.GetPieceAssemblyPos(disassStateID);
@@ -167,20 +164,6 @@ void libigl_Render::DrawPuzzle(iglViewer &viewer,
 
     /// Number of meshes for rendering the puzzle and its skeleton
     puzzleMeshNum = puzzleViewerDataList.size() + puzSkelViewerDataList.size();
-}
-
-void libigl_Render::DrawDisconnectedEdge(iglViewer &viewer,
-                          Eigen::MatrixXf cylinTopPts,
-                          Eigen::MatrixXf cylinBotPts,
-                          float ballRadius,
-                          float cylinRadius)
-{
-    MeshObject meshObject;
-
-    /// Draw the puzzle disconnected edges
-    vector<igl::opengl::ViewerData> puzzleViewerDataList = meshObject.CreateDisconnectedEdge(cylinTopPts, cylinBotPts, ballRadius, cylinRadius);
-    AppendDataToViewer( viewer, puzzleViewerDataList );
-    puzzleDisconnectedEdgeMeshNum = puzzleViewerDataList.size();
 }
 
 void libigl_Render::DrawSmoothPuzzle(iglViewer &viewer, vector<Eigen::MatrixXd> smoothPieceVerticeList,
@@ -234,7 +217,7 @@ void libigl_Render::ShowPuzzleSkeleton(iglViewer &viewer, bool isVisible)
 }
 
 void libigl_Render::ShowSmoothPuzzle(iglViewer &viewer, bool isVisible) {
-    int prevMeshNum = groundMeshNum + axesMeshNum + puzzleMeshNum + puzzleDisconnectedEdgeMeshNum;
+    int prevMeshNum = groundMeshNum + axesMeshNum + puzzleMeshNum;
 
     for (int i = prevMeshNum + 1; i <= prevMeshNum + puzzleSmoothMeshNum; ++i)
     {
@@ -261,13 +244,11 @@ void libigl_Render::ClearViewer(iglViewer &viewer)
 {
     if ( (puzzleMeshNum + puzzleMeshNum_debug) != 0)
     {
-        ClearMesh(viewer, (puzzleMeshNum + puzzleMeshNum_debug + puzzleDisconnectedEdgeMeshNum + puzzleSmoothMeshNum + puzzleSmoothInputMeshNum));
+        ClearMesh(viewer, (puzzleMeshNum + puzzleMeshNum_debug + puzzleSmoothMeshNum + puzzleSmoothInputMeshNum));
 
         puzCubeNum = 0;                // Number of mesh models for rendering puzzle voxels (i.e., cubes)
         puzSkelNum = 0;
         puzzleMeshNum = 0;          // Number of mesh models for rendering puzzle and its skeleton
-
-        puzzleDisconnectedEdgeMeshNum = 0;
 
         puzzleContaVoxelMeshNum = 0;
         puzzleSeedVoxelMeshNum = 0;

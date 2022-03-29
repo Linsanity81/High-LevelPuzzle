@@ -43,7 +43,6 @@ float camPosX = 10;
 float camPosY = 10;
 float camPosZ = 10;
 
-
 libigl_Render myRender;
 
 ///////////////////////////////////////////////////////////////
