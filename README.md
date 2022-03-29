@@ -1,11 +1,9 @@
-# High-level Interlocking Puzzle
-
 <p align="center">
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Computational Design of High-level Interlocking Puzzles</h3>
 
 <div align="center">
 
