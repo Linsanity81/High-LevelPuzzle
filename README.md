@@ -120,3 +120,20 @@ Start modifying currrent puzzle.
 #### `Save Puz - Modifying`
 Save puzzle after modifying.
 
+### Assembly State Viewer
+
+#### `Disassembly Step`
+Determine the disassembly step.
+
+#### `Prev`
+Previous disassembly step.
+
+#### `Next`
+Next disassembly step.
+
+### Render Control
+Control the object visualization state.
+
+
+
+
