@@ -134,7 +134,7 @@ Puzzle * PuzCreator_Iter::CreateBuildablePuzzle_Iter(int keyLevel, float converg
 
         /// If the puzzle is valid, then check if its level or total moves are better
 //        if ( currPuzzle->puzLockState  != PUZZLE_DEAD_LOCK && currPuzzle->puzBuildState == PUZZLE_NORMAL_BUILDABLE && currPuzzle->puzDisconnectivityState == true)
-        if ( currPuzzle->puzLockState  == PUZZLE_INTER_LOCK && currPuzzle->puzBuildState == PUZZLE_NORMAL_BUILDABLE && currPuzzle->puzDisconnectivityState == true)
+        if ( currPuzzle->puzLockState  == PUZZLE_INTER_LOCK && currPuzzle->puzBuildState == PUZZLE_NORMAL_BUILDABLE)
         {
             if (currPuzzle->puzLevel >= currLevel
             or (currPuzzle->puzActionList.size() >= currTotalMoves and currPuzzle->puzLevel >= currLevel)

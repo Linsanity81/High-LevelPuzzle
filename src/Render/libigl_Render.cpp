@@ -14,7 +14,6 @@
 
 #include <utility>
 #include <vector>
-#include <iostream>
 #include <Eigen/Eigen>
 #include "libigl_Render.h"
 #include "Puzzle/Puzzle.h"
@@ -114,8 +113,6 @@ void libigl_Render::RenderPuzzle(iglViewer &viewer, Puzzle &myPuzzle, int disass
     ClearViewer( viewer );
 
     DrawPuzzle(viewer, voxelMinPtsList, voxelMaxPtsList, voxelCenPtsList, cylinTopPtsList, cylinBotPtsList, ballRadius, cyliRadius, pieceNum);
-
-    printf("disassState: %d\n", disassStateID);
 
     vector<Eigen::MatrixXf> posVectors = myPuzzle.GetPieceAssemblyPos(disassStateID);
 

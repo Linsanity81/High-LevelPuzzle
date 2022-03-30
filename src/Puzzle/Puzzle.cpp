@@ -47,12 +47,8 @@ Puzzle::Puzzle()
 	puzLevel  = 0;
 	puzTotalMoves = 0;
 
-    puzDisconnectivityState = false;
-
     generationTime = 0;
-
     dissComplexity = 0;
-
     kernalGraphConfigNum = 0;
 }
 
@@ -80,12 +76,8 @@ void Puzzle::ClearPuzzle()
     puzLevel  = 0;
     puzTotalMoves = 0;
 
-    puzDisconnectivityState = false;
-
     generationTime = 0;
-
     dissComplexity = 0;
-
     kernalGraphConfigNum = 0;
 
     smoothPieceVerticeList.clear();
@@ -109,8 +101,6 @@ Puzzle & Puzzle::operator=(const Puzzle & puzzle)
     this->puzLockState = puzzle.puzLockState;
     this->puzBuildState = puzzle.puzBuildState;
     this->puzLevel = puzzle.puzLevel;
-
-    this->puzDisconnectivityState = puzzle.puzDisconnectivityState;
 
     this->generationTime = puzzle.generationTime;
 
@@ -196,7 +186,6 @@ int Puzzle::CheckPuzzleState(bool isPrint, bool isFixLastPiece)
         while(1)
         {
             expVolumeScalarSize += 1;
-//            printf("currExpScalarSize: %d\n", expVolumeScalarSize);
 
             PuzSolver currPuzSolver;
             currPuzSolver.InitPuzSolver(pieceList, volume->GetVolumeSize(), expVolumeScalarSize);
@@ -224,8 +213,6 @@ int Puzzle::CheckPuzzleState(bool isPrint, bool isFixLastPiece)
             }
         }
     }
-
-//    printf("currExpScalarSize: %d\n", expVolumeScalarSize - 1);
 
     puzGraphConfigsNum = graphPuzConfigs.size();
 
@@ -401,11 +388,6 @@ vector<Eigen::MatrixXf> Puzzle::GetPieceAssemblyPos(int disassemblyStateID)
             }
         }
     }
-
-//    for (int i = 0; i < pieceList.size(); ++i)
-//    {
-//        std::cout << posVectors[i] << std::endl;
-//    }
 
     return posVectors;
 }

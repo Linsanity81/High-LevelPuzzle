@@ -98,8 +98,7 @@ Puzzle* PuzzleCreator::CreateBuildablePuzzle(int pieceNum, int keyLevel, bool is
         //puzzle->PrintPuzzle();
 
         if ( puzzle->puzLockState  == PUZZLE_INTER_LOCK &&
-             puzzle->puzBuildState == PUZZLE_NORMAL_BUILDABLE &&
-             puzzle->puzDisconnectivityState == true)
+             puzzle->puzBuildState == PUZZLE_NORMAL_BUILDABLE)
         {
             levelPuzCount[puzzle->puzLevel] += 1;
 
@@ -283,8 +282,7 @@ vector< vector<int> > PuzzleCreator::CreateBuildablePuzzle_creator(int pieceNum,
         puzzle->CheckPuzzleState(true, true);
 
         if ( puzzle->puzLockState  == PUZZLE_INTER_LOCK &&
-             puzzle->puzBuildState == PUZZLE_NORMAL_BUILDABLE &&
-             puzzle->puzDisconnectivityState == true)
+             puzzle->puzBuildState == PUZZLE_NORMAL_BUILDABLE)
         {
             graphConfigNumCount[puzzle->puzLevel] += puzzle->puzGraphConfigsNum;
             successPuzNum++;

@@ -38,12 +38,8 @@ public:
 	int puzTotalMoves;
     vector<PuzAction> puzActionList;       // A plan to disassemble the whole puzzle
 
-    bool puzDisconnectivityState;
-
     float generationTime;
-
     int dissComplexity;
-
     int kernalGraphConfigNum;
 
     vector<Eigen::MatrixXd> smoothPieceVerticeList;
