@@ -132,11 +132,16 @@ Set the `Level of Difficulty` as 6 and click the `Construct` button to create a 
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=640px height=400px src="doc/level-6_puzzle.png" alt="Import Volume"></a>
+ <img width=640px height=400px src="doc/level-6_puzzle.png" alt="level-6 Puzzle"></a>
 </p>
 
-### Step 3: modifying level-7 cube puzzle
+### Step 3: modifying to reach a level-12 puzzle
 Set the `Modifying Target Level` as 12 and click the `Modifying` button to start modifying.
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=640px height=400px src="doc/level-12_puzzle.png" alt="Level-12 Puzzle"></a>
+</p>
 
 ### Step 4: visualize disassembly steps
 Click the `Next` to visualize how to disassemble the current puzzle. 

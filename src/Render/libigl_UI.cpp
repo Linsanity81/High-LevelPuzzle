@@ -39,7 +39,7 @@ int seedNum = 50;
 int firstLevel_Iter = 12;
 float timeCreator = 0.5;
 float timeIter = 0.5;
-float convergenceTime = 0.5;
+float convergenceTime = 10;
 float emptyThreshold = 0.01;
 float fullThreshold = 0.1;
 
