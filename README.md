@@ -137,4 +137,12 @@ Control the object visualization state.
 
 ## Create a High-level Interlocking Puzzle by Yourself! <a name = "create_puzzle"></a>
 
+### Import a volume
+Import a Cube_5x5x5_E1.vol volume file by clicking `read` button.
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=640px height=480px src="doc/import_volume.png" alt="Import Volume"></a>
+</p>
+
 
