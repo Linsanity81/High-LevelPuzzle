@@ -123,26 +123,26 @@ Save puzzle after modifying. By default, if our program cannot find a higher lev
 
 ### Assembly State Viewer
 
-#### `Disassembly Step`
-Determine the disassembly step.
+`Disassembly Step`: Determine the disassembly step.
 
-#### `Prev`
-Previous disassembly step.
+`Prev`: Previous disassembly step.
 
-#### `Next`
-Next disassembly step.
+`Next`: Next disassembly step.
 
 ### Render Control
 Control the object visualization state.
 
 ## Create a High-level Interlocking Puzzle by Yourself! <a name = "create_puzzle"></a>
 
-### Import a volume
+### Step 1: import a volume
 Import a Cube_5x5x5_E1.vol volume file by clicking `read` button.
 
 <p align="center">
   <a href="" rel="noopener">
  <img width=640px height=400px src="doc/import_volume.png" alt="Import Volume"></a>
 </p>
+
+### Step 2: import a volume
+
 
 
