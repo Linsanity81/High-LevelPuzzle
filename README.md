@@ -82,9 +82,10 @@ Determine the number of pieces `K`.
 Determine the level of difficulty `L`. The program will keep running until constructing a puzzle with level of difficulty equal or higher than `L`.
 
 #### `Seed Number`
-
+With the same seed number, users can regenerate the same puzzle as before.
 
 #### `Puzzle Tolerance`
+This parameter is set for fabrication only, which can control the gap between pieces.
 
 
 ### Status Bar
