@@ -133,6 +133,14 @@ Import a Cube_5x5x5_E1.vol volume file by clicking `read` button.
 Set the `Level of Difficulty` as 7 and click the `Construct` button to create a piece-4 level-7 cube puzzle.
 
 ### Step 3: modifying level-7 cube puzzle
+Set the `Modifying Target Level` as 12 and click the `Modifying` button to start modifying.
+
+### Step 4: visualize disassembly steps
+Click the `Next` to visualize how to disassemble the current puzzle. 
+
+### Step 4: save puzzle for fabrication
+Set the `Puzzle Tolerance` greater than 0 to create gaps between pieces. Here we suggest to set 0.005. Lastly, you can click 
+
 
 
 
