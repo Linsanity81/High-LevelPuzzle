@@ -17,10 +17,10 @@ This repo is an implementation of [Computational Design of High-level Interlocki
 If you make use of this repo in your scientific work, please cite our paper. For your convenience,
 you can use the following bibtex snippet:
 
-    @article{
+    @article{Chen-2022-High-levelPuzzle,
      author = {Rulin, Chen and Ziqi, Wang and Peng, Song and Bernd, Bickel},
      title = {Computational Design of High-level Interlocking Puzzles},
-     journal = {ACM Trans. Graph.},
+     journal = {ACM Transactions on Graphics (SIGGRAPH 2022)},
      year = {2022},
      publisher = {ACM},
      keywords = {interlocking puzzle, level of difficulty, disassembly planning, computational design},
@@ -57,7 +57,7 @@ brew install cgal
 ```
 
 ## Usage <a name = "usage"></a>
-Explain how to run the automated tests for this system.
+These instructions guide you how to use our code to generate high-level interlocking puzzle by yourself.
 
 
 
