@@ -146,6 +146,11 @@ Set the `Modifying Target Level` as 12 and click the `Modifying` button to start
 ### Step 4: visualize disassembly steps
 Click the `Next` to visualize how to disassemble the current puzzle. 
 
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=640px height=400px src="doc/disassembly_state.png" alt="Diasssemble Puzzle"></a>
+</p>
+
 ### Step 5: save puzzle for fabrication
 Set the `Puzzle Tolerance` greater than 0 to create gaps between pieces. Here we suggest to set 0.005. Lastly, you can click `Save Puz` to save the .puz file and .obj files of each piece that can be used for fabrication.
 
