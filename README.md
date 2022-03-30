@@ -71,7 +71,7 @@ Here is the control panel of our high-level puzzle generator.
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=640px height=480px src="doc/control_panel" alt="Control Panel"></a>
+ <img width=640px height=480px src="doc/control_panel.png" alt="Control Panel"></a>
 </p>
 
 
