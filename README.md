@@ -50,16 +50,13 @@ brew install cgal
 ### Compile
 
 ```
-
-
+cd [current folder path]
+mkdir build
+cd build
+cmake ..
+make
 ```
 
-### Running
-
-```
-
-
-```
 
 ## Usage <a name = "usage"></a>
 These instructions guide you how to use our code to generate high-level interlocking puzzle by yourself.

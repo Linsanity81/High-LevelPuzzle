@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc  -fPIC -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -dynamiclib -Wl,-headerpad_max_install_names -o libglad.dylib -install_name @rpath/libglad.dylib CMakeFiles/glad.dir/src/glad.c.o 
