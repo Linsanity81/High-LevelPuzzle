@@ -129,7 +129,10 @@ Import a Cube_5x5x5_E1.vol volume file by clicking `read` button.
  <img width=640px height=400px src="doc/import_volume.png" alt="Import Volume"></a>
 </p>
 
-### Step 2: import a volume
+### Step 2: create a level-7 cube puzzle
+Set the `Level of Difficulty` as 7 and click the `Construct` button to create a piece-4 level-7 cube puzzle.
+
+### Step 3: modifying level-7 cube puzzle
 
 
 
