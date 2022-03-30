@@ -73,5 +73,13 @@ Here is the control panel of our high-level puzzle generator. There are 6 compon
  <img width=640px height=480px src="doc/control_panel.png" alt="Control Panel"></a>
 </p>
 
+### Parameter Control
+
+#### Piece Number 
+Determine the number of pieces.
+
+#### Level of Difficulty
+Determine the level of difficulty `L`. The program will keep running until constructing a puzzle with level of difficulty equal or higher than `L`.
+
 
 
