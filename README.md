@@ -19,23 +19,11 @@ If you make use of this repo in your scientific work, please cite our paper. For
 you can use the following bibtex snippet:
 
     @article{
-     author = {Ebke, Hans-Christian and Bommes, David and Campen, Marcel and Kobbelt, Leif},
-     title = {{QE}x: Robust Quad Mesh Extraction},
+     author = {Rulin, Chen and Ziqi, Wang and Peng, Song and Bernd, Bickel},
+     title = {Computational Design of High-level Interlocking Puzzles},
      journal = {ACM Trans. Graph.},
-     issue_date = {November 2013},
-     volume = {32},
-     number = {6},
-     month = nov,
-     year = {2013},
-     issn = {0730-0301},
-     pages = {168:1--168:10},
-     articleno = {168},
-     numpages = {10},
-     url = {http://doi.acm.org/10.1145/2508363.2508372},
-     doi = {10.1145/2508363.2508372},
-     acmid = {2508372},
+     year = {2022},
      publisher = {ACM},
-     address = {New York, NY, USA},
-     keywords = {integer-grid maps, quad extraction, quad meshing},
+     keywords = {interlocking puzzle, level of difficulty, disassembly planning, computational design},
     }
 
