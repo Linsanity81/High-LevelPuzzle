@@ -69,5 +69,10 @@ These instructions guide you how to use our code to generate high-level interloc
 ### Control Panel
 Here is the control panel of our high-level puzzle generator.
 
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=640px height=480px src="doc/control_panel" alt="Control Panel"></a>
+</p>
+
 
 
