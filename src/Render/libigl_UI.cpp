@@ -24,7 +24,6 @@
 #include "libigl_Render.h"
 #include "Puzzle/Piece.h"
 #include "Puzzle/PuzCreator_Iter.h"
-#include "Mesh/Mesh.h"
 
 
 
@@ -37,12 +36,6 @@ int pieceNum = 4;
 int firstLevel = 4;
 int seedNum = 50;
 int firstLevel_Iter = 12;
-float timeCreator = 0.5;
-float timeIter = 0.5;
-float convergenceTime = 10;
-float emptyThreshold = 0.01;
-float fullThreshold = 0.1;
-
 float puzTolerance = 0;
 int disassStateID = 0;
 float variance = 0;
@@ -277,24 +270,11 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
 
                 PuzCreator_Iter myPuzCreator_Iter;
                 myPuzCreator_Iter.InitPuzzleCreator_Iter(&myPuzzle);
-                myPuzzle = *myPuzCreator_Iter.CreateBuildablePuzzle_Iter(firstLevel_Iter, convergenceTime);
+                myPuzzle = *myPuzCreator_Iter.CreateBuildablePuzzle_Iter(firstLevel_Iter);
 
                 myPuzzle.CheckPuzzleState(true, isFixLastPiece);
 
                 myRender.RenderPuzzle(viewer, myPuzzle, disassStateID);
-            }
-
-
-            ImGui::SameLine(0, button_horizontalGap);
-
-            if (ImGui::Button("Save Puz - Modifying", ImVec2(button_width, 0))) {
-                string outputFolderPath = igl::file_dialog_save();
-                if (outputFolderPath.empty() == true)
-                    return;
-
-                printf("%s\n", outputFolderPath.c_str());
-
-                myPuzzle.SavePuzzleFiles(outputFolderPath, puzTolerance, isFixLastPiece);
             }
 
             ImGui::Dummy(ImVec2(0.0f, 3.0f));
@@ -399,18 +379,7 @@ void StatusBar()
     else if(myPuzzle.puzLockState == PUZZLE_DEAD_LOCK)          puzzleState = (char*)"Deadlocking";
     else if(myPuzzle.puzLockState == PUZZLE_INTER_LOCK)         puzzleState = (char*)"Interlocking";
 
-    char *puzzleBuildState;
-
-    if (myPuzzle.puzBuildState == PUZZLE_BUILD_UNKNOWN)         puzzleBuildState = (char*)"Unknown";
-    else if(myPuzzle.puzBuildState == PUZZLE_NOT_BUILDABLE)     puzzleBuildState = (char*)"Puzzle Not Buildable";
-    else if(myPuzzle.puzBuildState == PUZZLE_NOT_BUILD_GROUP)   puzzleBuildState = (char*)"Puzzle Not Build Group";
-    else if(myPuzzle.puzBuildState == PUZZLE_NO_REMOVE_GROUP)   puzzleBuildState = (char*)"Puzzle No Remove Group";
-    else if(myPuzzle.puzBuildState == PUZZLE_NORMAL_BUILDABLE)  puzzleBuildState = (char*)"Puzzle Normal Buildable";
-    else if(myPuzzle.puzBuildState == PUZZLE_STRICT_BUILDABLE)  puzzleBuildState = (char*)"Puzzle Strict Buildable";
-
     ImGui::Text("Puzzle State: %s", puzzleState);
-
-//    ImGui::Text(" Build State: %s", puzzleBuildState);
 
     ImGui::Text("Level of Difficulty: %d", myPuzzle.puzLevel);
 }

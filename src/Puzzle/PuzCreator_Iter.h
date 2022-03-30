@@ -15,7 +15,6 @@ class Puzzle;
 class PuzCreator_Iter
 {
 private:
-//    Puzzle inputPuzzle;
     vector<int> inputPuzzleData;
     vector<float> inputPuzVoxelPossList;
 

@@ -52,8 +52,6 @@ public:
     Eigen::MatrixXd smoothShape_V;
     Eigen::MatrixXi smoothShape_F;
 
-//    vector< vector<int> > disconnectedEdgeList;
-
 public:
 	Puzzle();
 	~Puzzle();

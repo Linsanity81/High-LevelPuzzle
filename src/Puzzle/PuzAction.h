@@ -28,7 +28,6 @@ public:
 	vector<int> remvPieceIDs;  // Removable pieceID
 	vector<int> remvAxisIDs;   // Possible removing axes for RemoveAction
 
-
 public:
 	PuzAction();
 	~PuzAction();

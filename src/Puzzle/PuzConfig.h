@@ -17,7 +17,6 @@
 
 #include "Utility/HelpPuz.h"
 
-
 #define CONFIG_OUT_LIST              -1
 
 #define PUZ_CONFIG_UNKNOWN           -1

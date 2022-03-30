@@ -41,7 +41,6 @@ public:
 	void ClearGroup();
 	void AddPiece(Piece *piece);
 	void AddPiece(Piece *piece, Vector3i piecePos);
-	//void AddPieceGraph(Piece *piece, Vector3i piecePos);
 
 	// Process Piece Group
 	bool CheckGroupConnectivity();
