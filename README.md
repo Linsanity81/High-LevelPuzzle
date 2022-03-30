@@ -30,7 +30,7 @@ you can use the following bibtex snippet:
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
-- [Built Using](#built_using)
+- [Create a High-level Interlocking Puzzle by Yourself!](#create_puzzle)
 - [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
@@ -135,6 +135,6 @@ Next disassembly step.
 ### Render Control
 Control the object visualization state.
 
-
+## Create a High-level Interlocking Puzzle by Yourself! <a name = "create_puzzle"></a>
 
 
