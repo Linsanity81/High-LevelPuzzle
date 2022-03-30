@@ -65,7 +65,6 @@ void PuzCreator_Iter::InitPuzzleCreator_Iter(Puzzle * inputPuzzle)
 Puzzle * PuzCreator_Iter::CreateBuildablePuzzle_Iter(int keyLevel, float convergenceTime, float timeIter)
 {
     Puzzle *currPuzzle = NULL;
-    vector<vector <int>> connectivityEdgeList;
 
     clock_t beginTime = clock();
     clock_t endTime;
@@ -123,7 +122,7 @@ Puzzle * PuzCreator_Iter::CreateBuildablePuzzle_Iter(int keyLevel, float converg
         }
 
         currPuzzle = new Puzzle();
-        currPuzzle->InitPuzzle(initVolumeSize, initVoxelSize, tempPuzData, connectivityEdgeList);
+        currPuzzle->InitPuzzle(initVolumeSize, initVoxelSize, tempPuzData);
 
         /// Check if the puzzle is valid
         bool isValid = currPuzzle->CheckValidPuzzle();

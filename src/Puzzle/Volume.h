@@ -32,8 +32,6 @@ public:
 
     int volVoxelNum;                 // Voxel number of the puzzle
 
-    vector< vector<int> > disconnectedEdgeList;
-
 public:
     Volume();
 	~Volume();
@@ -42,7 +40,7 @@ public:
     void PrintVolume();
 
     /// Init/Write Volume
-    int InitVolume(const Vector3i _volumeSize, const Vector3f _voxelSize, const vector<int> puzzleData, const vector<vector <int>> connectivityEdgeList);
+    int InitVolume(const Vector3i _volumeSize, const Vector3f _voxelSize, const vector<int> puzzleData);
     vector<Piece*> ConvertVolume2Puzzle(int pieceNum);
     void WritePuzzleFile(const char fileName[], const float generationTime);
 

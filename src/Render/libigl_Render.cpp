@@ -116,22 +116,11 @@ void libigl_Render::RenderPuzzle(iglViewer &viewer, Puzzle &myPuzzle, int disass
     DrawPuzzle(viewer, voxelMinPtsList, voxelMaxPtsList, voxelCenPtsList, cylinTopPtsList, cylinBotPtsList, ballRadius, cyliRadius, pieceNum);
 
     printf("disassState: %d\n", disassStateID);
-    printf("size of disconnectedEdgeList: %lu\n", myPuzzle.volume->disconnectedEdgeList.size());
-
-    if (disassStateID == 0 and myPuzzle.volume->disconnectedEdgeList.size() != 0)
-    {
-        Eigen::MatrixXf cylinBotPts;
-        Eigen::MatrixXf cylinTopPts;
-
-        myPuzzle.CreatePuzzleConnectivityGeo(cylinBotPts, cylinTopPts);
-
-    }
 
     vector<Eigen::MatrixXf> posVectors = myPuzzle.GetPieceAssemblyPos(disassStateID);
 
     if (myPuzzle.smoothPieceVerticeList.size() != 0 and myPuzzle.smoothPieceFaceList.size() != 0)
     {
-        printf("Begin to render the smooth puzzle.\n");
         DrawSmoothPuzzle(viewer, myPuzzle.smoothPieceVerticeList, myPuzzle.smoothPieceFaceList, myPuzzle.pieceList.size(), posVectors);
     }
     else

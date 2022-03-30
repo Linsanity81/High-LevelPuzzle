@@ -59,12 +59,10 @@ public:
     Puzzle & operator=(const Puzzle & puzzle);
     void SetVolume(Volume* _volume);
 	void PrintPuzzle();
-	vector<int> ExtractPuzzleData();
 
 	/// Check Puzzle States (Interlocking, Buildable, and Levels)
 	int CheckPuzzleState(bool isPrint, bool isFixLastPiece);
     bool CheckValidPuzzle();
-    void CheckConnectivityState();
     vector<Eigen::MatrixXf> GetPieceAssemblyPos(int disassemblyStateID);
 
     /// Test Global Interlocking
@@ -87,13 +85,10 @@ public:
                               vector<Eigen::MatrixXf> &cylinBotPtsList,
                               PuzConfig currPuzConfig);
 
-    void CreatePuzzleConnectivityGeo(Eigen::MatrixXf &cylinTopPts,
-                                     Eigen::MatrixXf &cylinBotPts);
-
 	/// Read Puzzle File
     void ReadPuzzleFile(string fileName);
     void ReadSmoothPuzzleFile(string fileName);
-    void InitPuzzle(const Vector3i volumeSize, const Vector3f voxelSize, const vector<int> puzzleData, const vector<vector <int>> connectivityEdgeList);
+    void InitPuzzle(const Vector3i volumeSize, const Vector3f voxelSize, const vector<int> puzzleData);
 
     /// Save Puzzle Files
     void SavePuzzleFiles(string puzFolderPath, float puzTolerance, bool isFixLastPiece);

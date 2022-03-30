@@ -55,8 +55,6 @@ void Volume::ClearVolume()
         delete voxelGrid[i];
     voxelGrid.clear();
 
-    disconnectedEdgeList.clear();
-
     volumeSize  = Vector3i(0, 0, 0);
     voxelSize   = Vector3f(0, 0, 0);
     volVoxelNum = 0;
@@ -83,8 +81,6 @@ Volume & Volume::operator=(const Volume & volume)
     this->voxelSize   = volume.voxelSize;
     this->volVoxelNum = volume.volVoxelNum;
 
-    this->disconnectedEdgeList = volume.disconnectedEdgeList;
-
     return *this;
 }
 
@@ -110,21 +106,13 @@ void Volume::PrintVolume()
 ///                                    Init/Write Volume
 ///=========================================================================================///
 
-int Volume::InitVolume(const Vector3i _volumeSize, const Vector3f _voxelSize, const vector<int> puzzleData, const vector<vector <int>> _connectivityEdgeList)
+int Volume::InitVolume(const Vector3i _volumeSize, const Vector3f _voxelSize, const vector<int> puzzleData)
 {
     // Volume info
     volumeSize = _volumeSize;
     voxelSize  = _voxelSize;
 
     int volumeVoxelNum = volumeSize(X_INFO) * volumeSize(Y_INFO) * volumeSize(Z_INFO);
-
-    // Disconnected Edge Info
-    disconnectedEdgeList = _connectivityEdgeList;
-
-    //int maxAxisSize = max(volumeSize(X_INFO), max(volumeSize(Y_INFO), volumeSize(Z_INFO)));
-    //voxelSize(X_INFO) = 2.0 / (float) maxAxisSize;
-    //voxelSize(Y_INFO) = 2.0 / (float) maxAxisSize;
-    //voxelSize(Z_INFO) = 2.0 / (float) maxAxisSize;
 
 #ifdef SHOW_INFO
     printf("Volume Size:  %d %d %d\n", volumeSize(X_INFO), volumeSize(Y_INFO), volumeSize(Z_INFO));
@@ -192,37 +180,7 @@ int Volume::InitVolume(const Vector3i _volumeSize, const Vector3f _voxelSize, co
 //                printf("%d\n", i);
             }
         }
-
-//        printf("%d %d %d %d %d %d\n", voxelGrid[k]->neiborVoxel[0], voxelGrid[k]->neiborVoxel[1], voxelGrid[k]->neiborVoxel[2],
-//           voxelGrid[k]->neiborVoxel[3], voxelGrid[k]->neiborVoxel[4], voxelGrid[k]->neiborVoxel[5]);
     }
-
-    // Update the disconnected edge
-    for (int i = 0; i < _connectivityEdgeList.size(); ++i)
-    {
-        int voxelIndex_1 = _connectivityEdgeList[i][0];
-        int voxelIndex_2 = _connectivityEdgeList[i][1];
-
-        Voxel* voxel_1 = voxelGrid[voxelIndex_1];
-        Voxel* voxel_2 = voxelGrid[voxelIndex_2];
-        printf("Voxel_1 pos: %d %d %D\n", voxel_1->pos(0), voxel_1->pos(1), voxel_1->pos(2));
-        printf("Voxel_2 pos: %d %d %D\n", voxel_2->pos(0), voxel_2->pos(1), voxel_2->pos(2));
-
-        for (int j = 0; j < 6; ++j)
-        {
-            if (voxel_1->pos + neiborPos[j] == voxel_2->pos)
-                voxel_1->neiborVoxel[j] = NEIGHBOR_NONE_CONNECTED;
-
-            if (voxel_2->pos + neiborPos[j] == voxel_1->pos)
-                voxel_2->neiborVoxel[j] = NEIGHBOR_NONE_CONNECTED;
-        }
-    }
-
-//    for (int k=0; k<voxelGrid.size(); k++)
-//    {
-//        printf("%d %d %d %d %d %d\n", voxelGrid[k]->neiborVoxel[0], voxelGrid[k]->neiborVoxel[1], voxelGrid[k]->neiborVoxel[2],
-//               voxelGrid[k]->neiborVoxel[3], voxelGrid[k]->neiborVoxel[4], voxelGrid[k]->neiborVoxel[5]);
-//    }
 
     // Puzzle voxel number
     volVoxelNum = 0;

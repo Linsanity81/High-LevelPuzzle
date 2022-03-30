@@ -153,18 +153,6 @@ void Puzzle::PrintPuzzle()
     printf("\n");
 }
 
-vector<int> Puzzle::ExtractPuzzleData()
-{
-    vector<int> puzzleData;
-
-    for (int i = 0; i < volume->GetVoxelGrid().size(); ++i)
-    {
-        puzzleData.push_back(volume->GetVoxelGrid()[i]->piece + 1);
-    }
-
-    return puzzleData;
-}
-
 
 
 
@@ -177,9 +165,6 @@ int Puzzle::CheckPuzzleState(bool isPrint, bool isFixLastPiece)
 
 	// Check if the puzzle is interlocking
     puzLockState = CheckPuzzleLockState();
-
-    // Check disconnectivity requirement
-    CheckConnectivityState();
 
     // Timer
     clock_t beginTime = clock();
@@ -370,35 +355,6 @@ bool Puzzle::CheckValidPuzzle()
     printf("The puzzle is valid! \n");
 #endif
     return true;
-}
-
-void Puzzle::CheckConnectivityState() {
-
-    for(int i = 0; i < volume->disconnectedEdgeList.size(); i++)
-    {
-        int voxelIndex_1 = volume->disconnectedEdgeList[i][0];
-        int voxelIndex_2 = volume->disconnectedEdgeList[i][1];
-
-        Voxel* voxel_1 = volume->voxelGrid[voxelIndex_1];
-        Voxel* voxel_2 = volume->voxelGrid[voxelIndex_2];
-
-        if (voxel_1->piece == voxel_2->piece)
-        {
-            vector<Voxel*> connectedVoxels;
-
-            puzDisconnectivityState = BFSConnectedVoxels_DisconnectTest(volume->voxelGrid, voxelIndex_1, voxel_2);
-
-            if (!puzDisconnectivityState)
-            {
-                puzDisconnectivityState = false;
-                return;
-            }
-        }
-    }
-
-//    printf("size of VoxelGrid: %lu\n", volume->voxelGrid.size());
-
-    puzDisconnectivityState = true;
 }
 
 vector<Eigen::MatrixXf> Puzzle::GetPieceAssemblyPos(int disassemblyStateID)
@@ -748,53 +704,6 @@ void Puzzle::CreatePuzzleGeometry(vector<Eigen::MatrixXf> &voxelMinPtsList,
 }
 
 
-void Puzzle::CreatePuzzleConnectivityGeo(Eigen::MatrixXf &cylinTopPts, Eigen::MatrixXf &cylinBotPts)
-{
-    /// Create disconnected edges data
-
-//    printf("Disconnected Edges: \n");
-//    for (int i = 0; i < volume->disconnectedEdgeList.size(); ++i)
-//    {
-//        printf("%d %d\n", volume->disconnectedEdgeList[i][0], volume->disconnectedEdgeList[i][1]);
-//    }
-
-    Vector3f voxelSize = volume->GetVoxelSize();
-    Vector3i volumeSize = volume->GetVolumeSize();
-
-    Vector3f puzTransVec;
-    puzTransVec(0) = -0.5f*(volumeSize(0) - 1) * voxelSize(0);
-    puzTransVec(1) = -0.5f*(volumeSize(1) - 1) * voxelSize(1);
-    puzTransVec(2) = -0.5f*(volumeSize(2) - 1) * voxelSize(2);
-
-
-    cylinTopPts.resize(volume->disconnectedEdgeList.size(), 3);
-    cylinBotPts.resize(volume->disconnectedEdgeList.size(), 3);
-
-    int cylinID = 0;
-
-    for (int i = 0; i < volume->disconnectedEdgeList.size(); i++)
-    {
-        int voxelIndex_1 = volume->disconnectedEdgeList[i][0];
-        int voxelIndex_2 = volume->disconnectedEdgeList[i][1];
-
-        Vector3i voxelPos_1;
-        Vector3i voxelPos_2;
-
-        volume->GetVolumeVoxelPosByIndex(voxelIndex_1, voxelPos_1);
-        volume->GetVolumeVoxelPosByIndex(voxelIndex_2, voxelPos_2);
-
-        for (int k = 0; k < 3; ++k)
-        {
-            cylinTopPts(cylinID, k) = 1.0f*voxelPos_1(k)*voxelSize(k) + puzTransVec(k);
-            cylinBotPts(cylinID, k) = 1.0f*voxelPos_2(k)*voxelSize(k) + puzTransVec(k);
-        }
-
-        cylinID++;
-    }
-}
-
-
-
 
 ///=========================================================================================///
 ///                                     Read Puzzle File
@@ -819,7 +728,6 @@ void Puzzle::ReadPuzzleFile(string fileName)
 
         if (firstCh != '#')
         {
-            printf("No generation time stored.\n");
             rewind(fp);
             fscanf(fp, "%d %d %d\n", &volumeSize[0], &volumeSize[1], &volumeSize[2]);
         }
@@ -829,11 +737,9 @@ void Puzzle::ReadPuzzleFile(string fileName)
             float generationTime;
             fscanf(fp, "%f\n", &generationTime);
             fscanf(fp, "%d %d %d\n", &volumeSize[0], &volumeSize[1], &volumeSize[2]);
-            printf("Generation time: %3f\n", generationTime);
         }
 
         // Volume Size
-//        fscanf(fp, "%d %d %d\n", &volumeSize[0], &volumeSize[1], &volumeSize[2]);
         fscanf(fp, "%f %f %f\n", &voxelSize[0], &voxelSize[1], &voxelSize[2]);
 
         int volumeVoxelNum = volumeSize(X_INFO) * volumeSize(Y_INFO) * volumeSize(Z_INFO);
@@ -843,30 +749,7 @@ void Puzzle::ReadPuzzleFile(string fileName)
         for (int k=0; k<volumeVoxelNum; k++)
             fscanf(fp,"%d ", &puzzleData[k]);
 
-        // Connectivity Data
-        int edgeNum = 0;
-        fscanf(fp, "%d \n", &edgeNum);
-        printf("edgeNum: %d\n", edgeNum);
-
-        vector< vector<int> > connectivityEdgeList;
-        for (int k = 0; k < edgeNum; k++)
-        {
-            vector<int> connectivityEdge;
-            int voxelIndex_1, voxelIndex_2;
-            fscanf(fp, "%d %d\n", &voxelIndex_1, &voxelIndex_2);
-            connectivityEdge.push_back(voxelIndex_1);
-            connectivityEdge.push_back(voxelIndex_2);
-            connectivityEdgeList.push_back(connectivityEdge);
-        }
-
-        printf("Disconnected Edges: \n");
-        for (int k = 0; k < edgeNum; k++)
-        {
-            printf("%d %d\n", connectivityEdgeList[k][0], connectivityEdgeList[k][1]);
-        }
-
-        //InitPuzzle(volumeSize(X_INFO), volumeSize(Y_INFO), volumeSize(Z_INFO), puzzleData);
-        InitPuzzle(volumeSize, voxelSize, puzzleData, connectivityEdgeList);
+        InitPuzzle(volumeSize, voxelSize, puzzleData);
 
     }
     fclose(fp);
@@ -883,8 +766,6 @@ void Puzzle::ReadSmoothPuzzleFile(string fileName)
     for (int i = 0; i < pieceList.size(); ++i)
     {
         string currSmoothOBJName = puzFolderPath + "/smooth_piece" + to_string(i+1) + ".obj";
-
-        std::cout << currSmoothOBJName << std::endl;
 
         FILE *fp;
         if ((fp=fopen(currSmoothOBJName.data(),"r"))==NULL)
@@ -907,7 +788,7 @@ void Puzzle::ReadSmoothPuzzleFile(string fileName)
     FILE *fp;
     if ((fp=fopen(smoothInputOBJName.data(),"r"))==NULL)
     {
-        printf("There is no smooth input obj files stored. \n");
+//        printf("There is no smooth input obj files stored. \n");
     }
     else
     {
@@ -915,7 +796,7 @@ void Puzzle::ReadSmoothPuzzleFile(string fileName)
     }
 }
 
-void Puzzle::InitPuzzle(const Vector3i volumeSize, const Vector3f voxelSize, const vector<int> puzzleData, const vector<vector <int>> connectivityEdgeList)
+void Puzzle::InitPuzzle(const Vector3i volumeSize, const Vector3f voxelSize, const vector<int> puzzleData)
 {
     if(volume != NULL )
     {
@@ -925,7 +806,7 @@ void Puzzle::InitPuzzle(const Vector3i volumeSize, const Vector3f voxelSize, con
 
     volume = new Volume();
 
-    int pieceNum = volume->InitVolume(volumeSize, voxelSize, puzzleData, connectivityEdgeList);
+    int pieceNum = volume->InitVolume(volumeSize, voxelSize, puzzleData);
 
     pieceList = volume->ConvertVolume2Puzzle( pieceNum );
 
