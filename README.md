@@ -56,8 +56,18 @@ brew install cgal
 
 ```
 
+### Running
+
+```
+
+
+```
+
 ## Usage <a name = "usage"></a>
 These instructions guide you how to use our code to generate high-level interlocking puzzle by yourself.
+
+### Control Panel
+Here is the control panel of our high-level puzzle generator.
 
 
 

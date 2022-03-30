@@ -178,7 +178,7 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
         //// High Level Puzzle Creator
         ///////////////////////////////////////////////////////////////////////////
 
-        if (ImGui::CollapsingHeader("High Level Puzzle Creator", ImGuiTreeNodeFlags_DefaultOpen))
+        if (ImGui::CollapsingHeader("High Level Puzzle Constructor", ImGuiTreeNodeFlags_DefaultOpen))
         {
             //// gap between the button group and head
             ImGui::Dummy(ImVec2(0.0f, 2.0f));
@@ -203,7 +203,7 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
             }
             ImGui::SameLine(0, button_horizontalGap);
 
-            if (ImGui::Button("Create", ImVec2(button_width, 0)))
+            if (ImGui::Button("Construct", ImVec2(button_width, 0)))
             {
                 if (inputFileName.empty() == true)
                 {
@@ -252,7 +252,7 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
         //// High Level Puzzle Creator -- Iterative
         ///////////////////////////////////////////////////////////////////////////
 
-        if (ImGui::CollapsingHeader("Iterative High Level Puzzle Creator", ImGuiTreeNodeFlags_DefaultOpen)) {
+        if (ImGui::CollapsingHeader("Modifying High Level Puzzle", ImGuiTreeNodeFlags_DefaultOpen)) {
             //// gap between the button group and head
             ImGui::Dummy(ImVec2(0.0f, 2.0f));
 
@@ -260,14 +260,14 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
             //// model&shell&parts related
             //// buttons for model/shell IO/generate
 
-            ImGui::Text("First Level - Iter");
-            ImGui::SameLine(half_width, p);
-            ImGui::SetNextItemWidth(half_width);
-            ImGui::DragInt("##First Level - Iter", &firstLevel_Iter);
+            ImGui::Text("Modifying Target Level");
+            ImGui::SameLine(half_width * 1.2, p);
+            ImGui::SetNextItemWidth(half_width * 0.8);
+            ImGui::DragInt("##Modifying Target Level", &firstLevel_Iter);
 
             ImGui::Dummy(ImVec2(0.0f, gap_between_paraGroups));
 
-            if (ImGui::Button("Create_Iter", ImVec2(button_width, 0))) {
+            if (ImGui::Button("Modifying", ImVec2(button_width, 0))) {
                 if (inputFileName.empty() == true) {
                     printf("Please import a puzzle volume first\n");
                     return;
@@ -287,7 +287,7 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
 
             ImGui::SameLine(0, button_horizontalGap);
 
-            if (ImGui::Button("Save Puz - Iter", ImVec2(button_width, 0))) {
+            if (ImGui::Button("Save Puz - Modifying", ImVec2(button_width, 0))) {
                 string outputFolderPath = igl::file_dialog_save();
                 if (outputFolderPath.empty() == true)
                     return;
@@ -304,14 +304,14 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
         //// Assembly Tree State Viewer
         ///////////////////////////////////////////////////////////////////////////
 
-        if (ImGui::CollapsingHeader("Assembly Tree State Viewer", ImGuiTreeNodeFlags_DefaultOpen))
+        if (ImGui::CollapsingHeader("Assembly State Viewer", ImGuiTreeNodeFlags_DefaultOpen))
         {
             ImGui::Dummy(ImVec2(0.0f, 2.0f));
 
-            ImGui::Text("Node Index");
+            ImGui::Text("Disassembly Step");
             ImGui::SameLine(half_width, p);
             ImGui::SetNextItemWidth(half_width);
-            ImGui::DragInt("##Node Index", &disassStateID);
+            ImGui::DragInt("##Disassembly Step", &disassStateID);
 
             ImGui::Dummy(ImVec2(0.0f, gap_between_paraGroups));
         }
@@ -410,7 +410,7 @@ void StatusBar()
 
     ImGui::Text("Puzzle State: %s", puzzleState);
 
-    ImGui::Text(" Build State: %s", puzzleBuildState);
+//    ImGui::Text(" Build State: %s", puzzleBuildState);
 
     ImGui::Text("Level of Difficulty: %d", myPuzzle.puzLevel);
 }
