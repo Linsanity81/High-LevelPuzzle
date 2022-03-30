@@ -104,9 +104,7 @@ From our observation, `High Level Puzzle Constructor` can easily find a puzzle i
 ### Assembly State Viewer
 
 `Disassembly Step` Determine the disassembly step.
-
 `Prev` Previous disassembly step.
-
 `Next` Next disassembly step.
 
 ### Render Control
