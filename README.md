@@ -66,8 +66,7 @@ brew install cgal
 ## Usage <a name = "usage"></a>
 These instructions guide you how to use our code to generate high-level interlocking puzzle by yourself.
 
-### Control Panel
-Here is the control panel of our high-level puzzle generator.
+Here is the control panel of our high-level puzzle generator. There are 6 components in the control panel: `Parameter Control`, `Status Bar`, `High Level Puzzle Constructor`, `Modifying High Level Puzzle`, `Assembly State Viewer` and `Render Control`.
 
 <p align="center">
   <a href="" rel="noopener">
