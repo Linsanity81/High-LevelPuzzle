@@ -98,4 +98,7 @@ Level of difficult of current puzzle.
 
 ### High Level Puzzle Constructor
 
+#### `Read`
+Our program can read 2 types of input files: `.puz` and `.vol` file. 
+
 
