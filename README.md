@@ -104,8 +104,6 @@ From our observation, `High Level Puzzle Constructor` can easily find a puzzle i
 
 `Modifying` Start modifying currrent puzzle. 
 
-`Save Puz - Modifying` Save puzzle after modifying. By default, if our program cannot find a higher level modification in 10 mins, our code will stop.
-
 ### Assembly State Viewer
 
 `Disassembly Step` Determine the disassembly step.
