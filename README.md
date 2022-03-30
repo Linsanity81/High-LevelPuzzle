@@ -14,6 +14,4 @@
 
 </div>
 
-======
-
-`libQEx` is an implementation of [QEx](http://www.rwth-graphics.de/publication/204/) \[[Ebke et al. 2013](http://dx.doi.org/10.1145/2508363.2508372)\] distributed under GPLv3. Commercial licensing is available upon request.
+This repo is an implementation of [Computational Design of High-level Interlocking Puzzles](http://www.rwth-graphics.de/publication/204/) \[[Chen et al. 2022](http://dx.doi.org/10.1145/2508363.2508372)\]. Commercial licensing is available upon request.
