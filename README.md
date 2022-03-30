@@ -142,7 +142,7 @@ Import a Cube_5x5x5_E1.vol volume file by clicking `read` button.
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=640px height=480px src="doc/import_volume.png" alt="Import Volume"></a>
+ <img width=640px height=400px src="doc/import_volume.png" alt="Import Volume"></a>
 </p>
 
 
