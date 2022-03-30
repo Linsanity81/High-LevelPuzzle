@@ -31,8 +31,6 @@ you can use the following bibtex snippet:
 - [Getting Started](#getting_started)
 - [Usage](#usage)
 - [Create a High-level Interlocking Puzzle by Yourself!](#create_puzzle)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
@@ -129,8 +127,13 @@ Import a Cube_5x5x5_E1.vol volume file by clicking `read` button.
  <img width=640px height=400px src="doc/import_volume.png" alt="Import Volume"></a>
 </p>
 
-### Step 2: create a level-7 cube puzzle
-Set the `Level of Difficulty` as 7 and click the `Construct` button to create a piece-4 level-7 cube puzzle.
+### Step 2: create a level-6 cube puzzle
+Set the `Level of Difficulty` as 6 and click the `Construct` button to create a piece-4 level-7 cube puzzle.
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=640px height=400px src="doc/level-6_puzzle.png" alt="Import Volume"></a>
+</p>
 
 ### Step 3: modifying level-7 cube puzzle
 Set the `Modifying Target Level` as 12 and click the `Modifying` button to start modifying.
