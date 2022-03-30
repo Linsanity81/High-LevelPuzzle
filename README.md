@@ -75,9 +75,11 @@ Here is the control panel of our high-level puzzle generator. There are 6 compon
 
 ### Parameter Control
 
-#### `Piece Number` Determine the number of pieces `K`.
+#### `Piece Number` 
+Determine the number of pieces `K`.
 
-#### `Level of Difficulty`Determine the level of difficulty `L`. The program will keep running until constructing a puzzle with level of difficulty equal or higher than `L`.
+#### `Level of Difficulty`
+Determine the level of difficulty `L`. The program will keep running until constructing a puzzle with level of difficulty equal or higher than `L`.
 
 #### `Seed Number`
 With the same seed number, users can regenerate the same puzzle as before.
