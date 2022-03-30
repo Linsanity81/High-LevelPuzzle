@@ -29,7 +29,6 @@ you can use the following bibtex snippet:
 ## Table of Contents
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [TODO](../TODO.md)
@@ -41,7 +40,7 @@ you can use the following bibtex snippet:
 This repo presents a computational approach to design high-level interlocking puzzles. We implemented our computational design tool in C++ and `libigl` [Jacobson et al. 2018] on a desktop computer with 3.6 GHz 8-Core Intel processor and 16 GB RAM.
 
 ## Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 We need to install `CGAL` before running our code. With the help of `brew`, we can easily get `GGAL`.
@@ -49,3 +48,16 @@ We need to install `CGAL` before running our code. With the help of `brew`, we c
 ```
 brew install cgal
 ```
+
+### Compile
+
+```
+
+
+```
+
+## Usage <a name = "usage"></a>
+Explain how to run the automated tests for this system.
+
+
+
