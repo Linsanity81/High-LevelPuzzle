@@ -101,4 +101,7 @@ Level of difficult of current puzzle.
 #### `Read`
 Our program can read 2 types of input files: `.puz` and `.vol` file. 
 
+#### `Construct`
+Construct the `K` piece level-`L` puzzle with given import volume.
+
 
