@@ -89,10 +89,10 @@ Determine the level of difficulty `L`. The program will keep running until const
 
 ### Status Bar
 
-#### Puzzle State
+#### `Puzzle State`
 Indicate state (e.g. interlocking and deadlocking) of current puzzle.
 
-#### Level of Difficulty
+#### `Level of Difficulty`
 Level of difficult of current puzzle.
 
 ### High Level Puzzle Constructor
