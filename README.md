@@ -155,7 +155,10 @@ Click the `Next` to visualize how to disassemble the current puzzle.
 Set the `Puzzle Tolerance` greater than 0 to create gaps between pieces. Here we suggest to set 0.005. Lastly, you can click `Save Puz` to save the .puz file and .obj files of each piece that can be used for fabrication.
 
 ## Authors <a name = "authors"></a>
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [Rulin Chen](https://github.com/Linsanity81) 
+- [Ziqi Wang](https://kiki007.github.io/)
+- [Peng Song](https://songpenghit.github.io/)
+- [Bernd Bickel](http://berndbickel.com/)
 
 
 
