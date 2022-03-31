@@ -1444,17 +1444,6 @@ void Puzzle::WriteDisassemblyMotion(string folderPath, vector<PuzAction> puzActi
         }
     }
 
-//    string command;
-//
-//    command = "mkdir -p " + folder_name + "/pieceCubeModel";
-//    system(command.c_str());
-//
-//    command = "mkdir -p " + folder_name + "/pieceSkelModel";
-//    system(command.c_str());
-
-//    doc.save_file((folder_name + "/pieceSkelModel/animation.motion.xml").data());
-//    doc.save_file((folder_name + "/pieceCubeModel/animation.motion.xml").data());
-
     doc.save_file((folder_name + "/animation.motion.xml").data());
 }
 
