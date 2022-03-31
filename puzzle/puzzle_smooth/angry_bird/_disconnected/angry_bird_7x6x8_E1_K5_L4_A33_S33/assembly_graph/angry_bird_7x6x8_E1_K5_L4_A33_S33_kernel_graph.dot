@@ -1,0 +1,54 @@
+graph G {
+color = "black"
+0 [label = "P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#96FF96"];
+1 [label = "P1: 0 0 1 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+2 [label = "P1: 0 0 1 
+P2: 0 1 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+3 [label = "P1: 0 0 1 
+P2: 0 1 0 
+P3: 0 1 0 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+4 [label = "P1: 0 0 1 
+P2: 0 1 0 
+P3: 0 1 0 
+P4: 0 1 0 
+P5: 0 0 0 
+"];
+5 [label = "P1: 0 0 2 
+P2: 0 1 0 
+P3: 0 1 0 
+P4: 0 1 0 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+edge [style=bold];
+0 -- 1 [color="#1E96FF", penwidth=4.0];
+
+1 -- 2 [color=black];
+1 -- 3 [color=black];
+1 -- 4 [color="#1E96FF", penwidth=4.0];
+
+2 -- 3 [color=black];
+2 -- 4 [color=black];
+
+3 -- 4 [color=black];
+
+4 -- 5 [color="#1E96FF", penwidth=4.0];
+
+
+}

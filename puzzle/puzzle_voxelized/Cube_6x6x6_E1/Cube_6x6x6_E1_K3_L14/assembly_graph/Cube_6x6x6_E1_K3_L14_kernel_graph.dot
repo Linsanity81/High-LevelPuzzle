@@ -1,0 +1,154 @@
+graph G {
+color = "black"
+0 [label = "P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#96FF96"];
+1 [label = "P1: 0 0 1 
+P2: 0 0 0 
+P3: 0 0 0 
+"];
+2 [label = "P1: 0 0 1 
+P2: -1 0 0 
+P3: 0 0 0 
+"];
+3 [label = "P1: 0 0 2 
+P2: -1 0 0 
+P3: 0 0 0 
+"];
+4 [label = "P1: 0 0 2 
+P2: -1 0 0 
+P3: 1 0 0 
+"];
+5 [label = "P1: 0 0 3 
+P2: -1 0 0 
+P3: 1 0 0 
+"];
+6 [label = "P1: -2 0 3 
+P2: -2 0 0 
+P3: 0 0 0 
+"];
+7 [label = "P1: 0 0 3 
+P2: -2 0 0 
+P3: 1 0 0 
+"];
+8 [label = "P1: -1 0 3 
+P2: -1 0 0 
+P3: 0 0 0 
+"];
+9 [label = "P1: -2 0 3 
+P2: -3 0 0 
+P3: 0 0 0 
+"];
+10 [label = "P1: -1 0 3 
+P2: -3 0 -1 
+P3: 0 0 0 
+"];
+11 [label = "P1: 0 0 3 
+P2: -2 0 0 
+P3: 1 0 1 
+"];
+12 [label = "P1: -2 0 3 
+P2: -3 0 -1 
+P3: 0 0 0 
+"];
+13 [label = "P1: 1 0 3 
+P2: -2 0 0 
+P3: 1 0 1 
+"];
+14 [label = "P1: 0 0 1 
+P2: -3 0 -1 
+P3: 0 0 0 
+"];
+15 [label = "P1: 1 0 3 
+P2: -2 0 1 
+P3: 1 0 1 
+"];
+16 [label = "P1: 1 0 3 
+P2: -2 1 1 
+P3: 1 0 1 
+"];
+17 [label = "P1: 1 0 3 
+P2: -2 1 1 
+P3: 2 0 1 
+"];
+18 [label = "P1: 1 0 4 
+P2: -2 1 1 
+P3: 2 0 1 
+"];
+19 [label = "P1: -1 0 2 
+P2: -4 1 -1 
+P3: 0 0 0 
+"];
+20 [label = "P1: 1 0 4 
+P2: -2 1 0 
+P3: 2 0 1 
+"];
+2020 [label = "P1: 1 0 4 
+P2: +∞ 1 0 
+P3: 2 0 1 
+",  style="filled", fillcolor = "#FF9696"];
+21 [label = "P1: -2 0 3 
+P2: -5 1 0 
+P3: 0 0 0 
+"];
+2121 [label = "P1: -2 +∞ 3 
+P2: -5 1 0 
+P3: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+edge [style=bold];
+0 -- 1 [color="#1E96FF", penwidth=4.0];
+
+1 -- 2 [color="#1E96FF", penwidth=4.0];
+
+2 -- 3 [color="#1E96FF", penwidth=4.0];
+
+3 -- 4 [color="#1E96FF", penwidth=4.0];
+
+4 -- 5 [color="#1E96FF", penwidth=4.0];
+
+5 -- 6 [color=black];
+5 -- 7 [color="#1E96FF", penwidth=4.0];
+5 -- 8 [color=black];
+5 -- 9 [color=black];
+
+6 -- 9 [color=black];
+6 -- 8 [color=black];
+
+7 -- 9 [color=black];
+7 -- 8 [color=black];
+7 -- 10 [color=black];
+7 -- 11 [color="#1E96FF", penwidth=4.0];
+
+
+9 -- 12 [color=black];
+
+10 -- 12 [color=black];
+10 -- 11 [color=black];
+
+11 -- 13 [color="#1E96FF", penwidth=4.0];
+
+
+13 -- 14 [color=black];
+13 -- 15 [color="#1E96FF", penwidth=4.0];
+
+14 -- 15 [color=black];
+
+15 -- 16 [color="#1E96FF", penwidth=4.0];
+
+16 -- 17 [color="#1E96FF", penwidth=4.0];
+
+17 -- 18 [color="#1E96FF", penwidth=4.0];
+17 -- 19 [color=black];
+
+18 -- 20 [color="#1E96FF", penwidth=4.0];
+18 -- 21 [color=black];
+18 -- 19 [color=black];
+
+19 -- 20 [color=black];
+
+
+20 -- 2020 [color="#1E96FF", penwidth=4.0];
+
+21 -- 2121 [color=black];
+}

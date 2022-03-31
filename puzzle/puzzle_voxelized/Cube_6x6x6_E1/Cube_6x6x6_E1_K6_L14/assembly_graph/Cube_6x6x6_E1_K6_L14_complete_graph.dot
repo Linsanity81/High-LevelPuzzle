@@ -1,0 +1,273 @@
+graph G {
+color = "black"
+0 [label = "P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#96FF96"];
+1 [label = "P1: 0 -1 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+2 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+3 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+4 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 1 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+5 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 2 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+6 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 3 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+7 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+8 [label = "P1: 0 -1 0 
+P2: 1 0 -1 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+9 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+10 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 2 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+11 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 1 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+12 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 0 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+13 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 3 0 0 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+14 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+15 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+16 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+17 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+18 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+"];
+19 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+"];
+20 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 4 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 0 
+"];
+21 [label = "P1: 0 -1 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 -1 
+"];
+22 [label = "P1: 0 -2 0 
+P2: 1 0 -2 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 -1 
+",  style="filled", fillcolor = "#FF9696"];
+23 [label = "P1: 0 -2 1 
+P2: 1 0 -1 
+P3: 3 0 0 
+P4: 0 -2 1 
+P5: 0 -1 1 
+P6: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+24 [label = "P2: 1 0 -1 
+",  style="filled", fillcolor = "#FF96FF"];
+25 [label = "P1: 0 -2 0 
+P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 -1 
+"];
+26 [label = "P1: 0 -2 1 
+",  style="filled", fillcolor = "#FF96FF"];
+27 [label = "P3: 3 0 -1 
+P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 -1 
+"];
+28 [label = "P3: 3 0 0 
+",  style="filled", fillcolor = "#FF96FF"];
+29 [label = "P4: 0 -1 0 
+P5: 0 -1 0 
+P6: 0 0 -1 
+"];
+30 [label = "P4: 0 -1 1 
+",  style="filled", fillcolor = "#FF96FF"];
+31 [label = "P5: 0 -1 0 
+P6: 0 0 -1 
+"];
+32 [label = "P5: 0 -1 0 
+", style="filled", fillcolor = "#9696FF"];
+33 [label = "P6: 0 0 0 
+",  style="filled", fillcolor = "#FF96FF"];
+edge [style=bold];
+0 -- 1 [color="#1E96FF", penwidth=4.0];
+
+1 -- 2 [color="#1E96FF", penwidth=4.0];
+
+2 -- 3 [color="#1E96FF", penwidth=4.0];
+
+3 -- 4 [color=black];
+3 -- 5 [color="#1E96FF", penwidth=4.0];
+3 -- 6 [color=black];
+
+4 -- 5 [color=black];
+4 -- 6 [color=black];
+
+5 -- 6 [color=black];
+5 -- 7 [color="#1E96FF", penwidth=4.0];
+
+
+7 -- 8 [color="#1E96FF", penwidth=4.0];
+
+8 -- 9 [color="#1E96FF", penwidth=4.0];
+
+9 -- 10 [color="#1E96FF", penwidth=4.0];
+
+10 -- 11 [color=black];
+10 -- 12 [color=black];
+10 -- 13 [color="#1E96FF", penwidth=4.0];
+
+11 -- 12 [color=black];
+11 -- 13 [color=black];
+
+12 -- 13 [color=black];
+12 -- 14 [color=black];
+
+13 -- 15 [color="#1E96FF", penwidth=4.0];
+
+
+15 -- 16 [color=black];
+15 -- 17 [color=black];
+15 -- 18 [color="#1E96FF", penwidth=4.0];
+
+16 -- 19 [color=black];
+16 -- 20 [color=black];
+
+17 -- 19 [color=black];
+17 -- 18 [color=black];
+
+18 -- 20 [color=black];
+18 -- 21 [color="#1E96FF", penwidth=4.0];
+
+19 -- 20 [color=black];
+
+
+21 -- 22 [color="#1E96FF", penwidth=4.0];
+21 -- 23 [color=black];
+
+22 -- 25 [color="#1E96FF", penwidth=4.0];
+22 -- 24 [color=black];
+
+
+25 -- 27 [color="#1E96FF", penwidth=4.0];
+25 -- 26 [color=black];
+
+27 -- 29 [color="#1E96FF", penwidth=4.0];
+27 -- 28 [color=black];
+
+29 -- 31 [color="#1E96FF", penwidth=4.0];
+29 -- 30 [color=black];
+
+31 -- 33 [color=black];
+31 -- 32 [color="#1E96FF", penwidth=4.0];
+
+}

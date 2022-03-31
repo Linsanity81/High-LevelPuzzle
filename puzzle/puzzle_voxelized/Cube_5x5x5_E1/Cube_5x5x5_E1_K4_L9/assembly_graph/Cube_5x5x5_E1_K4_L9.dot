@@ -1,0 +1,132 @@
+digraph G {
+color = "black"
+0[label = "Index: 0 
+P0: 0 0 0 
+P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+", style="filled", fillcolor = "green"]
+1[label = "Index: 1 
+P0: 1 0 0 
+P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+", color = "orange"]
+2[label = "Index: 2 
+P0: 1 0 0 
+P1: 0 0 -1 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+", color = "orange"]
+3[label = "Index: 3 
+P0: 2 0 0 
+P1: 0 0 -1 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+", color = "orange"]
+4[label = "Index: 4 
+P0: 2 0 0 
+P1: 0 0 -1 
+P2: 0 1 0 
+P3: 0 0 0 
+P4: 0 0 0 
+", color = "orange"]
+5[label = "Index: 5 
+P0: 2 0 0 
+P1: 0 0 -1 
+P2: 0 1 0 
+P3: 0 0 1 
+P4: 0 0 0 
+", color = "orange"]
+6[label = "Index: 6 
+P0: 2 1 0 
+P1: 0 1 -1 
+P2: 0 2 0 
+P3: 0 1 1 
+P4: 0 0 0 
+", color = "orange"]
+7[label = "Index: 7 
+P0: 2 1 -1 
+P1: 0 1 -2 
+P2: 0 2 -1 
+P3: 0 1 1 
+P4: 0 0 0 
+", color = "orange"]
+8[label = "Index: 8 
+P0: 3 1 -1 
+P1: 1 1 -2 
+P2: 1 2 -1 
+P3: 0 1 1 
+P4: 0 0 0 
+", style="filled", fillcolor = "red"]
+9[label = "Index: 9 
+P1: 1 1 -2 
+", color = "fuchsia"]
+10[label = "Index: 10 
+P0: 3 1 -1 
+P2: 1 2 -1 
+P3: 0 1 1 
+P4: 0 0 0 
+", color = "red"]
+11[label = "Index: 11 
+P0: 3 1 -1 
+", color = "fuchsia"]
+12[label = "Index: 12 
+P2: 1 2 -1 
+P3: 0 1 1 
+P4: 0 0 0 
+", color = "red"]
+13[label = "Index: 13 
+P2: 1 2 -1 
+", color = "fuchsia"]
+14[label = "Index: 14 
+P3: 0 1 1 
+P4: 0 0 0 
+", color = "red"]
+15[label = "Index: 15 
+P3: 0 1 1 
+", style="filled", fillcolor = "blue"]
+16[label = "Index: 16 
+P4: 0 0 0 
+", color = "fuchsia"]
+0 -> 1
+
+1 -> 0
+1 -> 2
+
+2 -> 1
+2 -> 3
+
+3 -> 2
+3 -> 4
+
+4 -> 3
+4 -> 5
+
+5 -> 4
+5 -> 6
+
+6 -> 5
+6 -> 7
+
+7 -> 6
+7 -> 8
+
+8 -> 7
+8 -> 10
+8 -> 9
+
+10 -> 12
+10 -> 11
+
+12 -> 14
+12 -> 13
+
+14 -> 16
+14 -> 15
+
+}
