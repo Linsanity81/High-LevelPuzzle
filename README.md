@@ -12,7 +12,7 @@
 
 </div>
 
-This repo is an implementation of [Computational Design of High-level Interlocking Puzzles](doc/High-LevelPuzzle.pdf) [Chen et al. 2022]. Commercial licensing is available upon request.
+This repo is an implementation of [Computational Design of High-level Interlocking Puzzles](doc/High-LevelPuzzle.pdf) [Chen et al. 2022]. Commercial licensing is available upon request. If you have any problems when using this code, you can contact me any time through rulin_chen@mymail.sutd.edu.sg. 
 
 If you make use of this repo in your scientific work, please cite our paper. For your convenience,
 you can use the following bibtex snippet:
@@ -104,7 +104,9 @@ From our observation, `High Level Puzzle Constructor` can easily find a puzzle i
 ### Assembly State Viewer
 
 `Disassembly Step` Determine the disassembly step.
+
 `Prev` Previous disassembly step.
+
 `Next` Next disassembly step.
 
 ### Render Control
