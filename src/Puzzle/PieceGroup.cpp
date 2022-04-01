@@ -73,20 +73,6 @@ void PieceGroup::AddPiece(Piece *piece, Vector3i piecePos)
 	}
 }
 
-/*void PieceGroup::AddPieceGraph(Piece *piece, Vector3i piecePos)
-{
-    pieceList.push_back( piece );
-    pieceIDList.push_back( piece->pieceID );
-    piecePosList.push_back( piecePos );
-
-    for (int i=0; i<piece->voxelList.size(); i++)
-    {
-	    piece->voxelList[i]->pos += piecePos;
-        groupVoxelList.push_back(piece->voxelList[i]);
-    }
-}*/
-
-
 
 
 //**************************************************************************************//
@@ -140,22 +126,6 @@ bool PieceGroup::CheckGroupConnectivity()
 					}
 				}
 
-				// Debug code for watching traversal process
-				/*printf("BFS Queue: ");
-				for (int j=0; j<bfsQueue.size(); j++)
-				{
-					printf(" %d ", bfsQueue[j]->pieceID);
-				}
-				printf("\n");
-
-				printf("Visited Array:");
-				for (int j=0; j<groupPieceNum; j++)
-				{
-					if(visited[j] == true)
-						printf(" %d ", pieceList[j]->pieceID);
-				}
-				printf("\n");*/
-
 				// Just return if all the pieces are connected
 				if( connectedPieceNum == groupPieceNum )
 				{
@@ -164,9 +134,6 @@ bool PieceGroup::CheckGroupConnectivity()
 				}
 			}
 		}
-
-		//printf("Connet Piece Num: %d \n", connectedPieceNum);
-		//printf("Total  Piece Num: %d \n", groupPieceNum );
 
 		if( connectedPieceNum == groupPieceNum )
 			isConnected = true;
@@ -320,13 +287,6 @@ void PieceGroup::SaveGroupInfo(char fileName[])
 		}
 		else
 		{
-			//fprintf(fp, "Neighbor: ");
-			//for (int i=0; i<neiborPiece.size(); i++)
-			//{
-			//	fprintf(fp, " %d ", neiborPiece[i]);
-			//}
-			//fprintf(fp, "\n");
-
 			fprintf(fp, "MoveAxes: ");
 			for (int i=0; i<movableAxis.size(); i++)
 			{

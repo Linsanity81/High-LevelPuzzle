@@ -511,7 +511,6 @@ int PuzSolver::BuildPuzConfigGraph_Full(int disassMode, PuzConfig* rootPuzConfig
                     bfsConfigQueue.push_back(currPuzConfig->nextPuzConfigs[i]);
                 }
             }
-//            printf("Size of bfsCongigQueue: %lu\n", bfsConfigQueue.size());
         }
     }
 
@@ -651,7 +650,6 @@ int PuzSolver::BuildPuzConfigGraph_Partial(int disassMode, vector<PuzConfig *> &
     for (int i = 0; i < remvRootConfigs.size(); ++i)
     {
         vector<PuzConfig*> remvGraphConfigs;
-//        vector<PuzConfig*> remvPathConfigs;
 
         int currGraphState = BuildRemvPuzConfigGraph_Partial(disassMode, remvRootConfigs[i]);
 
@@ -724,15 +722,6 @@ int PuzSolver::BuildPuzConfigGraph_Partial(int disassMode, PuzConfig* rootPuzCon
             targetConfig->remvPieceIDs = remvPieceIDs;
             targetConfig->remvAxisIDs  = remvAxisIDs;
 
-//            targetConfig->nextPuzConfigs.push_back(currPuzConfig);
-
-            /*printf("remove pieces: ");
-            for (int i = 0; i < remvPieceIDs.size(); ++i)
-            {
-                printf("  %d  ", remvPieceIDs[i]);
-            }
-            printf("\n");*/
-
             break;
         }
         else
@@ -804,13 +793,6 @@ int PuzSolver::BuildRemvPuzConfigGraph_Partial(int disassMode, PuzConfig *rootPu
 
         if (isRemovableGroup)
         {
-//            printf("Removable pieces: ");
-//            for (int i = 0; i < remvPieceIDs.size(); ++i)
-//            {
-//                printf("  %d  ", remvPieceIDs[i]);
-//            }
-//            printf("\n");
-
             targetConfig = currPuzConfig;
 
             targetConfig->configType   = PUZ_CONFIG_PIECE_REMOVE;
@@ -851,8 +833,6 @@ int PuzSolver::BuildRemvPuzConfigGraph_Partial(int disassMode, PuzConfig *rootPu
 
             if (remvRootConfig->pieceIDList.size() > 1)
             {
-//                remvRootConfig->nextPuzConfigs.push_back(targetConfig);
-
                 int currGraphState = BuildRemvPuzConfigGraph_Partial(disassMode, remvRootConfig);
 
                 if (graphState == DISASSEMBLY_GRAPH_REMOVABLE_PIECE and currGraphState != DISASSEMBLY_GRAPH_REMOVABLE_PIECE)
@@ -1150,8 +1130,6 @@ void PuzSolver::ComputePuzzleLevel(vector<PuzConfig*> targetConfigs, int &puzzle
     ComputeShortestPathConfigs(minDistTargetConfig, pathConfigs);
 
     puzzleLevel = pathConfigs.size();
-
-    //printf("puzzle level: %d \n", puzzleLevel);
 }
 
 
@@ -1200,18 +1178,13 @@ void PuzSolver::ComputeShortestPathConfigs(PuzConfig* targetConfig, vector<PuzCo
     PuzConfig* currConfig = targetConfig;
     int currDist = currConfig->distToRoot;
 
-    //printf("currDist: %d \n", currDist);
-
     pathConfigs.push_back(currConfig);
 
     while (currDist > 0)
     {
-//        printf("currDist: %d \n", currDist);
         for (int i = 0; i < currConfig->nextPuzConfigs.size(); ++i)
         {
             PuzConfig *nextConfig = currConfig->nextPuzConfigs[i];
-
-            //printf("currDist_1: %d \n", currConfig->nextPuzConfigs[i]->distToRoot);
 
             if (nextConfig->distToRoot == currDist - 1)
             {
@@ -1234,17 +1207,11 @@ void PuzSolver::ComputeShortestPathConfigs(PuzConfig* targetConfig, vector<PuzCo
 
     pathConfigs.push_back(currConfig);
 
-//    printf("currDist: %d \n", currDist);
-
-//    printf("Size of graphConfigs: %lu\n", graphConfigs.size());
     while (currDist > 0)
     {
-//        printf("currDist: %d \n", currDist);
         for (int i = 0; i < graphConfigs.size(); ++i)
         {
             PuzConfig *nextConfig = graphConfigs[i];
-
-//            printf("currDist_1: %d \n", graphConfigs[i]->distToRoot);
 
             if (nextConfig->distToRoot == currDist - 1 and std::find(nextConfig->nextPuzConfigs.begin(), nextConfig->nextPuzConfigs.end(), currConfig) != nextConfig->nextPuzConfigs.end())
             {
@@ -1269,12 +1236,9 @@ void PuzSolver::ComputeShortestPathConfigs(PuzConfig* rootConfig, PuzConfig* tar
 
     while (currDist != rootConfig->distToRoot)
     {
-//        printf("currDist: %d \n", currDist);
         for (int i = 0; i < graphConfigs.size(); ++i)
         {
             PuzConfig *nextConfig = graphConfigs[i];
-
-//            printf("currDist_1: %d \n", graphConfigs[i]->distToRoot);
 
             if (nextConfig->distToRoot == currDist - 1 and std::find(nextConfig->nextPuzConfigs.begin(), nextConfig->nextPuzConfigs.end(), currConfig) != nextConfig->nextPuzConfigs.end())
             {

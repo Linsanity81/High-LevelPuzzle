@@ -63,13 +63,6 @@ void PuzAction::PrintPuzAction()
     }
     else
     {
-        //printf("DiassOrder %d:  Remv P%d   RemvAxes: ", diassOrder, remvPieceID);
-        //for (int i=0; i<remvAxisIDs.size(); i++)
-        //{
-        //	printf(" %s ", axisArray[remvAxisIDs[i]]);
-        //}
-        //printf("\n\n");
-
         printf("DiassOrder %d:  Remv", diassOrder);
 
         for (int i=0; i<remvPieceIDs.size(); i++)

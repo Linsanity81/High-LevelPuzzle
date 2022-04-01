@@ -69,8 +69,6 @@ void Puzzle::ClearPuzzle()
 		delete pieceList[i];
 	pieceList.clear();
 
-//	disconnectedEdgeList.clear();
-
     puzLockState   = PUZZLE_LOCK_UNKNOWN;
     puzBuildState  = PUZZLE_BUILD_UNKNOWN;
     puzLevel  = 0;
@@ -130,11 +128,6 @@ void Puzzle::PrintPuzzle()
     for (int i=0; i<volume->GetVoxelGrid().size(); i++)
     {
         printf(" %d ", volume->GetVoxelGrid()[i]->piece + 1);
-
-        //printf("Voxel [%f %f %f]  Piece [%d] Neighbor [%d %d %d %d %d %d] \n",
-        //       voxelGrid[i]->center(X_INFO), voxelGrid[i]->center(Y_INFO), voxelGrid[i]->center(Z_INFO), voxelGrid[i]->piece,
-        //       voxelGrid[i]->neiborPiece[0], voxelGrid[i]->neiborPiece[1], voxelGrid[i]->neiborPiece[2],
-        //       voxelGrid[i]->neiborPiece[3], voxelGrid[i]->neiborPiece[4], voxelGrid[i]->neiborPiece[5]);
     }
     printf("] ");
 
@@ -218,7 +211,6 @@ int Puzzle::CheckPuzzleState(bool isPrint, bool isFixLastPiece)
 
     endTime = clock();
     elapsed = ((float) (endTime - beginTime)) / (CLOCKS_PER_SEC); // Time unit: second
-    //printf("Time used to compute the disassembly graph: %.6f\n", elapsed);
 
 #ifdef COMPUTE_KERNAL_GRAPH_ONLY
     vector<vector<int>> edgeList;
@@ -271,7 +263,6 @@ int Puzzle::CheckPuzzleState(bool isPrint, bool isFixLastPiece)
 
     dissComplexity = 0;
 
-//    printf("size of puzActionList : %lu\n", puzActionList.size());
     if (puzActionList.size() > 1)
     {
         for (int i = 1; i < puzLevel - 1; ++i)
@@ -281,15 +272,10 @@ int Puzzle::CheckPuzzleState(bool isPrint, bool isFixLastPiece)
 
             if (currAction.movePieceIDs != prevAction.movePieceIDs)
             {
-//            printf("-----------------------------------\n");
-//            currAction.PrintPuzAction();
-//            prevAction.PrintPuzAction();
-//            printf("-----------------------------------\n");
                 dissComplexity++;
             }
         }
     }
-//    printf("dissComplexity: %d\n", dissComplexity);
 
 #ifdef SHOW_INFO
     for (int i = 0; i < puzActionList.size(); ++i)
@@ -459,9 +445,6 @@ int Puzzle::CheckPuzzleLockState()
             }
         }
     }
-
-    //printf("movePieceNum: %d \n", movePieceNum);
-    //printf("moveGroupNum: %d \n", moveGroupNum);
 
     delete pieceGroup;
 
