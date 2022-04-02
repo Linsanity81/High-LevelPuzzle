@@ -68,7 +68,7 @@ Here is the control panel of our high-level puzzle generator. There are 6 compon
  <img width=640px height=400px src="doc/control_panel.png" alt="Control Panel"></a>
 </p>
 
-### Parameter Control
+- ### Parameter Control
 
 `Piece Number`  Determine the number of pieces *K*.
 
