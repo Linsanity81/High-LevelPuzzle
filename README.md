@@ -43,7 +43,7 @@ This repo presents a computational approach to design high-level interlocking pu
 Clone the repository, run CMake to generate Makefiles or CMake/Visual Studio project files, and the rest should just work automatically.
 
 ### Prerequisites
-We need to install `cgal` before running our code. With the help of `brew`, we can easily get `GGAL`.
+We need to install `cgal` before running our code. With the help of `brew`, we can easily get `cgal`.
 
 ```
 brew install cgal
