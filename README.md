@@ -78,13 +78,13 @@ Here is the control panel of our high-level puzzle generator. There are 6 compon
 
 `Puzzle Tolerance` This parameter is set for fabrication only, which can control the gap between pieces.
 
-### Status Bar
+- ### Status Bar
 
 `Puzzle State` Indicate state (e.g. interlocking and deadlocking) of current puzzle.
 
 `Level of Difficulty` Level of difficult of current puzzle.
 
-### High Level Puzzle Constructor
+- ### High Level Puzzle Constructor
 
 `Read` Our program can read 2 types of input files: *.puz* and *.vol* file. 
 
@@ -94,14 +94,14 @@ Here is the control panel of our high-level puzzle generator. There are 6 compon
 
 `Reset` Reset all the parameters.
 
-### Modifying High Level Puzzle
+- ### Modifying High Level Puzzle
 From our observation, *High Level Puzzle Constructor* can easily find a puzzle if the target level is less than 10. If you want to generate a higher level puzzle, you can modify current puzzle to reach higher level puzzle.
 
 `Modifying Target Level` The target level after modifying current puzzle.
 
 `Modifying` Start modifying currrent puzzle. 
 
-### Assembly State Viewer
+- ### Assembly State Viewer
 
 `Disassembly Step` Determine the disassembly step.
 
@@ -109,7 +109,7 @@ From our observation, *High Level Puzzle Constructor* can easily find a puzzle i
 
 `Next` Next disassembly step.
 
-### Render Control
+- ### Render Control
 Control the object visualization state.
 
 ## Create a High-level Interlocking Puzzle by Yourself! <a name = "create_puzzle"></a>
