@@ -31,7 +31,7 @@ you can use the following bibtex snippet:
 ## Table of Contents
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Usage](#usage)
+- [GUI Interface](#usage)
 - [Create a High-level Interlocking Puzzle by Yourself!](#create_puzzle)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
