@@ -66,9 +66,7 @@ The integer following make -j is the number of threads supported by your CPU arc
 
 
 ## GUI Interface <a name = "usage"></a>
-These instructions guide you how to use our code to generate high-level interlocking puzzle by yourself.
-
-Here is the control panel of our high-level puzzle generator. There are 6 components in the control panel: **Parameter Control**, **Status Bar**, **High Level Puzzle Constructor**, **Modifying High Level Puzzle**, **Assembly State Viewer** and **Render Control**.
+The control panel of our high-level puzzle generator. There are 6 components in the control panel: **Parameter Control**, **Status Bar**, **High Level Puzzle Constructor**, **Modifying High Level Puzzle**, **Assembly State Viewer** and **Render Control**.
 <p align="center">
   <a href="" rel="noopener">
  <img width=640px height=400px src="doc/control_panel.png" alt="Control Panel"></a>
@@ -119,6 +117,7 @@ Here is the control panel of our high-level puzzle generator. There are 6 compon
   Control the object visualization state.
 
 ## Create a High-level Interlocking Puzzle by Yourself! <a name = "create_puzzle"></a>
+These instructions guide you how to use our code to generate high-level interlocking puzzle by yourself.
 
 ### Step 1: import a volume
 Import a Cube_5x5x5_E1.vol volume file by clicking `read` button.
