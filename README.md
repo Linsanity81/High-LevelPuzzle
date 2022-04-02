@@ -38,16 +38,18 @@ you can use the following bibtex snippet:
 This repo presents a computational approach to design high-level interlocking puzzles. We implemented our computational design tool in C++ and `libigl` [Jacobson et al. 2018] on a desktop computer with 3.6 GHz 8-Core Intel processor and 16 GB RAM. 
 
 ## Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Clone the repository, run CMake to generate Makefiles or CMake/Visual Studio project files, and the rest should just work automatically.
 
 ### Prerequisites
-We need to install `CGAL` before running our code. With the help of `brew`, we can easily get `GGAL`.
+We need to install `cgal` before running our code. With the help of `brew`, we can easily get `GGAL`.
 
 ```
 brew install cgal
 ```
 
 ### Compilation
+
+- **MacOS and Ubuntu(Linux)**:
 
 ```
 cd [current folder path]
