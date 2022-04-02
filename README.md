@@ -47,14 +47,14 @@ We need to install `CGAL` before running our code. With the help of `brew`, we c
 brew install cgal
 ```
 
-### Compile
+### Compilation
 
 ```
 cd [current folder path]
 mkdir build
 cd build
 cmake ..
-make
+make -j 16
 ```
 
 
