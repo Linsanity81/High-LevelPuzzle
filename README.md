@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=640px height=240px src="doc/result_shape.png" alt="Project logo"></a>
+ <img width=640px height=240px src="doc/teaser.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Computational Design of High-level Interlocking Puzzles</h3>
