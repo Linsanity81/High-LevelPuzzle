@@ -62,7 +62,7 @@ make -j 16
 ```
 
 
-## Usage <a name = "usage"></a>
+## GUI Interface <a name = "usage"></a>
 These instructions guide you how to use our code to generate high-level interlocking puzzle by yourself.
 
 Here is the control panel of our high-level puzzle generator. There are 6 components in the control panel: **Parameter Control**, **Status Bar**, **High Level Puzzle Constructor**, **Modifying High Level Puzzle**, **Assembly State Viewer** and **Render Control**.
