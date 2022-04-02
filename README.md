@@ -60,7 +60,7 @@ $ cd build
 $ cmake ..
 $ make -j 16
 ```
-the integer following make -j is the number of threads supported by your CPU architecture. Replace it with your optimal value.
+The integer following make -j is the number of threads supported by your CPU architecture. Replace it with your optimal value.
 
 - **Windows**: currently unavailable.
 
