@@ -54,11 +54,11 @@ brew install cgal
 - **MacOS and Ubuntu(Linux)**:
 
 ```
-cd [current folder path]
-mkdir build
-cd build
-cmake ..
-make -j 16
+$ cd [current folder path]
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make -j 16
 ```
 
 - **Windows**: currently unavailable.
