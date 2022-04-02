@@ -21,6 +21,8 @@ you can use the following bibtex snippet:
      author = {Rulin, Chen and Ziqi, Wang and Peng, Song and Bernd, Bickel},
      title = {Computational Design of High-level Interlocking Puzzles},
      journal = {ACM Transactions on Graphics (SIGGRAPH 2022)},
+     volume = {41},
+     number = {7},
      year = {2022},
      publisher = {ACM},
      keywords = {interlocking puzzle, level of difficulty, disassembly planning, computational design},
