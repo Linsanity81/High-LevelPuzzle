@@ -1,0 +1,208 @@
+graph G {
+color = "black"
+0 [label = "P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+P7: 0 0 0 
+P8: 0 0 0 
+",  style="filled", fillcolor = "#96FF96"];
+1 [label = "P1: 0 -1 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+P7: 0 0 0 
+P8: 0 0 0 
+"];
+2 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+P7: 0 0 0 
+P8: 0 0 0 
+"];
+3 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: -1 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+P7: 0 0 0 
+P8: 0 0 0 
+"];
+4 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: -1 0 0 
+P4: -1 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+P7: 0 0 0 
+P8: 0 0 0 
+"];
+5 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: -1 0 0 
+P4: -1 0 0 
+P5: -1 0 0 
+P6: 0 0 0 
+P7: 0 0 0 
+P8: 0 0 0 
+"];
+6 [label = "P1: 0 -1 0 
+P2: -1 0 -1 
+P3: -1 0 0 
+P4: -1 0 0 
+P5: -1 0 0 
+P6: 0 0 0 
+P7: 0 0 0 
+P8: 0 0 0 
+"];
+7 [label = "P1: 0 -1 0 
+P2: 0 0 -1 
+P3: -1 0 0 
+P4: -1 0 0 
+P5: -1 0 0 
+P6: -1 0 0 
+P7: 0 0 0 
+P8: 0 0 0 
+"];
+8 [label = "P1: 0 -1 0 
+P2: -1 0 -1 
+P3: -1 0 0 
+P4: -1 0 0 
+P5: -1 0 0 
+P6: -1 0 0 
+P7: 0 0 0 
+P8: 0 0 0 
+"];
+9 [label = "P1: 1 -1 0 
+P2: 1 0 -1 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+P7: 0 0 0 
+P8: 1 0 0 
+"];
+99 [label = "P1: 1 +∞ 0 
+P2: 1 +∞ -1 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+P6: 0 0 0 
+P7: 0 0 0 
+P8: 1 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+10 [label = "P1: 0 -1 0 
+P2: -1 0 -1 
+P3: -1 0 0 
+P4: -1 0 0 
+P5: -1 0 0 
+P6: -1 0 0 
+P7: -1 0 0 
+P8: 0 0 0 
+"];
+1010 [label = "P1: 0 +∞ 0 
+P2: -1 0 -1 
+P3: -1 0 0 
+P4: -1 0 0 
+P5: -1 0 0 
+P6: -1 0 0 
+P7: -1 0 0 
+P8: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+11 [label = "P1: -1 -1 0 
+P2: -1 0 -1 
+P3: -1 0 0 
+P4: -1 0 0 
+P5: -1 0 0 
+P6: -1 0 0 
+P7: -1 0 0 
+P8: 0 0 0 
+"];
+1111 [label = "P1: -1 -1 0 
+P2: -1 0 -1 
+P3: -1 0 0 
+P4: -1 0 0 
+P5: -1 0 0 
+P6: -1 0 0 
+P7: -1 0 -∞ 
+P8: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+12 [label = "P1: 0 -2 0 
+P2: 0 0 -1 
+P3: -1 0 0 
+P4: -1 0 0 
+P5: -1 0 0 
+P6: -1 0 0 
+P7: -1 0 0 
+P8: 0 0 0 
+"];
+edge [style=bold];
+0 -- 1 [color="#1E96FF", penwidth=4.0];
+
+1 -- 2 [color="#1E96FF", penwidth=4.0];
+
+2 -- 3 [color=black];
+2 -- 4 [color=black];
+2 -- 5 [color=black];
+2 -- 6 [color=black];
+2 -- 7 [color=black];
+2 -- 8 [color=black];
+2 -- 9 [color="#1E96FF", penwidth=4.0];
+2 -- 10 [color=black];
+2 -- 11 [color=black];
+
+3 -- 4 [color=black];
+3 -- 5 [color=black];
+3 -- 6 [color=black];
+3 -- 7 [color=black];
+3 -- 8 [color=black];
+3 -- 9 [color=black];
+3 -- 10 [color=black];
+3 -- 11 [color=black];
+
+4 -- 5 [color=black];
+4 -- 6 [color=black];
+4 -- 7 [color=black];
+4 -- 8 [color=black];
+4 -- 9 [color=black];
+4 -- 10 [color=black];
+4 -- 11 [color=black];
+
+5 -- 6 [color=black];
+5 -- 7 [color=black];
+5 -- 9 [color=black];
+5 -- 10 [color=black];
+5 -- 11 [color=black];
+
+6 -- 8 [color=black];
+6 -- 10 [color=black];
+6 -- 11 [color=black];
+
+7 -- 8 [color=black];
+7 -- 9 [color=black];
+7 -- 10 [color=black];
+7 -- 11 [color=black];
+
+8 -- 10 [color=black];
+8 -- 11 [color=black];
+
+9 -- 12 [color=black];
+9 -- 10 [color=black];
+9 -- 11 [color=black];
+
+9 -- 99 [color="#1E96FF", penwidth=4.0];
+10 -- 11 [color=black];
+
+10 -- 1010 [color=black];
+
+11 -- 1111 [color=black];
+
+}

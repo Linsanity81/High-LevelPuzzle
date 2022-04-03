@@ -1,0 +1,517 @@
+graph G {
+color = "black"
+0 [label = "P1: 0 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#96FF96"];
+1 [label = "P1: -1 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+2 [label = "P1: -2 0 0 
+P2: 0 0 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+3 [label = "P1: -1 0 0 
+P2: 0 -1 0 
+P3: 0 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+4 [label = "P1: -1 0 0 
+P2: 0 -1 0 
+P3: 1 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+5 [label = "P1: 0 0 0 
+P2: 1 -1 0 
+P3: 1 0 0 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+6 [label = "P1: -1 0 0 
+P2: 0 -1 0 
+P3: 1 0 0 
+P4: -1 0 0 
+P5: -1 0 0 
+"];
+7 [label = "P1: -1 0 0 
+P2: 0 -1 -1 
+P3: 1 0 -1 
+P4: -1 0 0 
+P5: -1 0 0 
+"];
+8 [label = "P1: 0 0 0 
+P2: 1 -1 -1 
+P3: 2 0 -1 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+9 [label = "P1: 0 0 -1 
+P2: 1 -1 -1 
+P3: 2 0 -1 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+10 [label = "P1: -1 0 1 
+P2: 0 -1 -1 
+P3: 1 0 -1 
+P4: -1 0 0 
+P5: -1 0 1 
+"];
+11 [label = "P1: 0 0 -1 
+P2: 1 -1 -2 
+P3: 2 0 -2 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+12 [label = "P1: 0 0 0 
+P2: 1 -1 -1 
+P3: 2 0 -1 
+P4: 1 0 -1 
+P5: 0 0 0 
+"];
+13 [label = "P1: 0 0 -1 
+P2: 1 -1 -1 
+P3: 2 0 -1 
+P4: 1 0 -1 
+P5: 0 0 0 
+"];
+14 [label = "P1: -1 0 0 
+P2: 1 -1 -2 
+P3: 2 0 -2 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+15 [label = "P1: -1 0 1 
+P2: 1 -1 -1 
+P3: 1 0 -1 
+P4: -1 0 0 
+P5: -1 0 1 
+"];
+16 [label = "P1: 0 0 0 
+P2: 2 -1 -2 
+P3: 3 0 -2 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+17 [label = "P1: 0 0 0 
+P2: 2 -1 -2 
+P3: 3 0 -2 
+P4: 1 0 -1 
+P5: 0 0 0 
+"];
+18 [label = "P1: -1 0 1 
+P2: 1 -1 -1 
+P3: 1 -1 -1 
+P4: -1 0 0 
+P5: -1 0 1 
+"];
+19 [label = "P1: 0 0 0 
+P2: 1 -1 -2 
+P3: 1 -1 -2 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+20 [label = "P1: -1 0 1 
+P2: 1 -1 -2 
+P3: 1 -1 -2 
+P4: -1 0 0 
+P5: -1 0 1 
+",  style="filled", fillcolor = "#FF9696"];
+21 [label = "P1: -1 0 0 
+P2: 1 -1 -2 
+P3: 1 -1 -2 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+22 [label = "P1: 0 0 -1 
+P2: 2 -1 -3 
+P3: 2 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+23 [label = "P1: 0 0 0 
+P2: 2 -1 -2 
+P3: 2 -1 -2 
+P4: 1 0 -1 
+P5: 0 0 0 
+"];
+24 [label = "P1: 0 0 0 
+P2: 2 -1 -2 
+P3: 2 -1 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+25 [label = "P1: 0 0 0 
+P2: 1 -1 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+26 [label = "P1: 0 0 -1 
+P2: 1 -1 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+27 [label = "P1: 0 0 0 
+P2: 1 -1 -2 
+P3: 1 -1 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+28 [label = "P1: 0 0 0 
+P2: 2 -2 -3 
+P3: 2 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+29 [label = "P1: 0 0 0 
+P2: 2 -3 -3 
+P3: 2 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+30 [label = "P1: -1 0 0 
+P2: 1 -1 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+31 [label = "P1: -1 0 -1 
+P2: 1 -1 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+32 [label = "P1: -1 0 0 
+P2: 1 -1 -2 
+P3: 1 -1 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+33 [label = "P1: 0 0 -1 
+P2: 2 -2 -3 
+P3: 2 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+34 [label = "P1: 0 0 -1 
+P2: 2 -3 -3 
+P3: 2 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+35 [label = "P1: 0 0 0 
+P2: 2 -1 -3 
+P3: 2 -1 -3 
+P4: 1 0 -1 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+36 [label = "P1: 0 0 -1 
+P2: 2 -1 -3 
+P3: 2 -1 -3 
+P4: 1 0 -1 
+P5: 0 0 0 
+",  style="filled", fillcolor = "#FF9696"];
+37 [label = "P1: 0 0 0 
+P2: 2 -2 -2 
+P3: 2 -1 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+38 [label = "P1: 0 0 0 
+P2: 2 -3 -2 
+P3: 2 -1 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+39 [label = "P1: 0 0 0 
+P2: 1 -2 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+40 [label = "P1: 0 0 0 
+P2: 1 -3 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+41 [label = "P1: 0 0 -1 
+P2: 1 -2 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+42 [label = "P1: 0 0 -1 
+P2: 1 -3 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+43 [label = "P1: 0 0 0 
+P2: 1 -2 -2 
+P3: 1 -1 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+44 [label = "P1: 0 0 0 
+P2: 1 -3 -2 
+P3: 1 -1 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+45 [label = "P1: -1 0 0 
+P2: 1 -2 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+46 [label = "P1: -1 0 0 
+P2: 1 -3 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+47 [label = "P1: -1 0 -1 
+P2: 1 -2 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+48 [label = "P1: -1 0 -1 
+P2: 1 -3 -3 
+P3: 1 -1 -3 
+P4: 0 0 -1 
+P5: 0 0 0 
+"];
+49 [label = "P1: -1 0 0 
+P2: 1 -2 -2 
+P3: 1 -1 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+50 [label = "P1: -1 0 0 
+P2: 1 -3 -2 
+P3: 1 -1 -2 
+P4: 0 0 0 
+P5: 0 0 0 
+"];
+51 [label = "P1: 0 0 0 
+P2: 2 -2 -3 
+P3: 2 -1 -3 
+P4: 1 0 -1 
+P5: 0 0 0 
+"];
+52 [label = "P1: 0 0 0 
+P2: 2 -3 -3 
+P3: 2 -1 -3 
+P4: 1 0 -1 
+P5: 0 0 0 
+"];
+53 [label = "P1: 0 0 -1 
+P2: 2 -2 -3 
+P3: 2 -1 -3 
+P4: 1 0 -1 
+P5: 0 0 0 
+"];
+54 [label = "P1: 0 0 -1 
+P2: 2 -3 -3 
+P3: 2 -1 -3 
+P4: 1 0 -1 
+P5: 0 0 0 
+"];
+55 [label = "P1: -1 0 1 
+P4: -1 0 0 
+P5: -1 0 1 
+"];
+56 [label = "P1: 0 0 0 
+",  style="filled", fillcolor = "#FF96FF"];
+57 [label = "P4: -1 0 0 
+P5: -1 0 1 
+"];
+58 [label = "P4: -1 0 0 
+", style="filled", fillcolor = "#9696FF"];
+59 [label = "P5: 0 0 0 
+",  style="filled", fillcolor = "#FF96FF"];
+60 [label = "P2: 1 -1 -2 
+P3: 1 -1 -2 
+"];
+61 [label = "P2: 2 -2 -3 
+P3: 2 -1 -3 
+"];
+62 [label = "P2: 1 -3 -2 
+P3: 1 -1 -2 
+"];
+63 [label = "P2: 1 -2 -3 
+P3: 2 -1 -3 
+"];
+64 [label = "P3: 1 -1 -2 
+",  style="filled", fillcolor = "#FF96FF"];
+65 [label = "P2: 2 -3 -3 
+",  style="filled", fillcolor = "#FF96FF"];
+edge [style=bold];
+0 -- 1 [color="#1E96FF", penwidth=4.0];
+0 -- 2 [color=black];
+
+1 -- 2 [color=black];
+1 -- 3 [color="#1E96FF", penwidth=4.0];
+
+
+3 -- 4 [color="#1E96FF", penwidth=4.0];
+3 -- 5 [color=black];
+
+4 -- 5 [color=black];
+4 -- 6 [color="#1E96FF", penwidth=4.0];
+
+5 -- 6 [color=black];
+
+6 -- 7 [color="#1E96FF", penwidth=4.0];
+6 -- 8 [color=black];
+6 -- 9 [color=black];
+
+7 -- 8 [color=black];
+7 -- 9 [color=black];
+7 -- 10 [color="#1E96FF", penwidth=4.0];
+7 -- 11 [color=black];
+
+8 -- 9 [color=black];
+8 -- 10 [color=black];
+8 -- 11 [color=black];
+8 -- 12 [color=black];
+
+9 -- 11 [color=black];
+9 -- 13 [color=black];
+
+10 -- 14 [color=black];
+10 -- 11 [color=black];
+10 -- 15 [color="#1E96FF", penwidth=4.0];
+10 -- 16 [color=black];
+10 -- 17 [color=black];
+
+
+12 -- 13 [color=black];
+
+
+14 -- 15 [color=black];
+14 -- 16 [color=black];
+14 -- 17 [color=black];
+
+15 -- 16 [color=black];
+15 -- 18 [color="#1E96FF", penwidth=4.0];
+15 -- 17 [color=black];
+
+16 -- 17 [color=black];
+
+
+18 -- 19 [color=black];
+18 -- 20 [color="#1E96FF", penwidth=4.0];
+18 -- 21 [color=black];
+18 -- 22 [color=black];
+18 -- 23 [color=black];
+18 -- 24 [color=black];
+
+19 -- 21 [color=black];
+19 -- 25 [color=black];
+19 -- 26 [color=black];
+19 -- 27 [color=black];
+19 -- 23 [color=black];
+
+20 -- 22 [color=black];
+20 -- 28 [color=black];
+20 -- 29 [color=black];
+20 -- 55 [color="#1E96FF", penwidth=4.0];
+20 -- 60 [color=black];
+
+21 -- 30 [color=black];
+21 -- 31 [color=black];
+21 -- 32 [color=black];
+21 -- 23 [color=black];
+
+22 -- 33 [color=black];
+22 -- 34 [color=black];
+
+23 -- 35 [color=black];
+23 -- 36 [color=black];
+
+24 -- 37 [color=black];
+24 -- 38 [color=black];
+
+25 -- 30 [color=black];
+25 -- 26 [color=black];
+25 -- 39 [color=black];
+25 -- 40 [color=black];
+
+26 -- 31 [color=black];
+26 -- 41 [color=black];
+26 -- 42 [color=black];
+
+27 -- 32 [color=black];
+27 -- 43 [color=black];
+27 -- 44 [color=black];
+
+
+
+30 -- 31 [color=black];
+30 -- 45 [color=black];
+30 -- 46 [color=black];
+
+31 -- 47 [color=black];
+31 -- 48 [color=black];
+
+32 -- 49 [color=black];
+32 -- 50 [color=black];
+
+
+
+35 -- 36 [color=black];
+35 -- 51 [color=black];
+35 -- 52 [color=black];
+
+36 -- 53 [color=black];
+36 -- 54 [color=black];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+55 -- 57 [color="#1E96FF", penwidth=4.0];
+55 -- 56 [color=black];
+
+57 -- 59 [color=black];
+57 -- 58 [color="#1E96FF", penwidth=4.0];
+
+60 -- 61 [color=black];
+60 -- 62 [color=black];
+
+61 -- 63 [color=black];
+61 -- 62 [color=black];
+
+62 -- 64 [color=black];
+62 -- 65 [color=black];
+
+
+}
