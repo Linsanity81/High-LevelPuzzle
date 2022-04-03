@@ -66,7 +66,7 @@ The integer following make -j is the number of threads supported by your CPU arc
 
 
 ## GUI Interface <a name = "usage"></a>
-The control panel of our high-level puzzle generator. There are 6 components in the control panel: **Parameter Control**, **Status Bar**, **High Level Puzzle Creator**, **Assembly State Viewer** and **Render Control**.
+The control panel of our high-level puzzle generator. There are 5 components in the control panel: **Parameter Control**, **Status Bar**, **High Level Puzzle Creator**, **Assembly State Viewer** and **Render Control**.
 <p align="center">
   <a href="" rel="noopener">
  <img width=640px height=400px src="doc/control_panel.png" alt="Control Panel"></a>
