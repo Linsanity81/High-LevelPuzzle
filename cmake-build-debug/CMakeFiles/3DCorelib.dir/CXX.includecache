@@ -10126,15 +10126,35 @@ vector
 
 ../src/PuzConverter/PuzConverter.h
 
+../src/Puzzle/Piece.h
+Utility/HelpPuz.h
+../src/Puzzle/Utility/HelpPuz.h
+PuzConfig.h
+../src/Puzzle/PuzConfig.h
+
 ../src/Puzzle/PieceCreator.h
 Utility/HelpPuz.h
 ../src/Puzzle/Utility/HelpPuz.h
 math.h
 -
 
-../src/Utility/HelpDefine.h
-cmath
+../src/Puzzle/PieceFace.h
+Utility/HelpPuz.h
+../src/Puzzle/Utility/HelpPuz.h
+
+../src/Puzzle/PuzConfig.h
+Utility/HelpPuz.h
+../src/Puzzle/Utility/HelpPuz.h
+
+../src/Puzzle/Puzzle.h
+string
 -
+PieceCreator.h
+../src/Puzzle/PieceCreator.h
+Utility/HelpPuz.h
+../src/Puzzle/Utility/HelpPuz.h
+
+../src/Puzzle/Volume.h
 
 ../src/Utility/HelpFunc.h
 vector
@@ -10164,7 +10184,37 @@ igl/opengl/glfw/Viewer.h
 igl/opengl/ViewerData.h
 -
 
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/ExpVolume.h
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/Cube.h
+Utility/HelpPuz.h
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/Utility/HelpPuz.h
+
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/ObjPiece.h
+
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/ObjPuzzle.h
+vector
+-
+
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/PuzConverter.cpp
+Utility/HelpPuz.h
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/Utility/HelpPuz.h
+Puzzle/PieceFace.h
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/Puzzle/PieceFace.h
+Puzzle/Piece.h
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/Puzzle/Piece.h
+Puzzle/Puzzle.h
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/Puzzle/Puzzle.h
+Puzzle/Volume.h
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/Puzzle/Volume.h
+Cube.h
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/Cube.h
+ObjPiece.h
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/ObjPiece.h
+ObjPuzzle.h
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/ObjPuzzle.h
+PuzConverter.h
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/PuzConverter.h
+
+/Users/linsanity/Documents/Github/High-LevelPuzzle/src/PuzConverter/PuzConverter.h
 
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Piece.h
 Utility/HelpPuz.h
@@ -10182,21 +10232,9 @@ math.h
 Utility/HelpPuz.h
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Utility/HelpPuz.h
 
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PieceGroup.cpp
-PieceFace.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PieceFace.h
-Piece.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Piece.h
-PieceGroup.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PieceGroup.h
-
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PieceGroup.h
 Utility/HelpPuz.h
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Utility/HelpPuz.h
-
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PuzAction.cpp
-PuzAction.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PuzAction.h
 
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PuzAction.h
 Utility/HelpPuz.h
@@ -10205,32 +10243,6 @@ Utility/HelpPuz.h
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PuzConfig.h
 Utility/HelpPuz.h
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Utility/HelpPuz.h
-
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PuzSolver.cpp
-Utility/HelpDefine.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Utility/HelpDefine.h
-Utility/HelpPuz.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Utility/HelpPuz.h
-PieceFace.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PieceFace.h
-Piece.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Piece.h
-PieceGroup.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PieceGroup.h
-PuzConfig.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PuzConfig.h
-PuzAction.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PuzAction.h
-ExpVolume.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/ExpVolume.h
-PuzSolver.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PuzSolver.h
-Volume.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/Volume.h
-iostream
--
-algorithm
--
 
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Puzzle/PuzSolver.h
 

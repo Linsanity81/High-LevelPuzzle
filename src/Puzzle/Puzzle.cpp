@@ -821,7 +821,7 @@ void Puzzle::SavePuzzleFiles(string puzFolderPath, float puzTolerance, bool isFi
     puzzleName.append(".puz");
 
     string puzzleFullName = puzFolderPath + "/" + puzzleName;
-    printf("Saving files - generation time: %.3f\n", generationTime);
+//    printf("Saving files - generation time: %.3f\n", generationTime);
     volume->WritePuzzleFile( puzzleFullName.c_str(), generationTime );
 
 
@@ -1243,7 +1243,7 @@ void Puzzle::WriteDisassemblyKernelGraph(string folderPath, vector<PuzConfig*> t
                         if (tracedPuzConfigs[i]->remvAxisIDs[0] == 3) fprintf(fp, "P%d: %d -∞ %d \n", m+1, puzConfig->piecePosList[m](0), puzConfig->piecePosList[m](2));
                         if (tracedPuzConfigs[i]->remvAxisIDs[0] == 4) fprintf(fp, "P%d: %d %d +∞ \n", m+1, puzConfig->piecePosList[m](0), puzConfig->piecePosList[m](1));
                         if (tracedPuzConfigs[i]->remvAxisIDs[0] == 5) fprintf(fp, "P%d: %d %d -∞ \n", m+1, puzConfig->piecePosList[m](0), puzConfig->piecePosList[m](1));
-                        printf("remvAxisID: %d\n", tracedPuzConfigs[i]->remvAxisIDs[0]);
+//                        printf("remvAxisID: %d\n", tracedPuzConfigs[i]->remvAxisIDs[0]);
                     }
 
                     else

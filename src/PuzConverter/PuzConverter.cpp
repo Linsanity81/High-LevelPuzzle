@@ -141,8 +141,6 @@ void PuzConverter::CreatePuzzleOBJModels(bool isCreateGap)
 	// Build puzzle contacting graph at voxel level
     puzzle->BuildPuzzleContactGraph();
 
-	printf("Contact graph has been built up.\n");
-
 	// Create OBJ model of each piece with specified tolerance
 	for (int i=0; i<puzzle->pieceList.size(); i++)
 	{
