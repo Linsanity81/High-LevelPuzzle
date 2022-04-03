@@ -120,10 +120,6 @@ void libigl_Render::RenderPuzzle(iglViewer &viewer, Puzzle &myPuzzle, int disass
     {
         DrawSmoothPuzzle(viewer, myPuzzle.smoothPieceVerticeList, myPuzzle.smoothPieceFaceList, myPuzzle.pieceList.size(), posVectors);
     }
-    else
-    {
-        printf("There is no smooth puzzle that need to be rendered.\n");
-    }
 }
 
 void libigl_Render::DrawPuzzle(iglViewer &viewer,

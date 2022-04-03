@@ -2088,14 +2088,6 @@ vector
 Eigen/Eigen
 -
 
-../src/Mesh/MeshObject.h
-Utility/HelpTypedef.h
-../src/Mesh/Utility/HelpTypedef.h
-Utility/HelpPuz.h
-../src/Mesh/Utility/HelpPuz.h
-Puzzle/PieceCreator.h
-../src/Mesh/Puzzle/PieceCreator.h
-
 ../src/Puzzle/Piece.h
 Utility/HelpPuz.h
 ../src/Puzzle/Utility/HelpPuz.h
@@ -2161,24 +2153,6 @@ igl/opengl/glfw/Viewer.h
 -
 igl/opengl/ViewerData.h
 -
-
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/libigl_Render.cpp
-utility
--
-vector
--
-Eigen/Eigen
--
-libigl_Render.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/libigl_Render.h
-Puzzle/Puzzle.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Puzzle/Puzzle.h
-Puzzle/Volume.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Puzzle/Volume.h
-Mesh/MeshObject.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Mesh/MeshObject.h
-Puzzle/PuzAction.h
-/Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/Puzzle/PuzAction.h
 
 /Users/linsanity/Documents/Github/High-LevelPuzzle/src/Render/libigl_Render.h
 Utility/HelpTypedef.h

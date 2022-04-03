@@ -136,10 +136,15 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
             ImGui::SetNextItemWidth(half_width);
             ImGui::DragInt("##Piece Number", &pieceNum);
 
-            ImGui::Text("Level of Difficulty");
-            ImGui::SameLine(half_width, p);
-            ImGui::SetNextItemWidth(half_width);
-            ImGui::DragInt("##Level of Difficulty", &firstLevel);
+            ImGui::Text("Target Level (Construction)");
+            ImGui::SameLine(half_width * 1.3, p);
+            ImGui::SetNextItemWidth(half_width * 0.7);
+            ImGui::DragInt("##Target Level (Construction)", &firstLevel);
+
+            ImGui::Text("Target Level (Modifying)");
+            ImGui::SameLine(half_width * 1.3, p);
+            ImGui::SetNextItemWidth(half_width * 0.7);
+            ImGui::DragInt("##Target Level (Modifying)", &firstLevel_Iter);
 
             ImGui::Text("Seed Number");
             ImGui::SameLine(half_width, p);
@@ -230,36 +235,6 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
 
             ImGui::SameLine(0, button_horizontalGap);
 
-            if (ImGui::Button("Reset", ImVec2(button_width, 0)))
-            {
-                if (myPuzzle.pieceList.size() != 0)
-                    myRender.RenderPuzzle(viewer, myPuzzle, 0);
-            }
-
-            ImGui::Dummy(ImVec2(0.0f, gap_between_paraGroups));
-        }
-
-        ImGui::Dummy(ImVec2(0.0f, gap_between_controlGroups));
-
-        ///////////////////////////////////////////////////////////////////////////
-        //// High Level Puzzle Creator -- Iterative
-        ///////////////////////////////////////////////////////////////////////////
-
-        if (ImGui::CollapsingHeader("Modifying High Level Puzzle", ImGuiTreeNodeFlags_DefaultOpen)) {
-            //// gap between the button group and head
-            ImGui::Dummy(ImVec2(0.0f, 2.0f));
-
-            ////////////////////////////////////////////////////////////////////
-            //// model&shell&parts related
-            //// buttons for model/shell IO/generate
-
-            ImGui::Text("Modifying Target Level");
-            ImGui::SameLine(half_width * 1.2, p);
-            ImGui::SetNextItemWidth(half_width * 0.8);
-            ImGui::DragInt("##Modifying Target Level", &firstLevel_Iter);
-
-            ImGui::Dummy(ImVec2(0.0f, gap_between_paraGroups));
-
             if (ImGui::Button("Modifying", ImVec2(button_width, 0))) {
                 if (inputFileName.empty() == true) {
                     printf("Please import a puzzle volume first\n");
@@ -277,8 +252,10 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
                 myRender.RenderPuzzle(viewer, myPuzzle, disassStateID);
             }
 
-            ImGui::Dummy(ImVec2(0.0f, 3.0f));
+            ImGui::Dummy(ImVec2(0.0f, gap_between_paraGroups));
         }
+
+        ImGui::Dummy(ImVec2(0.0f, gap_between_controlGroups));
 
         ///////////////////////////////////////////////////////////////////////////
         //// Assembly Tree State Viewer
