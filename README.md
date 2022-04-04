@@ -135,7 +135,7 @@ Set the `Level of Difficulty` as 6 and click the `Construct` button to create a 
 </p>
 
 ### Step 3: modifying to reach a level-12 puzzle
-Set the `Modifying Target Level` as 12 and click the `Modifying` button to start modifying.
+Set the `Target Level (Modify)` as 12 and click the `Modify` button to start modifying.
 
 <p align="center">
   <a href="" rel="noopener">
