@@ -112,7 +112,7 @@ The control panel of our high-level puzzle generator. There are 5 components in 
   Control the object visualization state.
 
 ## Create a level-12 Cube Puzzle by Yourself ! <a name = "create_puzzle"></a>
-These instructions guide you how to use our code to generate high-level interlocking puzzle by yourself.
+These instructions gives an example to you of how to use our code to generate high-level interlocking puzzle by yourself. To generate high-level interlocking puzzles efficiently, it is usually necessary to modify the puzzle pieces. For example, to generate a level-12 cube puzzle, we first constrct a level-6 cube puzzle and modify it to level-12 puzzle; see *Section 4* in our paper for detailed explanation of construction and modifying algorithm.
 
 ### Step 1: import a volume
 Import a Cube_5x5x5_E1.vol volume file by clicking `read` button.
