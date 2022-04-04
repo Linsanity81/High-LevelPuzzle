@@ -32,7 +32,7 @@ you can use the following bibtex snippet:
 - [About](#about)
 - [Getting Started](#getting_started)
 - [GUI Interface](#usage)
-- [Create a High-level Interlocking Puzzle by Yourself!](#create_puzzle)
+- [Create a level-12 Cube Puzzle by Yourself !](#create_puzzle)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
@@ -111,7 +111,7 @@ The control panel of our high-level puzzle generator. There are 5 components in 
 - ### Render Control
   Control the object visualization state.
 
-## Create a High-level Interlocking Puzzle by Yourself! <a name = "create_puzzle"></a>
+## Create a level-12 Cube Puzzle by Yourself ! <a name = "create_puzzle"></a>
 These instructions guide you how to use our code to generate high-level interlocking puzzle by yourself.
 
 ### Step 1: import a volume
