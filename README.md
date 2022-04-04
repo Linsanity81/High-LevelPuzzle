@@ -123,7 +123,7 @@ Import a Cube_5x5x5_E1.vol volume file by clicking `read` button.
 </p>
 
 ### Step 2: create a level-6 cube puzzle
-Set the `Level of Difficulty` as 6 and click the `Construct` button to create a piece-4 level-7 cube puzzle.
+Set the `Level of Difficulty` as 6 and click the `Construct` button to create a piece-4 level-6 cube puzzle.
 
 <p align="center">
   <a href="" rel="noopener">
@@ -147,7 +147,7 @@ Click the `Next` to visualize how to disassemble the current puzzle.
 </p>
 
 ### Step 5: save puzzle for fabrication
-Set the `Puzzle Tolerance` greater than 0 to create gaps between pieces. Here we suggest to set 0.005. Lastly, you can click `Save Puz` to save the .puz file and .obj files of each piece that can be used for fabrication.
+Set the `Puzzle Tolerance` greater than 0 to create gaps between pieces. Here we suggest to set 0.005. Lastly, you can click `Save Puz` to save the *.puz* file and *.obj* files of each piece that can be used for fabrication.
 
 ## Authors <a name = "authors"></a>
 - [Rulin Chen](https://github.com/Linsanity81) 
