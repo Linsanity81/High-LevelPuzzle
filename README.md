@@ -12,9 +12,11 @@
 
 </div>
 
-This repo is an implementation of [Computational Design of High-level Interlocking Puzzles](doc/High-LevelPuzzle.pdf) [Chen et al. 2022]. Commercial licensing is available upon request. If you have any problems when using this code, you can contact me any time through rulin_chen@mymail.sutd.edu.sg. 
+<!-- This repo is an implementation of [Computational Design of High-level Interlocking Puzzles](doc/High-LevelPuzzle.pdf) [Chen et al. 2022]. Commercial licensing is available upon request. If you have any problems when using this code, you can contact me any time through rulin_chen@mymail.sutd.edu.sg.  -->
 
-If you make use of this repo in your scientific work, please cite our paper. For your convenience,
+This repo is an implementation of Computational Design of High-level Interlocking Puzzles. Commercial licensing is available upon request. 
+
+<!-- If you make use of this repo in your scientific work, please cite our paper. For your convenience,
 you can use the following bibtex snippet:
 
     @article{Chen-2022-High-levelPuzzle,
@@ -26,7 +28,7 @@ you can use the following bibtex snippet:
      year = {2022},
      publisher = {ACM},
      keywords = {interlocking puzzle, level of difficulty, disassembly planning, computational design},
-    }
+    } -->
 
 ## Table of Contents
 - [About](#about)
@@ -153,7 +155,7 @@ Click the `Next` to visualize how to disassemble the current puzzle.
 ### Step 5: save puzzle for fabrication
 Set the `Puzzle Tolerance` greater than 0 to create gaps between pieces. Here we suggest to set 0.005. Lastly, you can click `Save Puz` to save the *.puz* file and *.obj* files of each piece that can be used for fabrication.
 
-## Authors <a name = "authors"></a>
+<!-- ## Authors <a name = "authors"></a>
 - [Rulin Chen](https://github.com/Linsanity81) 
 - [Ziqi Wang](https://kiki007.github.io/)
 - [Peng Song](https://songpenghit.github.io/)
@@ -161,7 +163,7 @@ Set the `Puzzle Tolerance` greater than 0 to create gaps between pieces. Here we
 
 ## Acknowledgements <a name = "acknowledgement"></a>
 TODO...
-
+ -->
 
 
 
