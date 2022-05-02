@@ -67,7 +67,7 @@ The integer following make -j is the number of threads supported by your CPU arc
 ## GUI Interface <a name = "usage"></a>
 The control panel is shown below. There are 6 components in the control panel: **Parameter Control**, **Status Bar**, **High Level Puzzle Constructor**, **Modify High Level Puzzle**, **Assembly State Viewer** and **Render Control**.
 <p align="center">
- <img width=640px height=400px src="doc/control_panel.png" alt="Control Panel">
+ <img width=640px height=400px src="doc/control_panel_new.png" alt="Control Panel">
 </p>
 
 - ### Parameter Control
