@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=640px height=240px src="doc/teaser.png" alt="Project logo"></a>
+ <img width=640px height=240px src="https://github.com/Linsanity81/High-LevelPuzzle/doc/teaser.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Computational Design of High-level Interlocking Puzzles</h3>
@@ -12,7 +12,7 @@
 
 </div>
 
-This repo is an implementation of [Computational Design of High-level Interlocking Puzzles](doc/High-LevelPuzzle.pdf) [Chen et al. 2022]. Commercial licensing is available upon request. If you have any problems when using this code, you can contact me any time through rulin_chen@mymail.sutd.edu.sg.
+This repo is an implementation of [Computational Design of High-level Interlocking Puzzles](https://github.com/Linsanity81/High-LevelPuzzle/doc/High-LevelPuzzle.pdf) [Chen et al. 2022]. Commercial licensing is available upon request. If you have any problems when using this code, you can contact me any time through rulin_chen@mymail.sutd.edu.sg.
 
 If you make use of this repo in your scientific work, please cite our paper. For your convenience,
 you can use the following bibtex snippet:
@@ -69,7 +69,7 @@ The integer following make -j is the number of threads supported by your CPU arc
 The control panel is shown below. There are 6 components in the control panel: **Parameter Control**, **Status Bar**, **High Level Puzzle Constructor**, **Modify High Level Puzzle**, **Assembly State Viewer** and **Render Control**.
 <p align="center">
   <a href="" rel="noopener">
- <img width=640px height=400px src="doc/control_panel.png" alt="Control Panel"></a>
+ <img width=640px height=400px src="https://github.com/Linsanity81/High-LevelPuzzle/doc/control_panel.png" alt="Control Panel"></a>
 </p>
 
 - ### Parameter Control
@@ -123,7 +123,7 @@ Import a Cube_5x5x5_E1.vol volume file by clicking `read` button.
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=640px height=400px src="doc/import_volume.png" alt="Import Volume"></a>
+ <img width=640px height=400px src="https://github.com/Linsanity81/High-LevelPuzzle/doc/import_volume.png" alt="Import Volume"></a>
 </p>
 
 ### Step 2: create a level-6 cube puzzle
@@ -131,7 +131,7 @@ Set the `Level of Difficulty` as 6 and click the `Construct` button to create a 
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=640px height=400px src="doc/level-6_puzzle.png" alt="level-6 Puzzle"></a>
+ <img width=640px height=400px src="https://github.com/Linsanity81/High-LevelPuzzle/doc/level-6_puzzle.png" alt="level-6 Puzzle"></a>
 </p>
 
 ### Step 3: modifying to reach a level-12 puzzle
@@ -139,7 +139,7 @@ Set the `Target Level (Modify)` as 12 and click the `Modify` button to start mod
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=640px height=400px src="doc/level-12_puzzle.png" alt="Level-12 Puzzle"></a>
+ <img width=640px height=400px src="https://github.com/Linsanity81/High-LevelPuzzle/doc/level-12_puzzle.png" alt="Level-12 Puzzle"></a>
 </p>
 
 ### Step 4: visualize disassembly steps
@@ -147,7 +147,7 @@ Click the `Next` to visualize how to disassemble the current puzzle.
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=640px height=400px src="doc/disassembly_state.png" alt="Diasssemble Puzzle"></a>
+ <img width=640px height=400px src="https://github.com/Linsanity81/High-LevelPuzzle/doc/disassembly_state.png" alt="Diasssemble Puzzle"></a>
 </p>
 
 ### Step 5: save puzzle for fabrication
