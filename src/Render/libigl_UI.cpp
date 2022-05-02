@@ -228,7 +228,7 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
         //// High Level Puzzle Creator -- Iterative
         ///////////////////////////////////////////////////////////////////////////
 
-        if (ImGui::CollapsingHeader("Modify High Level Puzzle", ImGuiTreeNodeFlags_OpenOnArrow)) {
+        if (ImGui::CollapsingHeader("Modify High Level Puzzle", ImGuiTreeNodeFlags_DefaultOpen)) {
             //// gap between the button group and head
             ImGui::Dummy(ImVec2(0.0f, 2.0f));
 
@@ -250,6 +250,16 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
                     printf("Please import a puzzle volume first\n");
                     myRender.RenderPuzzle(viewer, myPuzzle, disassStateID);
                 }
+
+                srand(seedNum);
+
+                PuzCreator_Iter myPuzCreator_Iter;
+                myPuzCreator_Iter.InitPuzzleCreator_Iter(&myPuzzle);
+                myPuzzle = *myPuzCreator_Iter.CreateBuildablePuzzle_Iter(firstLevel_Iter, 10);
+
+                myPuzzle.CheckPuzzleState(true, isFixLastPiece);
+
+                myRender.RenderPuzzle(viewer, myPuzzle, disassStateID);
 
                 ImGui::Dummy(ImVec2(0.0f, 3.0f));
                 ImGui::Dummy(ImVec2(0.0f, gap_between_paraGroups));
