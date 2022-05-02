@@ -146,8 +146,9 @@ Set the `Target Level (Modify)` as 12 and click the `Modify` button to start mod
 Click the `Next` to visualize how to disassemble the current puzzle. 
 
 <p align="center">
-  <a href="" rel="noopener">
- <img width=640px height=400px src="doc/disassembly_state.png" alt="Diasssemble Puzzle"></a>
+<!--   <a href="" rel="noopener"> -->
+ <img width=640px height=400px src="doc/disassembly_state.png" alt="Diasssemble Puzzle">
+<!-- </a> -->
 </p>
 
 ### Step 5: save puzzle for fabrication
