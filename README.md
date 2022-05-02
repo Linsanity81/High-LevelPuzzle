@@ -1,8 +1,12 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=640px height=240px src="doc/teaser.png" alt="Project logo"></a>
+ <img width=640px height=240px src="https://github.com/Linsanity81/High-LevelPuzzle/tree/main/doc/teaser.png" alt="Project logo"></a>
 </p>
 
+<!-- .. image:: https://github.com/EPFL-LGG/TopoLite/raw/master/resources/Teaser.png
+        :alt: Teaser
+        :align: center
+ -->
 <h3 align="center">Computational Design of High-level Interlocking Puzzles</h3>
 
 <div align="center">
