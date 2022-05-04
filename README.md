@@ -16,16 +16,14 @@ This repo is an implementation of [Computational Design of High-level Interlocki
 If you make use of this repo in your scientific work, please cite our paper. For your convenience,
 you can use the following bibtex snippet:
 
-    @article{Chen-2022-High-levelPuzzle,
-     author = {Rulin, Chen and Ziqi, Wang and Peng, Song and Bernd, Bickel},
-     title = {Computational Design of High-level Interlocking Puzzles},
-     journal = {ACM Transactions on Graphics (SIGGRAPH 2022)},
-     volume = {41},
-     number = {4},
-     year = {2022},
-     publisher = {ACM},
-     keywords = {interlocking puzzle, level of difficulty, disassembly planning, computational design},
-    }
+    @article {Chen-2022-HighLevelPuzzle,
+    author   = {Rulin Chen and Ziqi Wang and Peng Song and Bernd Bickel},
+    title        = {Computational Design of High-level Interlocking Puzzles},
+    journal   = {ACM Transactions on Graphics (SIGGRAPH 2022)},
+    volume = {41},
+    number = {4},
+    pages   = {150:1 -- 150:15},
+    year      = {2022}}
 
 ## Table of Contents
 - [About](#about)
