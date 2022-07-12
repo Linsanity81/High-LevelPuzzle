@@ -76,6 +76,14 @@ target_link_libraries(3DCorelib PUBLIC ${Boost_FILESYSTEM_LIBRARY}
 #########################################
 
 file(GLOB 3DRenderFiles
+        src/Mesh/*.cpp
+        src/Mesh/*.h
+        src/Puzzle/*.cpp
+        src/Puzzle/*.h
+        src/Utility/*.cpp
+        src/Utility/*.h
+        src/PuzConverter/*.h
+        src/PuzConverter/*.cpp
         src/Render/*.h
         src/Render/*.cpp)
 
