@@ -102,6 +102,7 @@ High__LevelPuzzle_bin_EXTERNAL_OBJECTS =
 ../bin/High-LevelPuzzle_bin: lib3DCorelib.a
 ../bin/High-LevelPuzzle_bin: lib3DRenderlib.a
 ../bin/High-LevelPuzzle_bin: /usr/local/lib/libboost_filesystem-mt.dylib
+../bin/High-LevelPuzzle_bin: /usr/local/lib/libboost_atomic-mt.dylib
 ../bin/High-LevelPuzzle_bin: ext/pugixml/libpugixml.1.11.dylib
 ../bin/High-LevelPuzzle_bin: /usr/local/lib/libboost_system-mt.dylib
 ../bin/High-LevelPuzzle_bin: /usr/local/lib/libgmp.dylib

@@ -36,7 +36,7 @@ BZRCOMMAND:FILEPATH=BZRCOMMAND-NOTFOUND
 Boost_DEBUG:BOOL=OFF
 
 //The directory containing a CMake configuration file for Boost.
-Boost_DIR:PATH=/usr/local/lib/cmake/Boost-1.75.0
+Boost_DIR:PATH=/usr/local/lib/cmake/Boost-1.78.0
 
 Boost_FILESYSTEM_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_filesystem-mt.dylib
 
@@ -518,17 +518,20 @@ SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 //Path to a program.
 SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
 
+//The directory containing a CMake configuration file for boost_atomic.
+boost_atomic_DIR:PATH=/usr/local/lib/cmake/boost_atomic-1.78.0
+
 //The directory containing a CMake configuration file for boost_filesystem.
-boost_filesystem_DIR:PATH=/usr/local/lib/cmake/boost_filesystem-1.75.0
+boost_filesystem_DIR:PATH=/usr/local/lib/cmake/boost_filesystem-1.78.0
 
 //The directory containing a CMake configuration file for boost_headers.
-boost_headers_DIR:PATH=/usr/local/lib/cmake/boost_headers-1.75.0
+boost_headers_DIR:PATH=/usr/local/lib/cmake/boost_headers-1.78.0
 
 //The directory containing a CMake configuration file for boost_system.
-boost_system_DIR:PATH=/usr/local/lib/cmake/boost_system-1.75.0
+boost_system_DIR:PATH=/usr/local/lib/cmake/boost_system-1.78.0
 
 //The directory containing a CMake configuration file for boost_thread.
-boost_thread_DIR:PATH=/usr/local/lib/cmake/boost_thread-1.75.0
+boost_thread_DIR:PATH=/usr/local/lib/cmake/boost_thread-1.78.0
 
 //Value Computed by CMake
 glad_BINARY_DIR:STATIC=/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug/ext/glad
@@ -763,7 +766,7 @@ CVS_UPDATE_OPTIONS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake][cfound components: thread system ][v1.75.0(1.48)]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/local/lib/cmake/Boost-1.78.0/BoostConfig.cmake][cfound components: thread system ][v1.78.0(1.48)]
 //Details about finding GMP
 FIND_PACKAGE_MESSAGE_DETAILS_GMP:INTERNAL=[/usr/local/lib/libgmp.dylib][/usr/local/include][v()]
 //Details about finding MPFR
@@ -806,6 +809,8 @@ SVNCOMMAND-ADVANCED:INTERNAL=1
 USE_MSVC_RUNTIME_LIBRARY_DLL:INTERNAL=ON
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
+//ADVANCED property for variable: boost_atomic_DIR
+boost_atomic_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_filesystem_DIR
 boost_filesystem_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_headers_DIR

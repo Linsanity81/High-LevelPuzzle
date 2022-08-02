@@ -303,11 +303,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o
  /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
  /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
- /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
- /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
- /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
- /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
- /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
  /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -387,7 +382,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o
  /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
  /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
  /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
- /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
  /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
  /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
  /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -405,7 +399,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o
  /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
  /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
  /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
- /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -804,11 +797,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o
  /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
  /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
- /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
- /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
- /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
- /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
- /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
  /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -888,7 +876,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o
  /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
  /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
  /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
- /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
  /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
  /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
  /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -906,7 +893,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o
  /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
  /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
  /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
- /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h

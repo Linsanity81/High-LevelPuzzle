@@ -302,11 +302,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/ei
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -386,7 +381,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/ei
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -404,7 +398,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/ei
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -803,11 +796,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -887,7 +875,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -905,7 +892,6 @@ CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h

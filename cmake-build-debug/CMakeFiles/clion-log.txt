@@ -1,5 +1,5 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/linsanity/Documents/Github/High-LevelPuzzle
--- Found Boost: /usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake (found version "1.75.0") found components: system filesystem thread 
+-- Found Boost: /usr/local/lib/cmake/Boost-1.78.0/BoostConfig.cmake (found version "1.78.0") found components: system filesystem thread 
 -- Found libtool - /usr/bin/libtool
 -- Creating target: igl::core (igl)
 BOOST_ROOT: 
@@ -10,10 +10,10 @@ BOOST_ROOT:
 -- Mac Leopard detected
 -- __cplusplus is 201103
 --   --> Do not link with Boost.Thread
--- Found Boost: /usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake (found suitable version "1.75.0", minimum required is "1.48")  
+-- Found Boost: /usr/local/lib/cmake/Boost-1.78.0/BoostConfig.cmake (found suitable version "1.78.0", minimum required is "1.48")  
 -- Boost include dirs: /usr/local/include
 -- Boost libraries:    
--- Found Boost: /usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake (found suitable version "1.75.0", minimum required is "1.48") found components: thread system 
+-- Found Boost: /usr/local/lib/cmake/Boost-1.78.0/BoostConfig.cmake (found suitable version "1.78.0", minimum required is "1.48") found components: thread system 
 -- Creating target: igl::cgal (igl_cgal)
 -- Creating target: igl::opengl (igl_opengl)
 -- Creating target: igl::opengl_glfw (igl_opengl_glfw)

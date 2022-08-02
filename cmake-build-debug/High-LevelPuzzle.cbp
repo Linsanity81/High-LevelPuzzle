@@ -5,7 +5,7 @@
 		<Option title="High-LevelPuzzle"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\libigl\;CMake Files\ext\libigl\external\;CMake Files\ext\libigl\external\glfw\;CMake Files\ext\libigl\external\glfw\CMake\;CMake Files\ext\libigl\external\glfw\src\;CMake Files\ext\libigl\external\cgal\;CMake Files\ext\libigl\external\cgal\Installation\;CMake Files\ext\libigl\external\cgal\Installation\lib\;CMake Files\ext\libigl\external\cgal\Installation\lib\cmake\;CMake Files\ext\libigl\external\cgal\Installation\lib\cmake\CGAL\;CMake Files\ext\libigl\external\cgal\Installation\cmake\;CMake Files\ext\libigl\external\cgal\Installation\cmake\modules\;CMake Files\ext\libigl\external\cgal\Installation\cmake\modules\config\;CMake Files\ext\libigl\external\cgal\Installation\cmake\modules\config\support\;CMake Files\ext\libigl\external\glad\;CMake Files\ext\libigl\external\libigl-imgui\;CMake Files\ext\libigl\cmake\;CMake Files\ext\cmake\;CMake Files\ext\pugixml\;CMake Files\ext\pugixml\scripts\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\..\usr\local\share\eigen3\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_thread-1.75.0\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\libigl\;CMake Files\ext\libigl\external\;CMake Files\ext\libigl\external\glfw\;CMake Files\ext\libigl\external\glfw\CMake\;CMake Files\ext\libigl\external\glfw\src\;CMake Files\ext\libigl\external\cgal\;CMake Files\ext\libigl\external\cgal\Installation\;CMake Files\ext\libigl\external\cgal\Installation\lib\;CMake Files\ext\libigl\external\cgal\Installation\lib\cmake\;CMake Files\ext\libigl\external\cgal\Installation\lib\cmake\CGAL\;CMake Files\ext\libigl\external\cgal\Installation\cmake\;CMake Files\ext\libigl\external\cgal\Installation\cmake\modules\;CMake Files\ext\libigl\external\cgal\Installation\cmake\modules\config\;CMake Files\ext\libigl\external\cgal\Installation\cmake\modules\config\support\;CMake Files\ext\libigl\external\glad\;CMake Files\ext\libigl\external\libigl-imgui\;CMake Files\ext\libigl\cmake\;CMake Files\ext\cmake\;CMake Files\ext\pugixml\;CMake Files\ext\pugixml\scripts\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\..\usr\local\share\eigen3\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.78.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.78.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.78.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.78.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.78.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_thread-1.78.0\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/linsanity/Documents/Github/High-LevelPuzzle/cmake-build-debug"/>
@@ -75,12 +75,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCGAL_HEADER_ONLY=1"/>
-					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
 					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
 					<Add option="-DCGAL_USE_CORE=1"/>
 					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
 					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/src"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/SYSTEM"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src"/>
@@ -245,12 +249,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCGAL_HEADER_ONLY=1"/>
-					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
 					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
 					<Add option="-DCGAL_USE_CORE=1"/>
 					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
 					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/src"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/SYSTEM"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src"/>
@@ -415,8 +423,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCGAL_HEADER_ONLY=1"/>
-					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
 					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
 					<Add option="-DCGAL_USE_CORE=1"/>
 					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
@@ -584,8 +593,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCGAL_HEADER_ONLY=1"/>
-					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
 					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
 					<Add option="-DCGAL_USE_CORE=1"/>
 					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
@@ -763,12 +773,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCGAL_HEADER_ONLY=1"/>
-					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
 					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
 					<Add option="-DCGAL_USE_CORE=1"/>
 					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
 					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/src"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/SYSTEM"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src"/>
@@ -932,12 +946,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DCGAL_HEADER_ONLY=1"/>
-					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
 					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
 					<Add option="-DCGAL_USE_CORE=1"/>
 					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
 					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/src"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/SYSTEM"/>
 					<Add directory="/Users/linsanity/Documents/Github/High-LevelPuzzle/ext/pugixml/src"/>
@@ -1818,68 +1836,80 @@
 		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\eigen3\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/BoostDetectToolset-1.75.0.cmake">
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/BoostDetectToolset-1.78.0.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/Boost-1.78.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/Boost-1.75.0/BoostConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/Boost-1.78.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_headers-1.75.0/boost_headers-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_headers-1.78.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_headers-1.75.0/boost_headers-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_headers-1.78.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.75.0/boost_system-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.78.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.75.0/boost_system-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.78.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.75.0/libboost_system-variant-mt-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.78.0/libboost_system-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.75.0/libboost_system-variant-mt-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.78.0/libboost_system-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.75.0/libboost_system-variant-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.78.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.75.0/libboost_system-variant-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_system-1.78.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/boost_filesystem-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.78.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/boost_filesystem-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.78.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/libboost_filesystem-variant-mt-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.78.0/libboost_filesystem-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/libboost_filesystem-variant-mt-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.78.0/libboost_filesystem-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/libboost_filesystem-variant-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.78.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/libboost_filesystem-variant-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_filesystem-1.78.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_thread-1.75.0/boost_thread-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_thread-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_atomic-1.78.0/boost_atomic-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_thread-1.75.0/boost_thread-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_thread-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_atomic-1.78.0/boost_atomic-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_thread-1.75.0/libboost_thread-variant-mt-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_thread-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_atomic-1.78.0/libboost_atomic-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.78.0\"/>
 		</Unit>
-		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_thread-1.75.0/libboost_thread-variant-mt-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_thread-1.75.0\"/>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_atomic-1.78.0/libboost_atomic-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_thread-1.78.0/boost_thread-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_thread-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_thread-1.78.0/boost_thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_thread-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_thread-1.78.0/libboost_thread-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_thread-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/linsanity/Documents/Github/High-LevelPuzzle/../../../../../usr/local/lib/cmake/boost_thread-1.78.0/libboost_thread-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_thread-1.78.0\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

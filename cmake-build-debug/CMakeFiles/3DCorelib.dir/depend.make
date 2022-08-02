@@ -103,11 +103,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/sr
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -187,7 +182,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/sr
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -205,7 +199,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/sr
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Mesh/Mesh.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -3248,13 +3241,11 @@ CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/sy
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/detail/error_condition.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/detail/generic_category.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/detail/generic_category_message.hpp
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/detail/is_generic_value.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/detail/system_category.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/detail/system_category_condition_win32.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/detail/system_category_impl.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/detail/system_category_message_win32.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/detail/throws.hpp
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/detail/to_std_category.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/errc.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/error_category.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/boost/system/error_code.hpp
@@ -3649,11 +3640,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -3733,7 +3719,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -3751,7 +3736,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshBoolean.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -3935,11 +3919,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -4019,7 +3998,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -4037,7 +4015,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -7244,13 +7221,11 @@ CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/sys
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/detail/error_condition.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/detail/generic_category.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/detail/generic_category_message.hpp
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/detail/is_generic_value.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/detail/system_category.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/detail/system_category_condition_win32.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/detail/system_category_impl.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/detail/system_category_message_win32.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/detail/throws.hpp
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/detail/to_std_category.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/errc.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/error_category.hpp
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/boost/system/error_code.hpp
@@ -7645,11 +7620,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Ei
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -7729,7 +7699,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Ei
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -7747,7 +7716,6 @@ CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Ei
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Mesh/MeshObject.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -7938,11 +7906,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -8022,7 +7985,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -8040,7 +8002,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Cube.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -8221,11 +8182,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -8305,7 +8261,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -8323,7 +8278,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/Face.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -8509,11 +8463,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eig
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -8593,7 +8542,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eig
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -8611,7 +8559,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eig
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPiece.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -8795,11 +8742,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/ei
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -8879,7 +8821,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/ei
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -8897,7 +8838,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/ei
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/ObjPuzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -9087,11 +9027,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -9171,7 +9106,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -9189,7 +9123,6 @@ CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/PuzConverter/PuzConverter.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -9375,11 +9308,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -9459,7 +9387,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -9477,7 +9404,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/ExpVolume.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -9660,11 +9586,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -9744,7 +9665,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -9762,7 +9682,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Piece.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -9948,11 +9867,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -10032,7 +9946,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -10050,7 +9963,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -10231,11 +10143,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -10315,7 +10222,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -10333,7 +10239,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceFace.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -10517,11 +10422,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -10601,7 +10501,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -10619,7 +10518,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PieceGroup.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -10800,11 +10698,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -10884,7 +10777,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -10902,7 +10794,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzAction.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -11083,11 +10974,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -11167,7 +11053,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -11185,7 +11070,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzConfig.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -11374,11 +11258,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/ei
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -11458,7 +11337,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/ei
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -11476,7 +11354,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/ei
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzCreator_Iter.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -11665,11 +11542,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -11749,7 +11621,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -11767,7 +11638,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzSolver.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -14986,13 +14856,11 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/syste
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/detail/error_condition.hpp
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/detail/generic_category.hpp
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/detail/generic_category_message.hpp
-CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/detail/is_generic_value.hpp
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/detail/system_category.hpp
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/detail/system_category_condition_win32.hpp
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/detail/system_category_impl.hpp
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/detail/system_category_message_win32.hpp
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/detail/throws.hpp
-CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/detail/to_std_category.hpp
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/errc.hpp
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/error_category.hpp
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/boost/system/error_code.hpp
@@ -15387,11 +15255,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eige
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -15471,7 +15334,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eige
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -15489,7 +15351,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eige
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Puzzle.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -15690,11 +15551,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eige
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -15774,7 +15630,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eige
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -15792,7 +15647,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eige
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/PuzzleCreator.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -15977,11 +15831,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eige
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -16061,7 +15910,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eige
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -16079,7 +15927,6 @@ CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eige
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Puzzle/Volume.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -16259,11 +16106,6 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -16343,7 +16185,6 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -16361,7 +16202,6 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/E
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpFunc.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -16555,11 +16395,6 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Ei
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -16639,7 +16474,6 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Ei
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -16657,7 +16491,6 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Ei
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpPuz.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -16835,11 +16668,6 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
@@ -16919,7 +16747,6 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/Householder.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
@@ -16937,7 +16764,6 @@ CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
-CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
 CMakeFiles/3DCorelib.dir/src/Utility/HelpStruct.cpp.o: /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
