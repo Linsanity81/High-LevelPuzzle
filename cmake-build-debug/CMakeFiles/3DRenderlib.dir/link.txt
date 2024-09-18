@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc lib3DRenderlib.a  CMakeFiles/3DRenderlib.dir/src/Render/libigl_Render.cpp.o CMakeFiles/3DRenderlib.dir/src/Render/libigl_UI.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib lib3DRenderlib.a
